@@ -11,7 +11,7 @@
     "format": "prettier --ignore-path .gitignore --write **/*.{js,jsx,ts,tsx,json,css}",
     "check-types": "tsc -p tsconfig.json --noEmit",
     "check-format": "prettier --ignore-path .gitignore --check **/*.{js,jsx,ts,tsx,json,css}",
-    "check-lint": "eslint --fix",
+    "check-lint": "eslint",
     "check-all": "yarn check-format && yarn check-types && yarn check-lint"
   },
   "dependencies": {

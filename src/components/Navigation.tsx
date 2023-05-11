@@ -1,8 +1,8 @@
 "use client";
 
 import { useTranslations } from "next-intl";
-import LocaleSwitcher from "./LocaleSwitcher";
-import NavigationLink from "./NavigationLink";
+import LocaleSwitcher from "@src/components/LocaleSwitcher";
+import NavigationLink from "@src/components/NavigationLink";
 import React from "react";
 
 export default function Navigation() {

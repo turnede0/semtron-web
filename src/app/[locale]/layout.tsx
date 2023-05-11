@@ -4,7 +4,7 @@ import clsx from "clsx";
 import { notFound } from "next/navigation";
 import { createTranslator, NextIntlClientProvider } from "next-intl";
 import { ReactNode } from "react";
-import Navigation from "@/components/Navigation";
+import Navigation from "@src/components/Navigation";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -14,8 +14,7 @@ type Props = {
 };
 
 export async function generateMetadata({ params: { locale } }: Props) {
-  const messages = (await import(`../../../public/messages/${locale}.json`))
-    .default;
+  const messages = (await import(`@public/messages/${locale}.json`)).default;
 
   // You can use the core (non-React) APIs when you have to use next-intl
   // outside of components. Potentially this will be simplified in the future
@@ -33,9 +32,7 @@ export default async function LocaleLayout({
 }: Props) {
   let messages;
   try {
-    // messages = (await import(`../../../messages/${locale}.json`)).default;
-    messages = (await import(`../../../public/messages/${locale}.json`))
-      .default;
+    messages = (await import(`@public/messages/${locale}.json`)).default;
   } catch (error) {
     notFound();
   }

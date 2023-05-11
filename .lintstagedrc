@@ -1,3 +1,0 @@
-{
-  "*.{js,ts,tsx}": ["yarn check-lint", "yarn check-format"]
-}

@@ -1,6 +1,6 @@
 import React from "react";
 import { useTranslations } from "next-intl";
-import PageLayout from "@/components/PageLayout";
+import PageLayout from "@src/components/PageLayout";
 
 export default function AboutPage() {
   const t = useTranslations("AboutPage");
