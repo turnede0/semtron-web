@@ -5,7 +5,7 @@ import { notFound } from "next/navigation";
 import { createTranslator, NextIntlClientProvider } from "next-intl";
 import { ReactNode } from "react";
 import Navigation from "@src/components/Navigation";
-
+import Navbar from "@src/components/Navbar/Navbar";
 const inter = Inter({ subsets: ["latin"] });
 
 type Props = {
@@ -41,7 +41,8 @@ export default async function LocaleLayout({
     <html className="h-full" lang={locale}>
       <body className={clsx(inter.className, "flex h-full flex-col")}>
         <NextIntlClientProvider locale={locale} messages={messages}>
-          <Navigation />
+          {/* <Navigation /> */}
+          <Navbar />
           {children}
         </NextIntlClientProvider>
       </body>
