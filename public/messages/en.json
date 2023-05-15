@@ -7,12 +7,28 @@
     "title": "About",
     "description": "<p>The routing is internationalized too.</p><p>If you're using the default language English, you'll see <code>/about</code> in the browser address bar on this page.</p><p>If you change the locale to German, the URL is prefixed with the locale (<code>/de/about</code>).</p>"
   },
+  "TechnologyPage": {
+    "title": "Technology",
+    "description": "<p>The routing is internationalized too.</p><p>If you're using the default language English, you'll see <code>/about</code> in the browser address bar on this page.</p><p>If you change the locale to German, the URL is prefixed with the locale (<code>/de/about</code>).</p>"
+  },
+  "ProductPage": {
+    "title": "Product",
+    "description": "<p>The routing is internationalized too.</p><p>If you're using the default language English, you'll see <code>/about</code> in the browser address bar on this page.</p><p>If you change the locale to German, the URL is prefixed with the locale (<code>/de/about</code>).</p>"
+  },
+  "NewsPage": {
+    "title": "News & Insight",
+    "description": "<p>The routing is internationalized too.</p><p>If you're using the default language English, you'll see <code>/about</code> in the browser address bar on this page.</p><p>If you change the locale to German, the URL is prefixed with the locale (<code>/de/about</code>).</p>"
+  },
+  "ContactPage": {
+    "title": "Contact",
+    "description": "<p>The routing is internationalized too.</p><p>If you're using the default language English, you'll see <code>/about</code> in the browser address bar on this page.</p><p>If you change the locale to German, the URL is prefixed with the locale (<code>/de/about</code>).</p>"
+  },
   "NotFoundPage": {
     "title": "Page not found",
-    "description": "Please double-check the URL or use the navigation to go to a known page."
+    "description": "404. The requested URL was not found on this server"
   },
   "LocaleLayout": {
-    "title": "next-intl example"
+    "title": "sim AUto - car simulation"
   },
   "LocaleSwitcher": {
     "label": "Change language",
@@ -20,7 +36,20 @@
   },
   "Navigation": {
     "home": "Home",
-    "about": "About"
+    "technology": {
+      "title": "Technology",
+      "ai": "AI",
+      "electronicComponent": "Electronic Component",
+      "mechanics": "Mechanics"
+    },
+    "product": "Product",
+    "news": { "title": "News & Insight", "blog": "Blog", "story": "Story" },
+    "about": {
+      "title": "About Us",
+      "company": "Company",
+      "charter": "Charter"
+    },
+    "contact": "Contact"
   },
   "PageLayout": {
     "links": {

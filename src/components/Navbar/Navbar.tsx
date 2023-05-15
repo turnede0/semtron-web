@@ -5,8 +5,9 @@ import * as React from "react";
 import { useTranslations, Link } from "next-intl"; //Link must use next-intl
 import Image from "next/image";
 import Logo from "@public/next.svg";
+import LogoIcon from "@public/simAuto_logo.svg";
 import LocaleSwitcher from "@src/components/LocaleSwitcher";
-import NavigationLink from "../NavigationLink";
+// import NavigationLink from "../NavigationLink";
 
 export default function Navbar() {
   const t = useTranslations("Navigation");
@@ -31,10 +32,10 @@ export default function Navbar() {
       ></div>
       <header className="relative bg-transparent sm:h-20 flex items-center w-full">
         <div className="container px-2 mx-auto flex items-center justify-between z-40">
-          <div className="mt-2 w-[150px] md:w-[200px]">
-            <a href="#">
-              <Image src={Logo} alt="Logo" />
-            </a>
+          <div className="mt-2 w-[500px] md:w-[200px]">
+            <Link href="#">
+              <Image src={LogoIcon} alt="Logo" />
+            </Link>
           </div>
           <div className="flex items-center">
             <nav
@@ -84,37 +85,46 @@ export default function Navbar() {
                     {t("home")}
                   </Link>
                 </li>
+
+                <li className="lg:float-left">
+                  <Link
+                    href="/technology"
+                    className="py-2 px-6 flex text-base font-medium border-b-4 border-transparent transition duration-100 ease-in-out transform hover:-translate-y-1 hover:text-bkgrounddarkblue lg:hover:border-bkgrounddarkblue"
+                  >
+                    {t("technology.title")}
+                  </Link>
+                </li>
+                <li className="lg:float-left">
+                  <Link
+                    href="/product"
+                    className="py-2 px-6 flex text-base font-medium border-b-4 border-transparent transition duration-100 ease-in-out transform hover:-translate-y-1 hover:text-bkgrounddarkblue lg:hover:border-bkgrounddarkblue"
+                  >
+                    {t("product")}
+                  </Link>
+                </li>
+                <li className="lg:float-left">
+                  <Link
+                    href="/news"
+                    className="py-2 px-6 flex text-base font-medium  border-b-4 border-transparent transition duration-100 ease-in-out transform hover:-translate-y-1 hover:text-bkgrounddarkblue lg:hover:border-bkgrounddarkblue"
+                  >
+                    {t("news.title")}
+                  </Link>
+                </li>
                 <li className="lg:float-left">
                   <Link
                     href="/about"
                     className="py-2 px-6 flex text-base font-medium border-b-4 border-transparent transition-all duration-100 ease-in-out transform hover:-translate-y-1  hover:text-bkgrounddarkblue lg:hover:border-bkgrounddarkblue"
                   >
-                    {t("about")}
+                    {t("about.title")}
                   </Link>
                 </li>
                 <li className="lg:float-left">
-                  <a
-                    href="#"
-                    className="py-2 px-6 flex text-base font-medium border-b-4 border-transparent transition duration-100 ease-in-out transform hover:-translate-y-1 hover:text-bkgrounddarkblue lg:hover:border-bkgrounddarkblue"
-                  >
-                    {t("Blog")}
-                  </a>
-                </li>
-                <li className="lg:float-left">
-                  <a
-                    href="#"
-                    className="py-2 px-6 flex text-base font-medium border-b-4 border-transparent transition duration-100 ease-in-out transform hover:-translate-y-1 hover:text-bkgrounddarkblue lg:hover:border-bkgrounddarkblue"
-                  >
-                    {t("Project")}
-                  </a>
-                </li>
-                <li className="lg:float-left">
-                  <a
-                    href="#"
+                  <Link
+                    href="/contact"
                     className="py-2 px-6 flex text-base font-medium  border-b-4 border-transparent transition duration-100 ease-in-out transform hover:-translate-y-1 hover:text-bkgrounddarkblue lg:hover:border-bkgrounddarkblue"
                   >
-                    {t("Contact")}
-                  </a>
+                    {t("contact")}
+                  </Link>
                 </li>
                 <LocaleSwitcher />
               </ul>

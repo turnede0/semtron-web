@@ -1,26 +1,51 @@
 {
   "IndexPage": {
-    "title": "next-intl Beispiel",
+    "title": "首頁",
     "description": "Dies ist ein Beispiel, das die Verwendung von <code>next-intl</code> mit dem Next.js App Router demonstriert. Bei Ändern der Sprache rechts oben ändert sich der Inhalt dieser Seite."
   },
+  "TechnologyPage": {
+    "title": "技術",
+    "description": "<p>The routing is internationalized too.</p><p>If you're using the default language English, you'll see <code>/about</code> in the browser address bar on this page.</p><p>If you change the locale to German, the URL is prefixed with the locale (<code>/de/about</code>).</p>"
+  },
+  "ProductPage": {
+    "title": "產品",
+    "description": "<p>The routing is internationalized too.</p><p>If you're using the default language English, you'll see <code>/about</code> in the browser address bar on this page.</p><p>If you change the locale to German, the URL is prefixed with the locale (<code>/de/about</code>).</p>"
+  },
+  "NewsPage": {
+    "title": "最新動態",
+    "description": "<p>The routing is internationalized too.</p><p>If you're using the default language English, you'll see <code>/about</code> in the browser address bar on this page.</p><p>If you change the locale to German, the URL is prefixed with the locale (<code>/de/about</code>).</p>"
+  },
   "AboutPage": {
-    "title": "Über",
+    "title": "關於我們",
     "description": "<p>Auch das Routing ist internationalisiert.</p><p>Wenn du die Standardsprache Englisch verwendest, siehst du <code>/about</code> in der Adressleiste des Browsers auf dieser Seite.</p><p>Wenn du die Sprache auf Deutsch änderst, wird die URL mit der Locale ergänzt (<code>/de/about</code>).</p>"
   },
+  "ContactPage": {
+    "title": "聯絡",
+    "description": "<p>The routing is internationalized too.</p><p>If you're using the default language English, you'll see <code>/about</code> in the browser address bar on this page.</p><p>If you change the locale to German, the URL is prefixed with the locale (<code>/de/about</code>).</p>"
+  },
   "NotFoundPage": {
-    "title": "Seite nicht gefunden",
-    "description": "Bitte überprüfe die URL oder verwende die Navigation um zu einer bekannten Seite zu wechseln."
+    "title": "找不到網頁",
+    "description": "404 這則訊息代表 Google Chrome 無法找到及載入您嘗試造訪的網頁。"
   },
   "LocaleLayout": {
-    "title": "next-intl Beispiel"
+    "title": "sim AUto - 汽車模擬器"
   },
   "LocaleSwitcher": {
     "label": "Sprache ändern",
     "locale": "{locale, select, hk {Chinese} en {Englisch} other {Unbekannt}}"
   },
   "Navigation": {
-    "home": "Start",
-    "about": "Über"
+    "home": "首頁",
+    "technology": {
+      "title": "技術",
+      "ai": "AI",
+      "electronicComponent": "電子",
+      "mechanics": "機械"
+    },
+    "product": "產品",
+    "news": { "title": "最新動態", "blog": "部落格", "story": "故事" },
+    "about": { "title": "關於我們", "company": "公司", "charter": "憲章" },
+    "contact": "聯絡"
   },
   "PageLayout": {
     "links": {
