@@ -1,7 +1,12 @@
 {
   "IndexPage": {
     "title": "首頁",
-    "description": "Dies ist ein Beispiel, das die Verwendung von <code>next-intl</code> mit dem Next.js App Router demonstriert. Bei Ändern der Sprache rechts oben ändert sich der Inhalt dieser Seite."
+    "description": "Dies ist ein Beispiel, das die Verwendung von <code>next-intl</code> mit dem Next.js App Router demonstriert. Bei Ändern der Sprache rechts oben ändert sich der Inhalt dieser Seite.",
+    "shortdecription": "In-house developed tools",
+    "car": "行車",
+    "asreal": "以真",
+    "sim": "駕駛",
+    "explore": "更多"
   },
   "TechnologyPage": {
     "title": "技術",

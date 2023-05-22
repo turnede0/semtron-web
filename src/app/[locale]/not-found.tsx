@@ -10,7 +10,9 @@ export default function NotFoundPage() {
 
   return (
     <PageLayout title={t("title")}>
-      <p className="max-w-[460px]">{t("description")}</p>
+      <div className="h-[100px] bg-black">
+        <p className="max-w-[460px] text-white">{t("description")}</p>
+      </div>
     </PageLayout>
   );
 }

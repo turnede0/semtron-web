@@ -7,14 +7,14 @@ const Footer = () => {
   const t = useTranslations("Navigation");
 
   return (
-    <div className="flex  justify-between w-full mx-auto py-16 px-4 grid lg:grid-cols-3 gap-8 text-gray-300">
-      <div>
+    <div className="w-full md:h-[500px] lg:grid lg:grid-cols-6 gap-8 text-white bg-themedarkblue">
+      <div className="pl-5 lg:col-start-1 lg:col-end-4">
         <Image priority src={LogoIcon} alt="logo" />
-        <div className="flex justify-between md:w-[75%] my-6"></div>
+        {/* <div className="flex justify-between md:w-[75%] my-6"></div> */}
       </div>
-      <div className="w-[500px] lg:col-span-2 flex justify-between mt-6">
-        <div>
-          <h6 className="font-medium text-gray-400">
+      <div className="row-span-2 lg:col-end-6 lg:col-span-2 md:flex md:justify-between mt-7">
+        <div className="p-5">
+          <h6 className="font-medium font-bold">
             <Link href="/technology">{t("technology.title")}</Link>
           </h6>
           <ul>
@@ -33,13 +33,13 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div>
-          <h6 className="font-medium text-gray-400">
+        <div className="p-5">
+          <h6 className="font-medium font-bold">
             <Link href="/product">{t("product")}</Link>
           </h6>
         </div>
-        <div>
-          <h6 className="font-medium text-gray-400">
+        <div className="p-5">
+          <h6 className="font-medium font-bold">
             <Link href="/news">{t("news.title")}</Link>
           </h6>
           <ul>
@@ -51,8 +51,8 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div>
-          <h6 className="font-medium text-gray-400">
+        <div className="p-5">
+          <h6 className="font-medium font-bold">
             <Link href="/about">{t("about.title")}</Link>
           </h6>
           <ul>
@@ -64,14 +64,15 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div>
-          <h6 className="font-medium text-gray-400">
+        <div className="px-5 lg:px-1 py-5">
+          <h6 className="font-medium font-bold">
             <Link href="/contact">{t("contact")}</Link>
           </h6>
         </div>
       </div>
-      <div>
-        <h6 className="font-medium text-gray-400">sim AUto@2023</h6>
+
+      <div className=" border-t-2 col-start-1 col-end-7">
+        <h6 className="font-medium text-gray-400 py-5 px-2">sim AUto@2023</h6>
       </div>
     </div>
   );

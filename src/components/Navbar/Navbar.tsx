@@ -17,10 +17,6 @@ export default function Navbar() {
     setActive(!active);
   };
 
-  const ViewpointClick = () => {
-    console.log("Viewpoint=", window.scrollY);
-  };
-
   return (
     // <div className='sticky top-0 z-40 w-full'>
     <div className="absolute top-0 z-40 w-full">
@@ -31,7 +27,7 @@ export default function Navbar() {
         `}
       ></div>
       <header className="relative bg-transparent sm:h-20 flex items-center w-full">
-        <div className="container px-2 mx-auto flex items-center justify-between z-40">
+        <div className="container px-2 mx-auto flex items-center justify-between z-40 border-b-4 border-white">
           <div className="mt-2 w-[500px] md:w-[200px]">
             <Link href="#">
               <Image src={LogoIcon} alt="Logo" />
@@ -69,14 +65,7 @@ export default function Navbar() {
                     />
                   </svg>
                 </li>
-                <li className="lg:float-left">
-                  <button
-                    className="py-2 px-6 flex text-base font-medium border-b-4 border-transparent transition duration-100 ease-in-out transform hover:-translate-y-1 hover:text-bkgrounddarkblue lg:hover:border-bkgrounddarkblue"
-                    onClick={ViewpointClick}
-                  >
-                    Viewpoint
-                  </button>
-                </li>
+
                 <li className="lg:float-left">
                   <Link
                     href="/"

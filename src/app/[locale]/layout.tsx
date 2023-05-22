@@ -1,12 +1,17 @@
 import React from "react";
-import { Inter } from "@next/font/google";
+import { Poppins } from "@next/font/google";
 import clsx from "clsx";
 import { notFound } from "next/navigation";
 import { createTranslator, NextIntlClientProvider } from "next-intl";
 import { ReactNode } from "react";
-import Navigation from "@src/components/Navigation";
+// import Navigation from "@src/components/Navigation";
 import Navbar from "@src/components/Navbar/Navbar";
-const inter = Inter({ subsets: ["latin"] });
+import Footer from "@src/components/Footer/Footer";
+
+const poppins = Poppins({
+  subsets: ["latin"],
+  weight: "400",
+});
 
 type Props = {
   children: ReactNode;
@@ -39,11 +44,12 @@ export default async function LocaleLayout({
 
   return (
     <html className="h-full" lang={locale}>
-      <body className={clsx(inter.className, "flex h-full flex-col")}>
+      <body className={clsx(poppins.className, "flex h-full flex-col")}>
         <NextIntlClientProvider locale={locale} messages={messages}>
           {/* <Navigation /> */}
           <Navbar />
           {children}
+          <Footer />
         </NextIntlClientProvider>
       </body>
     </html>

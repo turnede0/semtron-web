@@ -1,7 +1,18 @@
 {
   "IndexPage": {
     "title": "next-intl example",
-    "description": "This is a basic example that demonstrates the usage of <code>next-intl</code> with the Next.js App Router. Try changing the locale in the top right corner and see how the content changes."
+    "description": "This is a basic example that demonstrates the usage of <code>next-intl</code> with the Next.js App Router. Try changing the locale in the top right corner and see how the content changes.",
+    "shortdecription": "In-house developed tools",
+    "car": "car",
+    "asreal": "as real",
+    "sim": "sim",
+    "explore": "Explore",
+    "descriptionoverlay": {
+      "vision": "sim AUto Mission & Vision",
+      "message": "We enable OEMs to deliver scalable solutions from concept to production – faster, better, and more efficiently",
+      "message2": "With our tooling and embedded solutions, our automotive partners can accelerate their development time and reduce costs so they can become leaders in ADAS and AD-related experience. Our vision has not changed since our foundation: we would like to enable everyone to enjoy the benefits of automated driving.",
+      "technology": "Technology"
+    }
   },
   "AboutPage": {
     "title": "About",

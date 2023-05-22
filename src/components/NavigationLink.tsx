@@ -1,6 +1,6 @@
 "use client";
 
-import clsx from "clsx";
+// import clsx from "clsx";
 import { Link } from "next-intl";
 import { usePathname } from "next-intl/client";
 import { ComponentProps } from "react";
@@ -16,10 +16,10 @@ export default function NavigationLink({ href, ...rest }: Props) {
   return (
     <Link
       aria-current={isActive}
-      className={clsx(
-        "inline-block py-3 px-2 transition-colors",
-        isActive ? "text-white" : "text-gray-400 hover:text-gray-200"
-      )}
+      // className={clsx(
+      //   "inline-block py-3 px-2 transition-colors",
+      //   isActive ? "text-white" : "text-gray-400 hover:text-gray-200"
+      // )}
       href={href}
       {...rest}
     />
