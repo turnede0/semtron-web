@@ -6,7 +6,7 @@ import Checklist from "@public/icon/Checklist.png";
 import MoneyBag from "@public/icon/MoneyBag.png";
 import Announcement from "@public/icon/Announcement.png";
 import Presentation from "@public/icon/BusinessPresentation.png";
-import aerosimlogo from "@public/image/aerosimlogo.png";
+import aerosimlogo from "@public/image/aerosimLogo.png";
 import hkstplogo from "@public/image/HKSTP_logo.png";
 // import semtronlogo from "@public/image/semtron_text_logo.png";
 // import turnedelogo from "@public/image/turned-e-logo.png";
