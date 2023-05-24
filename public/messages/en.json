@@ -48,6 +48,10 @@
   "ProductPage": {
     "title": "Product",
     "carsim": "Car simulation",
+    "message1": "DRIVING",
+    "message2": "UNRIVALLED SIMULATION",
+    "message3": "EXPERIENCE",
+    "message4": "TRUE SPEED PLEASURE",
     "descriptionoverlay": {
       "title": "Car as Real",
       "subtitle": "Simulation as Real",
