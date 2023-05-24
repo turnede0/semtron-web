@@ -1,10 +1,9 @@
 /*  ./components/Navbar.jsx     */
 import * as React from "react";
 import Image from "next/image";
-import HomeOne from "@public/image/home_1.jpg";
-import { useLocale, useTranslations } from "next-intl";
+import { Link, useLocale, useTranslations } from "next-intl";
 import { Anton } from "@next/font/google";
-
+import HomeOne from "@public/image/home_1.jpg";
 const anton = Anton({
   subsets: ["latin"],
   weight: "400",
@@ -17,7 +16,7 @@ export const Overlay = () => {
   return (
     <div className={``}>
       <section
-        className="relative flex justify-center items-center h-screen z-10 block max-h-full overflow-hidden -mb-1  "
+        className="relative flex justify-center items-center h-screen z-10  max-h-full overflow-hidden -mb-1  "
         id="top"
         data-section="section1"
       >
@@ -36,9 +35,7 @@ export const Overlay = () => {
           id="bottom_gradient"
         ></div> */}
 
-        <div
-          className={`flex-col inline-block w-full flex justify-center items-center`}
-        >
+        <div className={`flex-col  w-full flex justify-center items-center`}>
           <span className="text-white">{t("shortdecription")} </span>
           <div
             className={`text-white ${
@@ -54,9 +51,12 @@ export const Overlay = () => {
               <span className={``}>{t("asreal")}</span>
             </h6>
           </div>
-          <button className="mt-20 p-5 px-5 float-right  bg-themedarkblue text-white px-3 md:text-2xl lg:text-3xl transition duration-300 ease-in-out shadow-innerDefault hover:shadow-inner">
-            <a href="#section5">{t("explore")}</a>
-          </button>
+          <Link
+            href="/product"
+            className="mt-20 p-5 px-5 float-right  bg-themedarkblue text-white md:text-2xl lg:text-3xl transition duration-300 ease-in-out shadow-innerDefault hover:shadow-inner"
+          >
+            {t("explore")}
+          </Link>
         </div>
       </section>
     </div>

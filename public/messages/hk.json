@@ -6,8 +6,42 @@
     "car": "行車",
     "asreal": "以真",
     "sim": "駕駛",
-    "explore": "更多"
+    "explore": "更多",
+    "missionoverlay": {
+      "vision": "sim AUto Mission & Vision",
+      "message": "Our mission and vision for developing a car simulation using green energy and recycled materials is to create a sustainable future for our planet.",
+      "message2": "By using recycled materials in the development of the car simulation, we hope to reduce waste and promote the use of sustainable materials. Our goal is to inspire others to prioritize sustainability in their daily lives and to raise awareness of the importance of reducing our environmental impact. We envision a future where green energy and sustainable materials are the standard in the automotive industry.​",
+      "technology": "Technology",
+      "sustainable": {
+        "title": "Sustainable development",
+        "message": "Developing a car simulation using green energy and recycled materials is to create a sustainable future for our planet"
+      },
+      "awareness": {
+        "title": "Raising awareness​",
+        "message": "Inspire others to prioritize sustainability and to raise awareness of the importance of reducing our environmental impact"
+      },
+      "recycling": {
+        "title": "Recycling​",
+        "message": "using recycled materials to reduce waste and promote recycling of  useful material"
+      },
+      "reducing": {
+        "title": "Reducing pollution​",
+        "message": "Using recycled materials to develop car simulation, we hope to reduce waste and pollution"
+      }
+    },
+    "descriptionoverlay": {
+      "whatwedo": "What we do",
+      "approach": "Our holistic approach",
+      "approachmessage": "Our approach to developing a car simulation using green energy and recycled materials is to prioritize sustainability and environmental consciousness throughout the entire process. We start by sourcing recycled materials for the construction of the car simulation, ensuring that the materials we use have minimal impact on the environment. We then incorporate green energy sources to reduce our carbon footprint and promote renewable energy. Our team works to optimize the energy efficiency of the car simulation to further minimize its impact on the environment. We aim to demonstrate that sustainable practices can be integrated into everyday technologies such as cars, and that they can be both practical and environmentally responsible."
+    },
+    "newsletter": {
+      "join": "Join Out newsletter",
+      "message": "Sign up to our newsletter and get our latest news and updates.",
+      "email": "Enter your email",
+      "subscribe": "Subscribe"
+    }
   },
+
   "TechnologyPage": {
     "title": "技術",
     "description": "<p>The routing is internationalized too.</p><p>If you're using the default language English, you'll see <code>/about</code> in the browser address bar on this page.</p><p>If you change the locale to German, the URL is prefixed with the locale (<code>/de/about</code>).</p>"
@@ -19,10 +53,6 @@
   "NewsPage": {
     "title": "最新動態",
     "description": "<p>The routing is internationalized too.</p><p>If you're using the default language English, you'll see <code>/about</code> in the browser address bar on this page.</p><p>If you change the locale to German, the URL is prefixed with the locale (<code>/de/about</code>).</p>"
-  },
-  "AboutPage": {
-    "title": "關於我們",
-    "description": "<p>Auch das Routing ist internationalisiert.</p><p>Wenn du die Standardsprache Englisch verwendest, siehst du <code>/about</code> in der Adressleiste des Browsers auf dieser Seite.</p><p>Wenn du die Sprache auf Deutsch änderst, wird die URL mit der Locale ergänzt (<code>/de/about</code>).</p>"
   },
   "ContactPage": {
     "title": "聯絡",

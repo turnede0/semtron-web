@@ -27,7 +27,7 @@ export default function Navbar() {
         `}
       ></div>
       <header className="relative bg-transparent sm:h-20 flex items-center w-full">
-        <div className="container px-2 mx-auto flex items-center justify-between z-40 border-b-4 border-white">
+        <div className="container px-2 mx-auto flex items-center justify-between z-40 lg:border-b-4 border-white">
           <div className="mt-2 w-[500px] md:w-[200px]">
             <Link href="#">
               <Image src={LogoIcon} alt="Logo" />
@@ -38,16 +38,16 @@ export default function Navbar() {
               className={`
                 ${
                   active
-                    ? "absolute top-0 left-0 w-10/12 lg:w-full h-screen bg-white text-black z-40  lg:relative lg:w-full lg:h-full"
-                    : "-left-80 text-white"
+                    ? "fixed top-0 left-0 w-10/12 lg:w-full h-screen bg-themedarkblue lg:bg-transparent z-40  lg:relative lg:h-full"
+                    : "-left-80 "
                 }
-                group font-sen  uppercase text-lg ease-in-out duration-150 lg:flex lg:items-center
+                group text-white uppercase text-lg ease-in-out duration-150 lg:flex lg:items-center
               `}
             >
               <ul className={`${active ? "" : "hidden lg:contents"}`}>
                 <li className="h-[100px] lg:hidden">
                   <div className="m-6 h-10 w-[200px] sm:h-10 transition">
-                    <Image src={Logo} alt="Logo" />
+                    <Image src={LogoIcon} alt="Logo" />
                   </div>
 
                   <svg
@@ -101,14 +101,6 @@ export default function Navbar() {
                 </li>
                 <li className="lg:float-left">
                   <Link
-                    href="/about"
-                    className="py-2 px-6 flex text-base font-medium border-b-4 border-transparent transition-all duration-100 ease-in-out transform hover:-translate-y-1  hover:text-bkgrounddarkblue lg:hover:border-bkgrounddarkblue"
-                  >
-                    {t("about.title")}
-                  </Link>
-                </li>
-                <li className="lg:float-left">
-                  <Link
                     href="/contact"
                     className="py-2 px-6 flex text-base font-medium  border-b-4 border-transparent transition duration-100 ease-in-out transform hover:-translate-y-1 hover:text-bkgrounddarkblue lg:hover:border-bkgrounddarkblue"
                   >
@@ -125,7 +117,7 @@ export default function Navbar() {
                     ? "outline-none ring-2 ring-inset ring-gray-100 bg-white"
                     : ""
                 }
-                group lg:hidden flex flex-col ml-4 bg-transparent rounded-md p-2 inline-flex items-center justify-center
+                group fixed lg:hidden flex-col p-5 right-0 top-0  inline-flex items-center justify-center bg-themedarkblue
               `}
               onClick={MenuhandleClick}
             >

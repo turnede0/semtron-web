@@ -9,7 +9,7 @@ import { Pagination } from "swiper";
 
 export const Carousel = () => {
   return (
-    <div className=" h-screen bg-white">
+    <div className="bg-white">
       <div className="py-20 relative">
         <h1 className="my-20">
           <span className="text-3xl">Spotlight</span>
@@ -18,7 +18,7 @@ export const Carousel = () => {
         <Swiper
           className="relative"
           slidesPerView={4}
-          spaceBetween={30}
+          spaceBetween={0}
           breakpoints={{
             0: {
               slidesPerView: 1,
@@ -45,7 +45,7 @@ export const Carousel = () => {
         >
           {News.map((item, index) => (
             <SwiperSlide className="relative" key={index}>
-              <div className="rounded shadow-lg bg-themedarkblue text-white h-[500px]">
+              <div className="rounded shadow-lg bg-themedarkblue text-white h-[500px] w-[400px]">
                 <div className="relative w-full h-1/3 bg-black">
                   <Image
                     fill

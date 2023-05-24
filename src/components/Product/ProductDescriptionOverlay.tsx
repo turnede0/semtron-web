@@ -1,21 +1,17 @@
-// import { useTranslations } from "next-intl";
-import * as React from "react";
-import { FunctionComponent } from "react";
+import React from "react";
 import Image from "next/image";
-import PCB_Side from "@public/image/pcb_side_2.jpg";
 import { useTranslations } from "next-intl";
+import Body_full from "@public/image/body_full.jpg";
 
-interface DescriptionOverlayProps {}
-
-const DescriptionOverlay: FunctionComponent<DescriptionOverlayProps> = () => {
-  const t = useTranslations("IndexPage");
+export default function ProductDescriptionOverlay() {
+  const t = useTranslations("ProductPage");
   return (
     <div className={`relative bg-themedarkblue text-black py-20`}>
       <div className="absolute top-0 right-0 overflow-hidden h-full w-full sm:w-[50%]">
         <Image
           className="object-cover scale-150"
-          src={PCB_Side}
-          alt={""}
+          src={Body_full}
+          alt=""
         ></Image>
       </div>
       <div className="relative w-[70%] h-[80%] flex justify-center items-center bg-themeyellow p-5 z-0">
@@ -33,6 +29,4 @@ const DescriptionOverlay: FunctionComponent<DescriptionOverlayProps> = () => {
       </div>
     </div>
   );
-};
-
-export default DescriptionOverlay;
+}

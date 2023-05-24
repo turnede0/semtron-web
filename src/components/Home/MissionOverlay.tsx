@@ -1,7 +1,7 @@
 /*  ./components/Navbar.jsx     */
 import * as React from "react";
 import Image from "next/image";
-import { useTranslations } from "next-intl";
+import { Link, useTranslations } from "next-intl";
 import Checklist from "@public/icon/Checklist.png";
 import MoneyBag from "@public/icon/MoneyBag.png";
 import Announcement from "@public/icon/Announcement.png";
@@ -23,34 +23,37 @@ export const MissionOverlay = () => {
       >
         <div className={`flex-col w-full flex justify-center items-center`}>
           <span className="text-themedarkblue text-3xl leading-10 py-10 lg:text-5xl">
-            {t("descriptionoverlay.vision")}
+            {t("missionoverlay.vision")}
           </span>
           <span className="md:w-[400px] text-themedarkblue text-lg mb-10">
-            {t("descriptionoverlay.message")}{" "}
+            {t("missionoverlay.message")}{" "}
           </span>
           <span className="md:w-[600px] text-gray-400">
-            {t("descriptionoverlay.message2")}{" "}
+            {t("missionoverlay.message2")}{" "}
           </span>
-          <button className="mt-20 p-5 px-5 float-right  bg-themedarkblue text-white md:text-lg  transition duration-300 ease-in-out shadow-innerDefault hover:shadow-inner">
-            <a href="#section5">{t("descriptionoverlay.technology")}</a>
-          </button>
+          <Link
+            href="/technology"
+            className="mt-20 p-5 px-5 float-right  bg-themedarkblue text-white md:text-2xl lg:text-3xl transition duration-300 ease-in-out shadow-innerDefault hover:shadow-inner"
+          >
+            {t("missionoverlay.technology")}
+          </Link>
           <div className="md:inline-flex " role="group">
             <div className="block w-[200px] p-6 m-10">
               <Image className="w-[70px]" src={Checklist} alt="businessplan" />
               <h5 className="mb-2 text-xl font-medium leading-tight">
-                Business Planning
+                {t("missionoverlay.sustainable.title")}
               </h5>
               <p className="mb-4 text-base text-gray-400">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                {t("missionoverlay.sustainable.message")}
               </p>
             </div>
             <div className="block w-[200px] p-6 m-10">
               <Image className="w-[70px]" src={MoneyBag} alt="businessplan" />
               <h5 className="mb-2 text-xl font-medium leading-tight">
-                Financial Planning
+                {t("missionoverlay.awareness.title")}
               </h5>
               <p className="mb-4 text-base text-gray-400">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                {t("missionoverlay.awareness.message")}
               </p>
             </div>
             <div className="block w-[200px] p-6 m-10">
@@ -60,10 +63,10 @@ export const MissionOverlay = () => {
                 alt="businessplan"
               />
               <h5 className="mb-2 text-xl font-medium leading-tight">
-                Digital Marketing
+                {t("missionoverlay.recycling.title")}
               </h5>
               <p className="mb-4 text-base text-gray-400">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                {t("missionoverlay.recycling.message")}
               </p>
             </div>
             <div className="block w-[200px] p-6 m-10">
@@ -73,10 +76,10 @@ export const MissionOverlay = () => {
                 alt="businessplan"
               />
               <h5 className="mb-2 text-xl font-medium leading-tight">
-                Market Analysis
+                {t("missionoverlay.reducing.title")}
               </h5>
               <p className="mb-4 text-base text-gray-400">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                {t("missionoverlay.reducing.message")}
               </p>
             </div>
           </div>

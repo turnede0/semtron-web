@@ -51,19 +51,6 @@ const Footer = () => {
             </li>
           </ul>
         </div>
-        <div className="p-5">
-          <h6 className="font-medium font-bold">
-            <Link href="/about">{t("about.title")}</Link>
-          </h6>
-          <ul>
-            <li className="py-2 text-sm">
-              <Link href="/about/company">{t("about.company")}</Link>
-            </li>
-            <li className="py-2 text-sm">
-              <Link href="/about/charter">{t("about.charter")}</Link>
-            </li>
-          </ul>
-        </div>
         <div className="px-5 lg:px-1 py-5">
           <h6 className="font-medium font-bold">
             <Link href="/contact">{t("contact")}</Link>
