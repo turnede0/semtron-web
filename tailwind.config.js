@@ -11,6 +11,7 @@ module.exports = {
       colors: {
         themedarkblue: "#0E1E3E",
         themeyellow: "#FFC700",
+        polaroid: "#f4f4f4",
       },
       fontFamily: {
         wdc: ["var(--font-anton)"],

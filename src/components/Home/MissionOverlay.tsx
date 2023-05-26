@@ -8,14 +8,14 @@ import Announcement from "@public/icon/Announcement.png";
 import Presentation from "@public/icon/BusinessPresentation.png";
 import aerosimlogo from "@public/image/aerosimLogo.png";
 import hkstplogo from "@public/image/HKSTP_logo.png";
+import recyclingfundlogo from "@public/image/recycling-fund_logo.png";
 // import semtronlogo from "@public/image/semtron_text_logo.png";
 // import turnedelogo from "@public/image/turned-e-logo.png";
-import recyclingfundlogo from "@public/image/recycling-fund_logo.png";
 
 export const MissionOverlay = () => {
   const t = useTranslations("IndexPage");
   return (
-    <div className={`bg-white text-black py-20 lg:my-20`}>
+    <div className={`bg-white text-black py-20 lg:my-20 whitespace-pre-line`}>
       <section
         className="relative flex justify-center items-center z-10  max-h-full overflow-hidden -mb-1"
         id="top"

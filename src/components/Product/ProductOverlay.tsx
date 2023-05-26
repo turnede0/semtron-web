@@ -48,10 +48,6 @@ export default function ProductOverlay() {
         <div
           className={`flex-col flex w-full justify-center items-start ml-52`}
         >
-          {/* <div className="bg-themedarkblue text-white p-5 text-2xl text-bold">
-            {t("title")}
-          </div>
-          <div className="text-black text-8xl">{t("carsim")}</div> */}
           <h6 className={`${anton.className} text-8xl`}>
             <div className="my-5">
               <span className="text-themeyellow ">{t("message1")} </span>

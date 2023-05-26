@@ -8,7 +8,7 @@
     "sim": "sim",
     "explore": "Explore",
     "missionoverlay": {
-      "vision": "sim AUto Mission & Vision",
+      "vision": "sim AUto Mission \n & Vision",
       "message": "Our mission and vision for developing a car simulation using green energy and recycled materials is to create a sustainable future for our planet.",
       "message2": "By using recycled materials in the development of the car simulation, we hope to reduce waste and promote the use of sustainable materials. Our goal is to inspire others to prioritize sustainability in their daily lives and to raise awareness of the importance of reducing our environmental impact. We envision a future where green energy and sustainable materials are the standard in the automotive industry.​",
       "technology": "Technology",
@@ -46,7 +46,26 @@
   },
   "TechnologyPage": {
     "title": "Technology",
-    "description": "Reverse Engineering: \nOur project revolves around the unique approach of creating a car simulator using authentic car components. To make this possible, we have undertaken extensive efforts in reverse engineering the control signals of the Mini Cooper R56 system. This breakthrough technology enables us to interface hardware components with simulation data seamlessly. By repurposing discarded car parts and extending their life cycle, we are not only reducing waste and cutting down on carbon emissions, but also creating an immersive and authentic driving experience for drivers. Reverse engineering is a critical technology that has played a significant role in the success of our project.\nMQTT Control Unit:\nWe have also incorporated innovative technologies like the MQTT control unit into our system. This cutting-edge technology provides internet connectivity, enabling wireless real-time remote control and data logging. With the MQTT control unit, users can easily monitor and adjust their simulation setup from anywhere, making it more convenient and user-friendly. This feature has enhanced the overall experience of our car simulator, making it more accessible to a wider audience. By incorporating the MQTT control unit, we have also aligned ourselves with the principles of ESG (Environmental, Social, and Governance), as it enables us to create a more sustainable and efficient system."
+    "subtitle": "Sustainable mechanics",
+    "speaker": "NATIONAL GEOGRAPHIC",
+    "message": "\"Similarly, the end of a car’s life doesn’t mark the end of its environmental impact. Plastics, toxic battery acids, and other products may stay in the environment.\"",
+    "pollutionoverlay": {
+      "title": "Production and Destruction",
+      "subtitle": "Environmental impacts of scrap cars",
+      "description": "Scrap cars can also cause pollution and environmental problems. Like wrecked cars, scrap cars can leak fluids such as oil, transmission fluid, and coolant, which can contaminate soil, groundwater, and surface water, and have harmful effects on plants, animals, and humans.\n\n When scrap cars are crushed or shredded for recycling, they can release particulate matter and other pollutants into the air. This is because the process of crushing and shredding can generate dust and other particles which can be harmful to human health and the environment. The production of new cars and the disposal of old ones can also contribute to pollution, as these processes require energy and resources and can release pollutants such as greenhouse gases and toxic chemicals."
+    },
+    "upcyclingoverlay": {
+      "message1": "Trash to Treasure",
+      "message2": "Upcycle your scrap car",
+      "title": "Inspiring Recycling",
+      "content": "The Recycling Fund provide the Enterprise Support Programme (ESP) to undertake projects which can assist the local recycling industry in general or in specific sectors in enhancing their operational standards and productivity.With the support from the funding, Aerosim start to think about upcycling scrap and useless car."
+    },
+    "simauto": "Happy Driving with \"sim AUto\"",
+    "descriptionoverlay": {
+      "title": "Reverse Engineering",
+      "description": "We have also incorporated innovative technologies like the MQTT control unit into our system. This cutting-edge technology provides internet connectivity, enabling wireless real-time remote control and data logging. With the MQTT control unit, users can easily monitor and adjust their simulation setup from anywhere, making it more convenient and user-friendly. This feature has enhanced the overall experience of our car simulator, making it more accessible to a wider audience. By incorporating the MQTT control unit, we have also aligned ourselves with the principles of ESG (Environmental, Social, and Governance), as it enables us to create a more sustainable and efficient system.",
+      "message": "Her second life, Your second ride."
+    }
   },
   "ProductPage": {
     "title": "Product",
