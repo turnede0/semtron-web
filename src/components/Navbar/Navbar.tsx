@@ -101,6 +101,14 @@ export default function Navbar() {
                 </li>
                 <li className="lg:float-left">
                   <Link
+                    href="/aboutus"
+                    className="py-2 px-6 flex text-base font-medium  border-b-4 border-transparent transition duration-100 ease-in-out transform hover:-translate-y-1 hover:text-bkgrounddarkblue lg:hover:border-bkgrounddarkblue"
+                  >
+                    {t("aboutus")}
+                  </Link>
+                </li>
+                <li className="lg:float-left">
+                  <Link
                     href="/contact"
                     className="py-2 px-6 flex text-base font-medium  border-b-4 border-transparent transition duration-100 ease-in-out transform hover:-translate-y-1 hover:text-bkgrounddarkblue lg:hover:border-bkgrounddarkblue"
                   >

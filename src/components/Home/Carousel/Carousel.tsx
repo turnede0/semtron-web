@@ -2,11 +2,11 @@
 /*  ./components/Navbar.jsx     */
 import * as React from "react";
 import { News } from "@src/constants/content/news";
-import Image from "next/image";
 import { useTranslations } from "next-intl";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
+import CarouselCard from "./CarouselCard";
 
 export const Carousel = () => {
   const t = useTranslations("IndexPage");
@@ -49,26 +49,13 @@ export const Carousel = () => {
         >
           {News.map((item, index) => (
             <SwiperSlide className="relative" key={index}>
-              <div className="rounded shadow-lg bg-themedarkblue text-white h-[500px] w-[400px]">
-                <div className="relative w-full h-1/3 bg-black">
-                  <Image
-                    fill
-                    className="object-cover"
-                    src={item.image_src}
-                    alt="Sunset in the mountains"
-                  />
-                </div>
-
-                <div className="px-6 py-4 h-[250px]">
-                  <div className="font-bold text-lg mb-2">{item.title}</div>
-                  <div className="mb-2 text-lg mt-20">{item.content}</div>
-                </div>
-                <div className="px-6 pt-4 pb-2">
-                  <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">
-                    #{item.category}
-                  </span>
-                </div>
-              </div>
+              <CarouselCard
+                item={item}
+                // category={item.category}
+                // title={item.title}
+                // content={item.content}
+                // image_src={item.image_src}
+              />
             </SwiperSlide>
           ))}
         </Swiper>

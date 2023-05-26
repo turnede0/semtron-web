@@ -65,6 +65,11 @@ const Footer = () => {
         </div>
         <div className="px-5 lg:px-1 py-5">
           <h6 className="font-medium font-bold">
+            <Link href="/contact">{t("aboutus")}</Link>
+          </h6>
+        </div>
+        <div className="px-5 lg:px-1 py-5">
+          <h6 className="font-medium font-bold">
             <Link href="/contact">{t("contact")}</Link>
           </h6>
         </div>

@@ -77,16 +77,41 @@
     "descriptionoverlay": {
       "title": "Car as Real",
       "subtitle": "Simulation as Real",
-      "description": "Introducing the Car Simulator (Car Sim), a groundbreaking product that provides an immersive and realistic driving experience. The Car Sim removes the front panel and dashboard from a real car and combines them with game racing components, such as a foot brake, to create an authentic driving experience.\nThe dashboard in the Car Sim is connected to a control unit in the form of a PCB board, which allows for seamless integration with popular car simulation games like Euro Truck and Dirt Rally 2.0. These games provide a range of driving scenarios, allowing learners to practice their driving skills in a variety of conditions.\nThe gaming scene is displayed on a screen, while the dashboard provides real-time feedback on key driving statistics such as speed, RPM, and fuel level. This feedback provides a highly realistic experience for learners, allowing them to train their driving skills without the need to operate a real vehicle. Learners can track their progress and make adjustments to their driving technique as needed, making the Car Simulator (Car Sim) an ideal tool for learners of all levels.\nThe Car Sim is an essential tool for driving schools, professional drivers, and anyone looking to improve their driving skills. Its realistic design and advanced integration with car simulation software make it the ultimate driving companion for learners of all levels."
+      "description": "Introducing the Car Simulator (Car Sim), a groundbreaking product that provides an immersive and realistic driving experience. The Car Sim removes the front panel and dashboard from a real car and combines them with game racing components, such as a foot brake, to create an authentic driving experience."
+    },
+    "gameovelay": {
+      "message": "Driving simulation",
+      "title": "Learn Driving",
+      "description": "The gaming scene is displayed on a screen, while the dashboard provides real-time feedback on key driving statistics such as speed, RPM, and fuel level. This feedback provides a highly realistic experience for learners, allowing them to train their driving skills without the need to operate a real vehicle. Learners can track their progress and make adjustments to their driving technique as needed, making the Car Simulator (Car Sim) an ideal tool for learners of all levels.\nThe Car Sim is an essential tool for driving schools, professional drivers, and anyone looking to improve their driving skills. Its realistic design and advanced integration with car simulation software make it the ultimate driving companion for learners of all levels."
     }
+  },
+  "AboutusPage": {
+    "title": "About Us",
+    "subtitle": "End-to-End Aviation Training & Education Tech Solutions",
+    "description": "Aerosim is an Aviation Technology and Solutions company that uses synthetic aviation technology to provide services in the education and aviation sectors. In the education sector, we offers flight simulation devices and training aids at an accessible price for schools, along with certified curriculum and training courses.",
+    "educationovelay": {
+      "title": "We education aivation talents",
+      "content": "In the aviation sector, we provides courses and training using their flight simulation devices and self-developed curriculum for young aviation enthusiasts. Additionally, Aerosim offers consultancy and commercial operation license application services for unmanned aircraft systems (UAS) operations, as well as UAS safety training for schools. After only one year of product launch, Aerosim has been serve around 10% of the school population."
+    },
+    "inspire": "Inspire talents to be talented"
   },
   "NewsPage": {
     "title": "News & Insight",
+    "subtitle": "Explore our story",
     "description": "<p>The routing is internationalized too.</p><p>If you're using the default language English, you'll see <code>/about</code> in the browser address bar on this page.</p><p>If you change the locale to German, the URL is prefixed with the locale (<code>/de/about</code>).</p>"
   },
   "ContactPage": {
-    "title": "Contact",
-    "description": "<p>The routing is internationalized too.</p><p>If you're using the default language English, you'll see <code>/about</code> in the browser address bar on this page.</p><p>If you change the locale to German, the URL is prefixed with the locale (<code>/de/about</code>).</p>"
+    "title": "Contact aerosim",
+    "subtitle": "General Inquiry",
+    "getintouch": "Get in touch",
+    "fillform": "Fill in the form to start a conversation",
+    "address": "Unit 307, 3/F, Building 16W, Hong Kong Science Park, N.T.",
+    "email": "info@aerosim.com.hk",
+    "phone": "+(852) 5320-2078",
+    "fullname": "Full Name",
+    "contactemail": "Email",
+    "contacttel": "Telephone number",
+    "submit": "Submit"
   },
   "NotFoundPage": {
     "title": "Page not found",
@@ -109,6 +134,7 @@
     },
     "product": "Product",
     "news": { "title": "News & Insight", "blog": "Blog", "story": "Story" },
+    "aboutus": "About Us",
     "contact": "Contact"
   },
   "PageLayout": {

@@ -4,7 +4,7 @@ import Image from "next/image";
 import wrecked from "@public/image/wrecked.jpg";
 import mini_car_no_bg from "@public/image/mini_car_no_bg.png";
 import aerosimlogo from "@public/image/aerosimLogo.png";
-import hkstplogo from "@public/image/HKSTP_logo.png";
+// import hkstplogo from "@public/image/HKSTP_logo.png";
 import recyclingfundlogo from "@public/image/recycling-fund_logo.png";
 import { Anton } from "@next/font/google";
 
