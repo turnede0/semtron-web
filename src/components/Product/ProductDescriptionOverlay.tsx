@@ -24,7 +24,7 @@ export default function ProductDescriptionOverlay() {
           <h5 className="mb-2 text-3xl bold  leading-tight">
             {t("descriptionoverlay.subtitle")}
           </h5>
-          <div className="w-full flex justify-end">
+          <div className="w-full flex justify-end whitespace-pre-line">
             <p className="w-[70%]">{t("descriptionoverlay.description")}</p>
           </div>
         </div>

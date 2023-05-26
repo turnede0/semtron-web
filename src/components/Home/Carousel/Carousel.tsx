@@ -3,16 +3,20 @@
 import * as React from "react";
 import { News } from "@src/constants/content/news";
 import Image from "next/image";
+import { useTranslations } from "next-intl";
 
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
 
 export const Carousel = () => {
+  const t = useTranslations("IndexPage");
   return (
     <div className="bg-white">
       <div className="py-20 relative">
         <h1 className="my-20">
-          <span className="text-3xl">Spotlight</span>
+          <span className="text-3xl">
+            {t("missionoverlay.spotlight.title")}
+          </span>
         </h1>
         {/* <div className="relative"> */}
         <Swiper
@@ -57,6 +61,7 @@ export const Carousel = () => {
 
                 <div className="px-6 py-4 h-[250px]">
                   <div className="font-bold text-lg mb-2">{item.title}</div>
+                  <div className="mb-2 text-lg mt-20">{item.content}</div>
                 </div>
                 <div className="px-6 pt-4 pb-2">
                   <span className="inline-block bg-gray-200 rounded-full px-3 py-1 text-sm font-semibold text-gray-700 mr-2 mb-2">

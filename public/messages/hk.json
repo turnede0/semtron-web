@@ -44,11 +44,20 @@
 
   "TechnologyPage": {
     "title": "技術",
-    "description": "<p>The routing is internationalized too.</p><p>If you're using the default language English, you'll see <code>/about</code> in the browser address bar on this page.</p><p>If you change the locale to German, the URL is prefixed with the locale (<code>/de/about</code>).</p>"
+    "description": "反向工程\n我們使用真實的汽車零部件來創建汽車模擬器。為了實現這一目標，我們花費了大量的精力在反向工程Mini Cooper R56系統的控制信號上。這種突破性技術使我們能夠無縫地將硬件組件與模擬數據相互連接。通過重新利用被廢棄的汽車零部件並延長它們的使用壽命。這不僅減少了廢物數量和碳排放量，而且為使用者創造了身臨其境和真實的駕駛體驗。反向工程是我們項目成功的關鍵技術之一。\nMQTT 控制單元:\n我們還將MQTT控制單元等創新技術整合到我們的系統中。這種前沿技術提供互聯網連接，使無線實時遠程控制和數據記錄成為可能。有了MQTT控制單元，用戶可以輕鬆監控和調整他們的模擬器設置，從任何地方進行方便的實時遠程控制和數據記錄。這一功能增強了我們的汽車模擬器的整體體驗，使其更加易於被更廣泛的受眾接受。通過整合MQTT控制單元，我們也符合ESG（環境、社會和治理）原則，並創建一個更可持續和高效的系統。"
   },
   "ProductPage": {
     "title": "產品",
-    "description": "<p>The routing is internationalized too.</p><p>If you're using the default language English, you'll see <code>/about</code> in the browser address bar on this page.</p><p>If you change the locale to German, the URL is prefixed with the locale (<code>/de/about</code>).</p>"
+    "carsim": "汽車模擬器",
+    "message1": "駕駛",
+    "message2": "身如其境",
+    "message3": "體驗",
+    "message4": "極致速度",
+    "descriptionoverlay": {
+      "title": "行車 以真",
+      "subtitle": "駕駛 以真",
+      "description": "Car Sim 是一款開創性的汽車模擬器。透過結合廢棄汽車的儀表板和遊戲賽車組件（例如腳煞），為使用者帶來沉浸和逼真的駕駛體驗。\n\nCar Sim中的儀表板會連接到PCB控制單元上，並無縫連接到例如Euro Truck和Dirt Rally 2.0 等熱門遊戲。 以此讓使用者在不同模擬場景中訓練他們的駕駛技巧。\n\n遊戲畫面會顯示在屏幕上，但實時的數據回饋例如車速，轉速及油量等等會被顯示在儀表板上。因此，使用者可以不用駕駛汽車，也能獲得真實的駕駛體驗。而且，Car Sim也能根據使用者的需要模擬不同的環境，使Car Sim成為一個絕佳的駕駛訓練工具。\n\nCar Sim無論對初學者，駕駛學校甚至一般司機也是一個必備的駕駛訓練工具。它逼真的設計，現實汽車部件和汽車模擬器的高度配合使其你在每個駕駛階段都得心應手。"
+    }
   },
   "NewsPage": {
     "title": "最新動態",
@@ -67,7 +76,7 @@
   },
   "LocaleSwitcher": {
     "label": "Sprache ändern",
-    "locale": "{locale, select, hk {Chinese} en {Englisch} other {Unbekannt}}"
+    "locale": "{locale, select, hk {繁體中文} en {English} other {未知}}"
   },
   "Navigation": {
     "home": "首頁",

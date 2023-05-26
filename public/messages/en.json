@@ -27,6 +27,9 @@
       "reducing": {
         "title": "Reducing pollution​",
         "message": "Using recycled materials to develop car simulation, we hope to reduce waste and pollution"
+      },
+      "spotlight": {
+        "title": "Spotlight"
       }
     },
     "descriptionoverlay": {
@@ -94,7 +97,7 @@
   },
   "LocaleSwitcher": {
     "label": "Change language",
-    "locale": "{locale, select, hk {Chinese} en {English} other {Unknown}}"
+    "locale": "{locale, select, hk {繁體中文} en {English} other {Unknown}}"
   },
   "Navigation": {
     "home": "Home",
