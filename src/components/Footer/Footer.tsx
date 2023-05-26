@@ -42,14 +42,14 @@ const Footer = () => {
           <h6 className="font-medium font-bold">
             <Link href="/news">{t("news.title")}</Link>
           </h6>
-          <ul>
+          {/* <ul>
             <li className="py-2 text-sm">
               <Link href="/news/blog">{t("news.blog")}</Link>
             </li>
             <li className="py-2 text-sm">
               <Link href="/news/story">{t("news.story")}</Link>
             </li>
-          </ul>
+          </ul> */}
         </div>
         <div className="px-5 lg:px-1 py-5">
           <h6 className="font-medium font-bold">

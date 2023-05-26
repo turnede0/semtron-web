@@ -4,6 +4,7 @@ import PageLayout from "@src/components/PageLayout";
 import ProductOverlay from "@src/components/Product/ProductOverlay";
 import ProductDescriptionOverlay from "@src/components/Product/ProductDescriptionOverlay";
 import ProductReviewOverlay from "@src/components/Product/ProductReviewOverlay";
+import ProductionGameOverlay from "@src/components/Product/ProductionGameOverlay";
 
 export default function ProductPage() {
   const t = useTranslations("ProductPage");
@@ -13,6 +14,7 @@ export default function ProductPage() {
       <ProductOverlay />
       <ProductReviewOverlay />
       <ProductDescriptionOverlay />
+      <ProductionGameOverlay />
     </PageLayout>
   );
 }

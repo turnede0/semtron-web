@@ -6,7 +6,9 @@ import Body_full from "@public/image/body_full.jpg";
 export default function ProductDescriptionOverlay() {
   const t = useTranslations("ProductPage");
   return (
-    <div className={`relative bg-themedarkblue text-black py-20`}>
+    <div
+      className={`relative bg-themedarkblue text-black py-20 whitespace-pre-line`}
+    >
       <div className="absolute top-0 right-0 overflow-hidden h-full w-full sm:w-[50%]">
         <Image
           className="object-cover scale-150"

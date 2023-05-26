@@ -8,7 +8,7 @@
     "sim": "sim",
     "explore": "Explore",
     "missionoverlay": {
-      "vision": "sim AUto Mission & Vision",
+      "vision": "sim AUto Mission \n & Vision",
       "message": "Our mission and vision for developing a car simulation using green energy and recycled materials is to create a sustainable future for our planet.",
       "message2": "By using recycled materials in the development of the car simulation, we hope to reduce waste and promote the use of sustainable materials. Our goal is to inspire others to prioritize sustainability in their daily lives and to raise awareness of the importance of reducing our environmental impact. We envision a future where green energy and sustainable materials are the standard in the automotive industry.​",
       "technology": "Technology",
@@ -43,7 +43,26 @@
   },
   "TechnologyPage": {
     "title": "Technology",
-    "description": "<p>The routing is internationalized too.</p><p>If you're using the default language English, you'll see <code>/about</code> in the browser address bar on this page.</p><p>If you change the locale to German, the URL is prefixed with the locale (<code>/de/about</code>).</p>"
+    "subtitle": "Sustainable mechanics",
+    "speaker": "NATIONAL GEOGRAPHIC",
+    "message": "\"Similarly, the end of a car’s life doesn’t mark the end of its environmental impact. Plastics, toxic battery acids, and other products may stay in the environment.\"",
+    "pollutionoverlay": {
+      "title": "Production and Destruction",
+      "subtitle": "Environmental impacts of scrap cars",
+      "description": "Scrap cars can also cause pollution and environmental problems. Like wrecked cars, scrap cars can leak fluids such as oil, transmission fluid, and coolant, which can contaminate soil, groundwater, and surface water, and have harmful effects on plants, animals, and humans.\n\n When scrap cars are crushed or shredded for recycling, they can release particulate matter and other pollutants into the air. This is because the process of crushing and shredding can generate dust and other particles which can be harmful to human health and the environment. The production of new cars and the disposal of old ones can also contribute to pollution, as these processes require energy and resources and can release pollutants such as greenhouse gases and toxic chemicals."
+    },
+    "upcyclingoverlay": {
+      "message1": "Trash to Treasure",
+      "message2": "Upcycle your scrap car",
+      "title": "Inspiring Recycling",
+      "content": "The Recycling Fund provide the Enterprise Support Programme (ESP) to undertake projects which can assist the local recycling industry in general or in specific sectors in enhancing their operational standards and productivity.With the support from the funding, Aerosim start to think about upcycling scrap and useless car."
+    },
+    "simauto": "Happy Driving with \"sim AUto\"",
+    "descriptionoverlay": {
+      "title": "Reverse Engineering",
+      "description": "We have also incorporated innovative technologies like the MQTT control unit into our system. This cutting-edge technology provides internet connectivity, enabling wireless real-time remote control and data logging. With the MQTT control unit, users can easily monitor and adjust their simulation setup from anywhere, making it more convenient and user-friendly. This feature has enhanced the overall experience of our car simulator, making it more accessible to a wider audience. By incorporating the MQTT control unit, we have also aligned ourselves with the principles of ESG (Environmental, Social, and Governance), as it enables us to create a more sustainable and efficient system.",
+      "message": "Her second life, Your second ride."
+    }
   },
   "ProductPage": {
     "title": "Product",
@@ -55,7 +74,7 @@
     "descriptionoverlay": {
       "title": "Car as Real",
       "subtitle": "Simulation as Real",
-      "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+      "description": "Introducing the Car Simulator (Car Sim), a groundbreaking product that provides an immersive and realistic driving experience. The Car Sim removes the front panel and dashboard from a real car and combines them with game racing components, such as a foot brake, to create an authentic driving experience.\nThe dashboard in the Car Sim is connected to a control unit in the form of a PCB board, which allows for seamless integration with popular car simulation games like Euro Truck and Dirt Rally 2.0. These games provide a range of driving scenarios, allowing learners to practice their driving skills in a variety of conditions.\nThe gaming scene is displayed on a screen, while the dashboard provides real-time feedback on key driving statistics such as speed, RPM, and fuel level. This feedback provides a highly realistic experience for learners, allowing them to train their driving skills without the need to operate a real vehicle. Learners can track their progress and make adjustments to their driving technique as needed, making the Car Simulator (Car Sim) an ideal tool for learners of all levels.\nThe Car Sim is an essential tool for driving schools, professional drivers, and anyone looking to improve their driving skills. Its realistic design and advanced integration with car simulation software make it the ultimate driving companion for learners of all levels."
     }
   },
   "NewsPage": {
