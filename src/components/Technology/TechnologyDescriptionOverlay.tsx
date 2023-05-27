@@ -19,7 +19,7 @@ export default function TechnologyDescriptionOverlay() {
 
   return (
     <div>
-      <div className={`relative flex bg-themedark h-screen text-black`}>
+      <div className={`relative flex bg-themedark min-min-h-screen text-black`}>
         <div className="absolute bottom-0 right-0 bg-themeyellow overflow-hidden h-full w-full sm:w-[50%]">
           <Image className="object-cover h-1/3" src={dashboard} alt=""></Image>
           <Image className="object-cover h-1/3" src={body_wheel} alt=""></Image>
@@ -39,7 +39,7 @@ export default function TechnologyDescriptionOverlay() {
         </div>
       </div>
       <section
-        className="relative flex justify-center items-center h-screen z-10 max-h-full overflow-hidden -mb-1  "
+        className="relative flex justify-center items-center min-h-screen z-10 max-h-full overflow-hidden -mb-1  "
         id="top"
         data-section="section1"
       >

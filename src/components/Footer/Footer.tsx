@@ -29,7 +29,7 @@ const Footer = () => {
           <h6 className="font-medium font-bold">
             <Link href="/technology">{t("technology.title")}</Link>
           </h6>
-          <ul>
+          {/* <ul>
             <li className="py-2 text-sm">
               <Link href="/technology/ai">{t("technology.ai")}</Link>
             </li>
@@ -43,7 +43,7 @@ const Footer = () => {
                 {t("technology.mechanics")}
               </Link>
             </li>
-          </ul>
+          </ul> */}
         </div>
         <div className="p-5">
           <h6 className="font-medium font-bold">

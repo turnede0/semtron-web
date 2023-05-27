@@ -20,7 +20,7 @@ export default function Page() {
       {item ? (
         <PageLayout title={t("title")}>
           <section
-            className="relative flex justify-center items-center h-screen z-10 max-h-full overflow-hidden -mb-1"
+            className="relative flex justify-center items-center min-h-screen z-10 max-h-full overflow-hidden -mb-1"
             id="top"
             data-section="section1"
           >
@@ -37,7 +37,7 @@ export default function Page() {
               <div className="text-white text-8xl">{item.title}</div>
             </div>
           </section>
-          <div className="min-h-screen min-w-screen flex justify-center my-20">
+          <div className="min-min-h-screen min-w-screen flex justify-center my-20">
             <div className="w-2/3">
               <div className="my-20">
                 <h1 className="text-4xl text-bold">{item.title}</h1>

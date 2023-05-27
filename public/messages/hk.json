@@ -1,14 +1,13 @@
 {
   "IndexPage": {
     "title": "首頁",
-    "description": "Dies ist ein Beispiel, das die Verwendung von <code>next-intl</code> mit dem Next.js App Router demonstriert. Bei Ändern der Sprache rechts oben ändert sich der Inhalt dieser Seite.",
-    "shortdecription": "In-house developed tools",
+    "shortdecription": "駕駛模擬工具",
     "car": "行車",
     "asreal": "以真",
     "sim": "駕駛",
     "explore": "更多",
     "missionoverlay": {
-      "vision": "sim AUto Mission & Vision",
+      "vision": "sim AUto 使命與願景",
       "message": "Our mission and vision for developing a car simulation using green energy and recycled materials is to create a sustainable future for our planet.",
       "message2": "By using recycled materials in the development of the car simulation, we hope to reduce waste and promote the use of sustainable materials. Our goal is to inspire others to prioritize sustainability in their daily lives and to raise awareness of the importance of reducing our environmental impact. We envision a future where green energy and sustainable materials are the standard in the automotive industry.​",
       "technology": "Technology",
@@ -27,24 +26,47 @@
       "reducing": {
         "title": "Reducing pollution​",
         "message": "Using recycled materials to develop car simulation, we hope to reduce waste and pollution"
+      },
+      "spotlight": {
+        "title": "最新動態"
       }
     },
     "descriptionoverlay": {
-      "whatwedo": "What we do",
-      "approach": "Our holistic approach",
-      "approachmessage": "Our approach to developing a car simulation using green energy and recycled materials is to prioritize sustainability and environmental consciousness throughout the entire process. We start by sourcing recycled materials for the construction of the car simulation, ensuring that the materials we use have minimal impact on the environment. We then incorporate green energy sources to reduce our carbon footprint and promote renewable energy. Our team works to optimize the energy efficiency of the car simulation to further minimize its impact on the environment. We aim to demonstrate that sustainable practices can be integrated into everyday technologies such as cars, and that they can be both practical and environmentally responsible."
+      "title": "工作",
+      "subtitle": "我們的服務",
+      "description": "Our approach to developing a car simulation using green energy and recycled materials is to prioritize sustainability and environmental consciousness throughout the entire process. We start by sourcing recycled materials for the construction of the car simulation, ensuring that the materials we use have minimal impact on the environment. We then incorporate green energy sources to reduce our carbon footprint and promote renewable energy. Our team works to optimize the energy efficiency of the car simulation to further minimize its impact on the environment. We aim to demonstrate that sustainable practices can be integrated into everyday technologies such as cars, and that they can be both practical and environmentally responsible."
     },
     "newsletter": {
-      "join": "Join Out newsletter",
-      "message": "Sign up to our newsletter and get our latest news and updates.",
-      "email": "Enter your email",
-      "subscribe": "Subscribe"
+      "join": "加入我們的通訊",
+      "message": "登記訂閱,以獲取最新資訊",
+      "email": "輸入電郵",
+      "subscribe": "訂閱"
     }
   },
-
   "TechnologyPage": {
     "title": "技術",
-    "description": "反向工程\n我們使用真實的汽車零部件來創建汽車模擬器。為了實現這一目標，我們花費了大量的精力在反向工程Mini Cooper R56系統的控制信號上。這種突破性技術使我們能夠無縫地將硬件組件與模擬數據相互連接。通過重新利用被廢棄的汽車零部件並延長它們的使用壽命。這不僅減少了廢物數量和碳排放量，而且為使用者創造了身臨其境和真實的駕駛體驗。反向工程是我們項目成功的關鍵技術之一。\nMQTT 控制單元:\n我們還將MQTT控制單元等創新技術整合到我們的系統中。這種前沿技術提供互聯網連接，使無線實時遠程控制和數據記錄成為可能。有了MQTT控制單元，用戶可以輕鬆監控和調整他們的模擬器設置，從任何地方進行方便的實時遠程控制和數據記錄。這一功能增強了我們的汽車模擬器的整體體驗，使其更加易於被更廣泛的受眾接受。通過整合MQTT控制單元，我們也符合ESG（環境、社會和治理）原則，並創建一個更可持續和高效的系統。"
+    "subtitle": "環保機械",
+    "speaker": "國家地理雜誌",
+    "message": "\"汽車壽命的結束並不意味著它對環境影響的結束。塑料、有毒電池酸和其他產品可能會留在環境中。\"",
+    "pollutionoverlay": {
+      "title": "生產與銷毀",
+      "subtitle": "廢車對環境的影響",
+      "description": "普通的車輛生命周期遵循線性過程：製造、使用和處置。一旦車輛達到其有用壽命的終點，通常會被報廢並送往垃圾填埋場，佔用寶貴的空間並對環境造成污染。這個過程導致資源的大量浪費，因為許多車輛部件仍可使用或回收。"
+    },
+    "upcyclingoverlay": {
+      "message1": "廢物利用",
+      "message2": "再用你的廢車",
+      "fundtitle": "回收基金",
+      "fundcontent": "回收基金旨在通過提高回收行業的運營能力和效率來支持可持續發展。其目標是通過解決行業中的瓶頸和限制來實現香港藍圖中概述的減廢政策目標。最終，該基金旨在增加從廢棄物流中回收的可回收物的數量和質量，提高回收產品的質量，從而減少送往堆填區的廢棄物量。",
+      "title": "環保再用",
+      "content": "普通的車輛生命周期遵循線性過程：製造、使用和處置。一旦車輛達到其有用壽命的終點，通常會被報廢並送往垃圾填埋場，佔用寶貴的空間並對環境造成污染。這個過程導致資源的大量浪費，因為許多車輛部件仍可使用或回收。相比之下，SIM Auto項目中的車輛生命周期遵循更為循環的過程：製造、使用、提取和再利用。一旦車輛達到其有用壽命的終點，它將被拆解，並提取可重複使用的部件用於車輛模擬教育。這些部件可以用於向用戶講解駕駛技能和車輛內部運作原理。"
+    },
+    "simauto": "Happy Driving with \"sim AUto\"",
+    "descriptionoverlay": {
+      "title": "反向工程",
+      "description": "我們使用真實的汽車零部件來創建汽車模擬器。為了實現這一目標，我們花費了大量的精力在反向工程Mini Cooper R56系統的控制信號上。這種突破性技術使我們能夠無縫地將硬件組件與模擬數據相互連接。通過重新利用被廢棄的汽車零部件並延長它們的使用壽命。這不僅減少了廢物數量和碳排放量，而且為使用者創造了身臨其境和真實的駕駛體驗。反向工程是我們項目成功的關鍵技術之一。\nMQTT 控制單元:\n我們還將MQTT控制單元等創新技術整合到我們的系統中。這種前沿技術提供互聯網連接，使無線實時遠程控制和數據記錄成為可能。有了MQTT控制單元，用戶可以輕鬆監控和調整他們的模擬器設置，從任何地方進行方便的實時遠程控制和數據記錄。這一功能增強了我們的汽車模擬器的整體體驗，使其更加易於被更廣泛的受眾接受。通過整合MQTT控制單元，我們也符合ESG（環境、社會和治理）原則，並創建一個更可持續和高效的系統。",
+      "message": "給予她第二次生命, 給予你第二次駕駛體驗"
+    }
   },
   "ProductPage": {
     "title": "產品",
@@ -54,18 +76,42 @@
     "message3": "體驗",
     "message4": "極致速度",
     "descriptionoverlay": {
-      "title": "行車 以真",
-      "subtitle": "駕駛 以真",
-      "description": "Car Sim 是一款開創性的汽車模擬器。透過結合廢棄汽車的儀表板和遊戲賽車組件（例如腳煞），為使用者帶來沉浸和逼真的駕駛體驗。\n\nCar Sim中的儀表板會連接到PCB控制單元上，並無縫連接到例如Euro Truck和Dirt Rally 2.0 等熱門遊戲。 以此讓使用者在不同模擬場景中訓練他們的駕駛技巧。\n\n遊戲畫面會顯示在屏幕上，但實時的數據回饋例如車速，轉速及油量等等會被顯示在儀表板上。因此，使用者可以不用駕駛汽車，也能獲得真實的駕駛體驗。而且，Car Sim也能根據使用者的需要模擬不同的環境，使Car Sim成為一個絕佳的駕駛訓練工具。\n\nCar Sim無論對初學者，駕駛學校甚至一般司機也是一個必備的駕駛訓練工具。它逼真的設計，現實汽車部件和汽車模擬器的高度配合使其你在每個駕駛階段都得心應手。"
+      "title": "行車以真",
+      "subtitle": "駕駛以真",
+      "description": "Car Sim 是一款開創性的汽車模擬器。透過結合廢棄汽車的儀表板和遊戲賽車組件（例如腳煞），為使用者帶來沉浸和逼真的駕駛體驗。\n\nCar Sim中的儀表板會連接到PCB控制單元上，並無縫連接到例如Euro Truck和Dirt Rally 2.0 等熱門遊戲。 以此讓使用者在不同模擬場景中訓練他們的駕駛技巧。"
+    },
+    "gameovelay": {
+      "message": "駕駛模擬軟件",
+      "title": "學習駕駛",
+      "description": "遊戲畫面會顯示在屏幕上，但實時的數據回饋例如車速，轉速及油量等等會被顯示在儀表板上。因此，使用者可以不用駕駛汽車，也能獲得真實的駕駛體驗。而且，Car Sim也能根據使用者的需要模擬不同的環境，使Car Sim成為一個絕佳的駕駛訓練工具。\nCar Sim無論對初學者，駕駛學校甚至一般司機也是一個必備的駕駛訓練工具。它逼真的設計，現實汽車部件和汽車模擬器的高度配合使其你在每個駕駛階段都得心應手。"
     }
+  },
+  "AboutusPage": {
+    "title": "關於",
+    "subtitle": "航空技術與解決方案公司",
+    "description": "Aerosim是一家利用合成航空技術為教育和航空領域提供服務的公司。在教育領域，我們為學校提供飛行模擬設備和培訓輔助工具，以合理的價格提供認證課程和培訓課程。",
+    "educationovelay": {
+      "title": "使學生成為專材",
+      "content": "在航空領域，我們提供課程和培訓，使用我們的飛行模擬設備和自主開發的課程，為年輕的航空愛好者提供服務。此外，我們還為無人機系統（UAS）操作提供諮詢和商業運營許可證申請服務，以及針對學校的UAS安全培訓。僅僅在產品推出一年後，Aerosim已經為大約10%的學校提供了專業航空培訓服務。 "
+    },
+    "inspire": "啟發新思維，培養新一代領袖"
   },
   "NewsPage": {
     "title": "最新動態",
-    "description": "<p>The routing is internationalized too.</p><p>If you're using the default language English, you'll see <code>/about</code> in the browser address bar on this page.</p><p>If you change the locale to German, the URL is prefixed with the locale (<code>/de/about</code>).</p>"
+    "subtitle": "了解更多我們的故事"
   },
   "ContactPage": {
     "title": "聯絡",
-    "description": "<p>The routing is internationalized too.</p><p>If you're using the default language English, you'll see <code>/about</code> in the browser address bar on this page.</p><p>If you change the locale to German, the URL is prefixed with the locale (<code>/de/about</code>).</p>"
+    "subtitle": "一般通訊",
+    "getintouch": "聯絡我們",
+    "fillform": "填寫列表與我們開始對話",
+    "address": "Unit 307, 3/F, Building 16W, Hong Kong Science Park, N.T.",
+    "email": "info@aerosim.com.hk",
+    "phone": "+(852) 5320-2078",
+    "fullname": "姓名",
+    "contactemail": "Email",
+    "contacttel": "電話",
+    "submit": "提交"
   },
   "NotFoundPage": {
     "title": "找不到網頁",
@@ -75,7 +121,7 @@
     "title": "sim AUto - 汽車模擬器"
   },
   "LocaleSwitcher": {
-    "label": "Sprache ändern",
+    "label": "轉換語言",
     "locale": "{locale, select, hk {繁體中文} en {English} other {未知}}"
   },
   "Navigation": {
@@ -88,21 +134,7 @@
     },
     "product": "產品",
     "news": { "title": "最新動態", "blog": "部落格", "story": "故事" },
-    "about": { "title": "關於我們", "company": "公司", "charter": "憲章" },
+    "aboutus": "關於",
     "contact": "聯絡"
-  },
-  "PageLayout": {
-    "links": {
-      "docs": {
-        "title": "Dokumentation",
-        "description": "Erfahre mehr über next-intl in der offiziellen Dokumentation.",
-        "href": "https://next-intl-docs.vercel.app/"
-      },
-      "source": {
-        "title": "Quellcode",
-        "description": "Sieh dir den Quellcode dieses Beispiels auf GitHub an.",
-        "href": "https://github.com/amannn/next-intl/tree/main/examples/example-next-13"
-      }
-    }
   }
 }

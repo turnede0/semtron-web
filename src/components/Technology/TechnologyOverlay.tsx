@@ -17,7 +17,7 @@ export default function TechnologyOverlay() {
   return (
     <div>
       <section
-        className="relative flex justify-center items-center h-screen z-10 max-h-full overflow-hidden -mb-1  "
+        className="relative flex justify-center items-center min-h-screen z-10 max-h-full overflow-hidden -mb-1  "
         id="top"
         data-section="section1"
       >
@@ -41,7 +41,7 @@ export default function TechnologyOverlay() {
         </div>
       </section>
       <div
-        className="relative flex justify-center items-center h-screen z-10 max-h-full overflow-hidden -mb-1  "
+        className="relative flex justify-center items-center min-h-screen z-10 max-h-full overflow-hidden -mb-1  "
         id="top"
         data-section="section1"
       >

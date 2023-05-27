@@ -9,7 +9,7 @@ export default function AboutusEducationOverlay() {
 
   return (
     <div>
-      <div className={`relative flex bg-themedark h-screen text-black`}>
+      <div className={`relative flex bg-themedark min-h-screen text-black`}>
         <div className="relative flex justify-center items-center w-1/2 h-full  bg-themedarkblue  z-0">
           <div className="block p-6 m-10">
             <h1 className="mb-2 text-4xl font-bold border-themeyellow border-l-8 pl-3 text-themeyellow leading-tight">
@@ -27,7 +27,7 @@ export default function AboutusEducationOverlay() {
         </div>
       </div>
       <section
-        className="relative flex justify-center items-center h-screen z-10 max-h-full overflow-hidden -mb-1  "
+        className="relative flex justify-center items-center min-h-screen z-10 max-h-full overflow-hidden -mb-1  "
         id="top"
         data-section="section1"
       >

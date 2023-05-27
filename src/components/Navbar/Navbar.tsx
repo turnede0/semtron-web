@@ -23,7 +23,7 @@ export default function Navbar() {
       <div
         className={`
           ${active ? "" : "hidden"}
-          absolute h-screen w-screen z-40 bg-bkgroundblack bg-opacity-70 lg:hidden
+          absolute min-h-screen w-screen z-40 bg-bkgroundblack bg-opacity-70 lg:hidden
         `}
       ></div>
       <header className="relative bg-transparent sm:h-20 flex items-center w-full">
@@ -38,7 +38,7 @@ export default function Navbar() {
               className={`
                 ${
                   active
-                    ? "fixed top-0 left-0 w-10/12 lg:w-full h-screen bg-themedarkblue lg:bg-transparent z-40  lg:relative lg:h-full"
+                    ? "fixed top-0 left-0 w-10/12 lg:w-full min-h-screen bg-themedarkblue lg:bg-transparent z-40  lg:relative lg:h-full"
                     : "-left-80 "
                 }
                 group text-white uppercase text-lg ease-in-out duration-150 lg:flex lg:items-center

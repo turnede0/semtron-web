@@ -14,7 +14,7 @@ export default function ProductionGameOverlay() {
   const t = useTranslations("ProductPage");
   return (
     <div>
-      <div className={`relative inline-flex h-screen overflow-hidden`}>
+      <div className={`relative inline-flex min-h-screen overflow-hidden`}>
         <div>
           <span className={`text-themeyellow text-8xl`}>
             {t("gameovelay.message")}
@@ -43,7 +43,7 @@ export default function ProductionGameOverlay() {
         </div>
       </div>
       <div
-        className={`relative flex justify-end bg-themeyellow h-screen text-black py-20`}
+        className={`relative flex justify-end bg-themeyellow min-h-screen text-black py-20`}
       >
         <div className=" overflow-hidden h-full sm:w-[50%]">
           <Image className="object-cover" src={Body_side_human} alt=""></Image>

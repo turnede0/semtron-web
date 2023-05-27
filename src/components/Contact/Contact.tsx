@@ -7,7 +7,7 @@ export default function ContactOverlay() {
 
   return (
     <div>
-      <section className="text-gray-600 body-font relative min-h-screen flex items-center justify-center ">
+      <section className="text-gray-600 body-font relative min-min-h-screen flex items-center justify-center ">
         <div className="absolute inset-0 bg-gray-300">
           <iframe
             width="100%"

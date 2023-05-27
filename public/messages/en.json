@@ -1,7 +1,6 @@
 {
   "IndexPage": {
     "title": "next-intl example",
-    "description": "This is a basic example that demonstrates the usage of <code>next-intl</code> with the Next.js App Router. Try changing the locale in the top right corner and see how the content changes.",
     "shortdecription": "In-house developed tools",
     "car": "car",
     "asreal": "as real",
@@ -52,18 +51,20 @@
     "pollutionoverlay": {
       "title": "Production and Destruction",
       "subtitle": "Environmental impacts of scrap cars",
-      "description": "Scrap cars can also cause pollution and environmental problems. Like wrecked cars, scrap cars can leak fluids such as oil, transmission fluid, and coolant, which can contaminate soil, groundwater, and surface water, and have harmful effects on plants, animals, and humans.\n\n When scrap cars are crushed or shredded for recycling, they can release particulate matter and other pollutants into the air. This is because the process of crushing and shredding can generate dust and other particles which can be harmful to human health and the environment. The production of new cars and the disposal of old ones can also contribute to pollution, as these processes require energy and resources and can release pollutants such as greenhouse gases and toxic chemicals."
+      "description": "The normal vehicle life cycle follows a linear process: manufacture, use, and dispose. Once a vehicle has reached the end of its useful life, it is typically scrapped and sent to a landfill, where it takes up valuable space and contributes to environmental pollution. This process results in a significant waste of resources, as many components of the vehicle are still usable or recyclable."
     },
     "upcyclingoverlay": {
       "message1": "Trash to Treasure",
       "message2": "Upcycle your scrap car",
-      "title": "Inspiring Recycling",
-      "content": "The Recycling Fund provide the Enterprise Support Programme (ESP) to undertake projects which can assist the local recycling industry in general or in specific sectors in enhancing their operational standards and productivity.With the support from the funding, Aerosim start to think about upcycling scrap and useless car."
+      "fundtitle": "Recycling fund",
+      "fundcontent": "The Recycling Fund aims to support the sustainable development of the recycling industry by improving its operational capabilities and efficiency. Its objective is to achieve the waste reduction policy goals outlined in the Hong Kong Blueprint by addressing the bottlenecks and constraints in the industry. Ultimately, the fund seeks to increase the quantity and quality of recyclables recovered from the waste stream and improve the quality of recycled products, thereby reducing the amount of waste sent to landfills.",
+      "title": "How does circular vehicle lifecycle works?",
+      "content": "With the support of Recycling Fund, we,team of aerosim start a new project \"sim Auto\". The vehicle life cycle in the SIM Auto project follows a more circular process: manufacture, use, extract, and reuse. Once a vehicle has reached the end of its useful life, it is dismantled, and the reusable parts are extracted for educational purposes in car simulation. These parts can be used to teach users about driving skills and the inner workings of a vehicle."
     },
     "simauto": "Happy Driving with \"sim AUto\"",
     "descriptionoverlay": {
       "title": "Reverse Engineering",
-      "description": "We have also incorporated innovative technologies like the MQTT control unit into our system. This cutting-edge technology provides internet connectivity, enabling wireless real-time remote control and data logging. With the MQTT control unit, users can easily monitor and adjust their simulation setup from anywhere, making it more convenient and user-friendly. This feature has enhanced the overall experience of our car simulator, making it more accessible to a wider audience. By incorporating the MQTT control unit, we have also aligned ourselves with the principles of ESG (Environmental, Social, and Governance), as it enables us to create a more sustainable and efficient system.",
+      "description": "Our project revolves around the unique approach of creating a car simulator using authentic car components. To make this possible, we have undertaken extensive efforts in reverse engineering the control signals of the Mini Cooper R56 system. This breakthrough technology enables us to interface hardware components with simulation data seamlessly. By repurposing discarded car parts and extending their life cycle, we are not only reducing waste and cutting down on carbon emissions, but also creating an immersive and authentic driving experience for drivers. Reverse engineering is a critical technology that has played a significant role in the success of our project.\nMQTT Control Unit:\nWe have also incorporated innovative technologies like the MQTT control unit into our system. This cutting-edge technology provides internet connectivity, enabling wireless real-time remote control and data logging. With the MQTT control unit, users can easily monitor and adjust their simulation setup from anywhere, making it more convenient and user-friendly. This feature has enhanced the overall experience of our car simulator, making it more accessible to a wider audience. By incorporating the MQTT control unit, we have also aligned ourselves with the principles of ESG (Environmental, Social, and Governance), as it enables us to create a more sustainable and efficient system.",
       "message": "Her second life, Your second ride."
     }
   },
@@ -97,8 +98,7 @@
   },
   "NewsPage": {
     "title": "News & Insight",
-    "subtitle": "Explore our story",
-    "description": "<p>The routing is internationalized too.</p><p>If you're using the default language English, you'll see <code>/about</code> in the browser address bar on this page.</p><p>If you change the locale to German, the URL is prefixed with the locale (<code>/de/about</code>).</p>"
+    "subtitle": "Explore our story"
   },
   "ContactPage": {
     "title": "Contact aerosim",
@@ -136,19 +136,5 @@
     "news": { "title": "News & Insight", "blog": "Blog", "story": "Story" },
     "aboutus": "About Us",
     "contact": "Contact"
-  },
-  "PageLayout": {
-    "links": {
-      "docs": {
-        "title": "Docs",
-        "description": "Learn more about next-intl in the official docs.",
-        "href": "https://next-intl-docs.vercel.app/"
-      },
-      "source": {
-        "title": "Source code",
-        "description": "Browse the source code of this example on GitHub.",
-        "href": "https://github.com/amannn/next-intl/tree/main/examples/example-next-13"
-      }
-    }
   }
 }
