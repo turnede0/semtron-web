@@ -25,13 +25,13 @@ export default function TechnologyDescriptionOverlay() {
           <Image className="object-cover h-1/3" src={body_wheel} alt=""></Image>
           <Image className="object-cover h-1/3" src={PCB_top} alt=""></Image>
         </div>
-        <div className="relative w-1/2 h-full  bg-themedarkblue  z-0">
+        <div className="relative lg:w-1/2 h-full  bg-themedarkblue  z-0">
           <div className="block p-6 m-10">
             <h1 className="mb-2 text-3xl font-bold border-themeyellow border-l-8 pl-3 text-themeyellow leading-tight">
               {t("descriptionoverlay.title")}
             </h1>
             <div className="w-full flex">
-              <p className="w-[70%] text-white whitespace-pre-line">
+              <p className="lg:w-[70%] text-white whitespace-pre-line">
                 {t("descriptionoverlay.description")}
               </p>
             </div>
@@ -56,7 +56,7 @@ export default function TechnologyDescriptionOverlay() {
         <div
           className={`${pacifico.className} flex-col flex justify-center items-start z-[1] text-themedarkblue`}
         >
-          <div className="text-6xl text-bold my-10">
+          <div className="text-6xl text-bold m-10">
             {t("descriptionoverlay.message")}
           </div>
         </div>

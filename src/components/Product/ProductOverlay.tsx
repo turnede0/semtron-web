@@ -20,10 +20,6 @@ export default function ProductOverlay() {
         id="top"
         data-section="section1"
       >
-        {/* <div
-          className="absolute h-1/3 bottom-0 w-full opacity-95 bg-gradient-to-t from-black to-transparent"
-          id="bottom_gradient"
-        ></div> */}
         <div
           className="absolute h-full bottom-0 w-full opacity-70 bg-themedarkblue z-0"
           id="bottom_gradient"
@@ -35,13 +31,11 @@ export default function ProductOverlay() {
           alt="Logo"
         />
 
-        <div
-          className={`flex-col flex w-full justify-center items-start ml-52 z-[1]`}
-        >
+        <div className={`w-full lg:ml-52 z-[1]`}>
           <div className="bg-themeyellow p-5 text-2xl text-bold ">
             {t("title")}
           </div>
-          <div className="text-white text-8xl">{t("carsim")}</div>
+          <div className="text-white lg:text-8xl">{t("carsim")}</div>
         </div>
       </section>
       <div
@@ -50,9 +44,9 @@ export default function ProductOverlay() {
         data-section="section1"
       >
         <div
-          className={`flex-col flex w-full justify-center items-start ml-52`}
+          className={`flex-col flex w-full justify-center items-start lg:ml-52`}
         >
-          <h6 className={`${anton.className} text-8xl`}>
+          <h6 className={`${anton.className} text-6xl lg:text-8xl`}>
             <div className="my-5">
               <span className="text-themeyellow ">{t("message1")} </span>
               <span className={`text-themedarkblue`}>{t("message2")} </span>

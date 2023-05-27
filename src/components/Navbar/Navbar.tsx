@@ -25,6 +25,7 @@ export default function Navbar() {
           ${active ? "" : "hidden"}
           absolute min-h-screen w-screen z-40 bg-bkgroundblack bg-opacity-70 lg:hidden
         `}
+        onClick={MenuhandleClick}
       ></div>
       <header className="relative bg-transparent sm:h-20 flex items-center w-full">
         <div className="container px-2 mx-auto flex items-center justify-between z-40 lg:border-b-4 border-white">

@@ -53,7 +53,7 @@ export const Overlay = () => {
           </div>
           <Link
             href="/product"
-            className="mt-20 p-5 px-5 float-right  bg-themedarkblue text-white md:text-2xl lg:text-3xl transition duration-300 ease-in-out shadow-innerDefault hover:shadow-inner"
+            className="mt-20 p-5 px-5 float-right  bg-themedarkblue hover:bg-themeyellow text-white md:text-2xl lg:text-3xl transition duration-300 ease-in-out shadow-innerDefault hover:shadow-inner"
           >
             {t("explore")}
           </Link>

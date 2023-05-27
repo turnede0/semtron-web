@@ -15,13 +15,11 @@ export default function NewsOverlay() {
           className="absolute h-full bottom-0 w-full bg-themedarkblue z-0"
           id="bottom_gradient"
         ></div>
-        <div
-          className={`flex-col flex w-full justify-center items-start ml-52 z-[1]`}
-        >
+        <div className={`w-full lg:ml-52 z-[1]`}>
           <div className="bg-themeyellow p-5 text-2xl text-bold">
             {t("title")}
           </div>
-          <div className="text-white text-8xl">{t("subtitle")}</div>
+          <div className="text-white text-2xl lg:text-8xl">{t("subtitle")}</div>
         </div>
       </section>
     </div>

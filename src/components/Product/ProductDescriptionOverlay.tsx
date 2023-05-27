@@ -16,7 +16,7 @@ export default function ProductDescriptionOverlay() {
           alt=""
         ></Image>
       </div>
-      <div className="relative w-[70%] h-[80%] flex justify-center items-center bg-themeyellow p-5 z-0">
+      <div className="relative lg:w-[70%] h-[80%] flex justify-center items-center bg-themeyellow p-5 z-0">
         <div className="block p-6 m-10">
           <h1 className="mb-2 text-3xl font-bold  text-white leading-tight">
             {t("descriptionoverlay.title")}
@@ -25,7 +25,7 @@ export default function ProductDescriptionOverlay() {
             {t("descriptionoverlay.subtitle")}
           </h5>
           <div className="w-full flex justify-end whitespace-pre-line">
-            <p className="w-[70%]">{t("descriptionoverlay.description")}</p>
+            <p className="lg:w-[70%]">{t("descriptionoverlay.description")}</p>
           </div>
         </div>
       </div>

@@ -34,7 +34,7 @@ export default function TechnologyProductOverlay() {
         <div
           className={`flex flex-col bg-polaroid w-[500px] h-[450px] justify-center items-start z-[1] transition ease-in-out delay-200 hover:-translate-y-1 hover:scale-150 `}
         >
-          <div className="w-[450px] m-5">
+          <div className="lg:w-[450px] m-5">
             <Image
               className="h-full object-cover z-[-1]"
               src={Body_front}

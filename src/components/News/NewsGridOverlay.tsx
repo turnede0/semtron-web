@@ -8,7 +8,7 @@ export default function NewsGridOverlay() {
 
   return (
     <div className="w-screen flex justify-center items-center">
-      <div className="grid grid-cols-3 gap-4 my-20">
+      <div className="grid lg:grid-cols-3 gap-4 my-20">
         {News.map((item, index) => (
           <div key={index}>
             <CarouselCard item={item} />

@@ -7,8 +7,8 @@ export default function ContactOverlay() {
 
   return (
     <div>
-      <section className="text-gray-600 body-font relative min-min-h-screen flex items-center justify-center ">
-        <div className="absolute inset-0 bg-gray-300">
+      <section className="text-themedarkblue body-font relative h-screen lg:flex items-center justify-center">
+        <div className="lg:w-1/2 h-1/2 lg:h-full inset-0 bg-themedarkblue">
           <iframe
             width="100%"
             height="100%"
@@ -16,19 +16,19 @@ export default function ContactOverlay() {
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d59026.36338062759!2d114.1882939!3d22.3857883!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34040890d45b302d%3A0x8d3863c9a5fbfce4!2sBuilding%2016W!5e0!3m2!1sen!2shk!4v1685087209694!5m2!1sen!2shk"
           ></iframe>
         </div>
-        <div className="relative sm:items-center sm:pt-0 bg-themedarkblue">
+        <div className="relative flex justify-center items-center sm:pt-0 lg:w-1/2 h-full bg-themeyellow">
           <div className="max-w-6xl mx-auto sm:px-6 lg:px-8">
-            <div className="my-8 overflow-hidden">
-              <div className="grid grid-cols-1 md:grid-cols-2">
-                <div className="p-6 mr-2 bg-white sm:rounded-lg">
-                  <h1 className="text-4xl sm:text-5xl text-gray-800  font-extrabold tracking-tight">
+            <div className="overflow-hidden">
+              <div className="">
+                <div className=" mr-2  sm:rounded-lg">
+                  <h1 className="text-4xl sm:text-5xl text-themedarkblue font-extrabold tracking-tight">
                     {t("getintouch")}
                   </h1>
-                  <p className="text-normal text-lg sm:text-2xl font-medium text-gray-600  mt-2">
+                  <p className="text-normal text-lg sm:text-2xl font-medium text-themedarkblue  mt-2">
                     {t("fillform")}
                   </p>
 
-                  <div className="flex items-center mt-8 text-gray-600 ">
+                  <div className="flex items-center mt-8 text-themedarkblue ">
                     <svg
                       fill="none"
                       stroke="currentColor"
@@ -56,7 +56,7 @@ export default function ContactOverlay() {
                     </div>
                   </div>
 
-                  <div className="flex items-center mt-4 text-gray-600 ">
+                  <div className="flex items-center mt-4 text-themedarkblue ">
                     <svg
                       fill="none"
                       stroke="currentColor"
@@ -78,7 +78,7 @@ export default function ContactOverlay() {
                     </div>
                   </div>
 
-                  <div className="flex items-center mt-2 text-gray-600 ">
+                  <div className="flex items-center mt-2 text-themedarkblue ">
                     <svg
                       fill="none"
                       stroke="currentColor"
@@ -99,12 +99,7 @@ export default function ContactOverlay() {
                       {t("email")}
                     </div>
                   </div>
-                  {/* <div className="flex items-center mt-2 text-gray-600 ">
-                    <GrLanguage />
-                    <div className="ml-4 text-md tracking-wide font-semibold w-40">
-                      {t("website")}
-                    </div>
-                  </div> */}
+
                   <div className="inline-flex justify-between mt-5">
                     <Link href="https://www.facebook.com/AerosimHK/">
                       <FaFacebookSquare size={50} />
@@ -118,15 +113,15 @@ export default function ContactOverlay() {
                   </div>
                 </div>
 
-                <form className="p-6 flex flex-col justify-center">
+                <form className="px-6 flex flex-col justify-center">
                   <div className="flex flex-col">
                     <label className="hidden">{t("fullname")}</label>
                     <input
                       type="name"
                       name="name"
                       id="name"
-                      placeholder={t("fullname")}
-                      className="w-100 mt-2 py-3 px-3 rounded-lg bg-white  border border-gray-400  font-semibold focus:border-indigo-500 focus:outline-none"
+                      placeholder={t("contactemail")}
+                      className="w-100 mt-2 py-3 px-3 rounded-lg bg-white  border border-gray-400  text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none"
                     />
                   </div>
 
@@ -154,7 +149,7 @@ export default function ContactOverlay() {
 
                   <button
                     type="submit"
-                    className="md:w-32 bg-themeyellow hover:bg-blue-dark text-white font-bold py-3 px-6 rounded-lg mt-3 hover:bg-white hover:text-themeyellow transition ease-in-out duration-300"
+                    className="md:w-32 bg-themedarkblue hover:bg-blue-dark text-white font-bold py-3 px-6 rounded-lg mt-3 hover:bg-white hover:text-themedarkblue transition ease-in-out duration-300"
                   >
                     {t("submit")}
                   </button>

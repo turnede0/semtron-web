@@ -14,16 +14,16 @@ export default function TechnologyUpcyclingOverlay() {
           alt=""
         ></Image>
       </div>
-      <div className="relative w-1/2 h-[80%] flex justify-center items-center bg-themedarkblue p-5 z-0">
+      <div className="relative lg:w-1/2 h-[80%] flex justify-center items-center bg-themedarkblue p-5 z-0">
         <div className="block p-6 m-10">
           <h1 className="mb-2 text-3xl font-bold  text-themeyellow leading-tight">
             {t("pollutionoverlay.title")}
           </h1>
-          <h5 className="mb-2 text-3xl bold  text-white leading-tight">
+          <h5 className="mb-2 text-3xl bold  text-white leading-tight my-5">
             {t("pollutionoverlay.subtitle")}
           </h5>
-          <div className="w-full flex justify-end">
-            <p className="w-[70%] text-white whitespace-pre-line">
+          <div className="w-full flex lg:justify-end my-5">
+            <p className="lg:w-[70%] text-white whitespace-pre-line">
               {t("pollutionoverlay.description")}
             </p>
           </div>

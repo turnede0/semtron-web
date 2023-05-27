@@ -31,13 +31,11 @@ export default function TechnologyOverlay() {
           src={Body_back_human}
           alt="Logo"
         />
-        <div
-          className={`flex-col flex w-full justify-center items-start ml-52 z-[1]`}
-        >
+        <div className={`w-full lg:ml-52 z-[1]`}>
           <div className="bg-themeyellow p-5 text-2xl text-bold">
             {t("title")}
           </div>
-          <div className="text-white text-8xl">{t("subtitle")}</div>
+          <div className="text-white text-2xl lg:text-8xl">{t("subtitle")}</div>
         </div>
       </section>
       <div
@@ -46,7 +44,7 @@ export default function TechnologyOverlay() {
         data-section="section1"
       >
         <div
-          className={`flex-col flex w-full justify-center items-start ml-52`}
+          className={`flex-col flex w-full justify-center items-start m-5 lg:ml-52`}
         >
           <h6 className={`${anton.className} `}>
             <div className="my-5 text-3xl">

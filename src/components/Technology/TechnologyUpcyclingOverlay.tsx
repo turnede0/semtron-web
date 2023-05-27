@@ -34,30 +34,29 @@ export default function TechnologyUpcyclingOverlay() {
           src={wrecked}
           alt="Logo"
         />
-        <div
-          className={`flex-col flex w-full justify-center items-start ml-52 z-[1]`}
-        >
-          <div className="border-themeyellow border-solid border-8 p-5 text-2xl text-bold">
+        <div className={`items-start lg:ml-52 z-[1] p-5`}>
+          <span className="border-themeyellow border-solid border-8 text-2xl text-bold p-2">
             {t("upcyclingoverlay.message1")}
-          </div>
-          <div className="text-themedarkblue text-8xl">
+          </span>
+
+          <div className="text-themedarkblue text-4xl lg:text-8xl my-5">
             {t("upcyclingoverlay.message2")}
           </div>
         </div>
       </section>
       <div
-        className={`relative flex justify-end bg-themedark text-black py-20`}
+        className={`relative lg:flex justify-end bg-themedark text-black py-20`}
       >
-        <div className="absolute bottom-0 left-0 flex items-center bg-themeyellow overflow-hidden h-full w-full sm:w-[50%]">
+        <div className="lg:absolute bottom-0 left-0 flex items-center bg-themeyellow overflow-hidden h-full w-full sm:w-[50%]">
           <Image className="object-cover" src={mini_car_no_bg} alt=""></Image>
         </div>
-        <div className="relative w-1/2 h-[80%] flex justify-center items-center  p-5 z-0">
+        <div className="relative lg:w-1/2 h-[80%] flex justify-center items-center  p-5 z-0">
           <div className="block p-6 m-10">
             <h1 className="mb-2 text-3xl font-bold  text-themeyellow leading-tight">
               {t("upcyclingoverlay.fundtitle")}
             </h1>
             <div className="w-full flex">
-              <p className="w-[70%] text-themedarkblue whitespace-pre-line">
+              <p className="lg:w-[70%] text-themedarkblue whitespace-pre-line">
                 {t("upcyclingoverlay.fundcontent")}
               </p>
             </div>
@@ -73,7 +72,7 @@ export default function TechnologyUpcyclingOverlay() {
               {t("upcyclingoverlay.title")}
             </h1>
             <div className="w-full flex">
-              <p className="w-[70%] text-themedarkblue whitespace-pre-line">
+              <p className="lg:w-[70%] text-themedarkblue whitespace-pre-line">
                 {t("upcyclingoverlay.content")}
               </p>
             </div>

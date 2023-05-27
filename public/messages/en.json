@@ -7,7 +7,8 @@
     "sim": "sim",
     "explore": "Explore",
     "missionoverlay": {
-      "vision": "sim AUto Mission \n & Vision",
+      "simauto": "sim AUto",
+      "vision": "Mission & Vision",
       "message": "Our mission and vision for developing a car simulation using green energy and recycled materials is to create a sustainable future for our planet.",
       "message2": "By using recycled materials in the development of the car simulation, we hope to reduce waste and promote the use of sustainable materials. Our goal is to inspire others to prioritize sustainability in their daily lives and to raise awareness of the importance of reducing our environmental impact. We envision a future where green energy and sustainable materials are the standard in the automotive industry.​",
       "technology": "Technology",

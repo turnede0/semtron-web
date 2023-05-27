@@ -31,7 +31,12 @@ export default function CarouselCard(props: PropsType) {
         </div>
       </div> */}
       <div className="relative grid h-[40rem] w-full max-w-[28rem] flex-col items-end justify-center overflow-hidden rounded-xl bg-white bg-clip-border text-center text-gray-700">
-        <Image alt="cardImage" fill src={props.item.image_src} />
+        <Image
+          className="object-cover"
+          alt="cardImage"
+          fill
+          src={props.item.image_src}
+        />
         <div className="relative p-6 py-14 px-6 md:px-12">
           <h2 className="mb-6 block font-sans text-4xl font-medium leading-[1.5] tracking-normal text-white antialiased">
             {props.item.title}

@@ -29,31 +29,31 @@ const AboutusOverlay: FunctionComponent<AboutusOverlayProps> = () => {
             src={plane}
             alt="Logo"
           />
-          <div
-            className={`flex-col flex w-full justify-center items-start ml-52 z-[1]`}
-          >
+          <div className={`w-full lg:ml-52 z-[1]`}>
             <div className="bg-themeyellow p-5 text-2xl text-bold">
               {t("title")}
             </div>
-            <div className="text-white text-8xl">{t("subtitle")}</div>
+            <div className="text-white text-2xl lg:text-8xl">
+              {t("subtitle")}
+            </div>
           </div>
         </section>
       </div>
       <div className={`relative bg-themeyellow text-black py-20`}>
-        <div className="absolute top-0 right-0 overflow-hidden h-full w-full sm:w-[50%]">
+        <div className="absolute top-0 right-0 overflow-hidden h-full w-full lg:w-[50%]">
           <Image
             className="object-cover scale-150"
             src={plane_human}
             alt=""
           ></Image>
         </div>
-        <div className="relative w-1/2 h-[80%] flex justify-center items-center bg-white p-5 z-0">
+        <div className="relative lg:w-1/2 h-[80%] flex justify-center items-center bg-white p-5 z-0">
           <div className="block p-6 m-10">
             <div className="m-10 " role="company logo badge">
               <Image height={70} src={aerosimlogo} alt="aero" />
             </div>
             <div className="w-full flex justify-end">
-              <p className="w-[70%] text-themedarkblue whitespace-pre-line">
+              <p className="lg:w-[70%] text-themedarkblue whitespace-pre-line">
                 {t("description")}
               </p>
             </div>
