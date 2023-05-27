@@ -7,8 +7,8 @@ export default function ContactOverlay() {
 
   return (
     <div>
-      <section className="text-themedarkblue body-font relative h-screen lg:flex items-center justify-center">
-        <div className="lg:w-1/2 h-1/2 lg:h-full inset-0 bg-themedarkblue">
+      <section className="text-themedarkblue body-font relative min-h-screen lg:flex items-center justify-center">
+        <div className="lg:w-1/2 h-[400px] lg:h-screen inset-0 bg-themedarkblue">
           <iframe
             width="100%"
             height="100%"
@@ -16,7 +16,7 @@ export default function ContactOverlay() {
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d59026.36338062759!2d114.1882939!3d22.3857883!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34040890d45b302d%3A0x8d3863c9a5fbfce4!2sBuilding%2016W!5e0!3m2!1sen!2shk!4v1685087209694!5m2!1sen!2shk"
           ></iframe>
         </div>
-        <div className="relative flex justify-center items-center sm:pt-0 lg:w-1/2 h-full bg-themeyellow">
+        <div className="relative flex justify-center items-center sm:pt-0 lg:w-1/2 lg:h-screen bg-themeyellow p-5">
           <div className="max-w-6xl mx-auto sm:px-6 lg:px-8">
             <div className="overflow-hidden">
               <div className="">
