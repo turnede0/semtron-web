@@ -20,8 +20,12 @@ export default function ProductOverlay() {
         id="top"
         data-section="section1"
       >
-        <div
+        {/* <div
           className="absolute h-1/3 bottom-0 w-full opacity-95 bg-gradient-to-t from-black to-transparent"
+          id="bottom_gradient"
+        ></div> */}
+        <div
+          className="absolute h-full bottom-0 w-full opacity-70 bg-themedarkblue z-0"
           id="bottom_gradient"
         ></div>
         <Image
@@ -32,9 +36,9 @@ export default function ProductOverlay() {
         />
 
         <div
-          className={`flex-col flex w-full justify-center items-start ml-52`}
+          className={`flex-col flex w-full justify-center items-start ml-52 z-[1]`}
         >
-          <div className="bg-themeyellow p-5 text-2xl text-bold">
+          <div className="bg-themeyellow p-5 text-2xl text-bold ">
             {t("title")}
           </div>
           <div className="text-white text-8xl">{t("carsim")}</div>
