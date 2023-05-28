@@ -19,7 +19,7 @@ export default function Navbar() {
   };
 
   useEffect(() => {
-    setActive(!active);
+    setActive(false);
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [pathname]);
 

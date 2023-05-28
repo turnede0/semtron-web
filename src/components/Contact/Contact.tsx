@@ -1,7 +1,6 @@
 import { Link, useTranslations } from "next-intl";
 import React from "react";
 import { FaFacebookSquare, FaInstagram, FaLinkedin } from "react-icons/fa";
-import { GrLanguage } from "react-icons/gr";
 export default function ContactOverlay() {
   const t = useTranslations("ContactPage");
 
@@ -113,14 +112,18 @@ export default function ContactOverlay() {
                   </div>
                 </div>
 
-                <form className="px-6 flex flex-col justify-center">
+                <form
+                  action="https://formsubmit.co/tomlee0211@gmail.com"
+                  method="POST"
+                  className="px-6 flex flex-col justify-center"
+                >
                   <div className="flex flex-col">
                     <label className="hidden">{t("fullname")}</label>
                     <input
                       type="name"
                       name="name"
                       id="name"
-                      placeholder={t("contactemail")}
+                      placeholder={t("fullname")}
                       className="w-100 mt-2 py-3 px-3 rounded-lg bg-white  border border-gray-400  text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none"
                     />
                   </div>
