@@ -1,9 +1,8 @@
 import { useTranslations } from "next-intl";
 import React from "react";
-import Image from "next/image";
 import playOne from "@public/image/play_1.jpg";
 import { Anton } from "@next/font/google";
-import Overlay from "../common/Overlay";
+import Overlay from "@src/components/common/Overlay";
 
 const anton = Anton({
   subsets: ["latin"],

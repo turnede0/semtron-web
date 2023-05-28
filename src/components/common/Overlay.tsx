@@ -1,6 +1,6 @@
 import React from "react";
 import Image, { StaticImageData } from "next/image";
-//
+
 type OverlayType = {
   title: string;
   subtitle: string;
@@ -9,9 +9,9 @@ type OverlayType = {
 
 export default function Overlay(props: OverlayType) {
   return (
-    <div>
+    <div className="">
       <section
-        className="relative flex justify-center items-center min-h-screen z-10 max-h-full overflow-hidden -mb-1  "
+        className="relative flex justify-center items-center min-h-screen z-10 max-h-full overflow-hidden  bg-themedarkblue"
         id="top"
         data-section="section1"
       >

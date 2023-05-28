@@ -1,5 +1,4 @@
 import React from "react";
-import { useTranslations } from "next-intl";
 import PageLayout from "@src/components/PageLayout";
 import { HomeOverlay } from "@src/components/Home/HomeOverlay";
 import { MissionOverlay } from "@src/components/Home/MissionOverlay";
@@ -8,10 +7,8 @@ import { Carousel } from "@src/components/Home/Carousel/Carousel";
 import { NewsletterRegister } from "@src/components/Home/NewsletterRegister";
 
 export default function IndexPage() {
-  const t = useTranslations("IndexPage");
-
   return (
-    <PageLayout title={t("title")}>
+    <PageLayout>
       <HomeOverlay />
       <MissionOverlay />
       <DescriptionOverlay />

@@ -4,7 +4,6 @@ import clsx from "clsx";
 import { notFound } from "next/navigation";
 import { createTranslator, NextIntlClientProvider } from "next-intl";
 import { ReactNode } from "react";
-// import Navigation from "@src/components/Navigation";
 import Navbar from "@src/components/Navbar/Navbar";
 import Footer from "@src/components/Footer/Footer";
 
@@ -44,9 +43,11 @@ export default async function LocaleLayout({
 
   return (
     <html className="h-full" lang={locale}>
-      <body className={clsx(poppins.className, "flex h-full flex-col")}>
+      <body
+        className={clsx(poppins.className, "flex h-full flex-col")}
+        // suppressHydrationWarning={true}
+      >
         <NextIntlClientProvider locale={locale} messages={messages}>
-          {/* <Navigation /> */}
           <Navbar />
           {children}
           <Footer />

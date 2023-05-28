@@ -35,7 +35,9 @@ export const HomeOverlay = () => {
           id="bottom_gradient"
         ></div> */}
 
-        <div className={`flex-col  w-full flex justify-center items-center`}>
+        <div
+          className={`flex-col  w-full flex justify-center items-center motion-safe:animate-fadeIn`}
+        >
           <span className="text-white">{t("shortdecription")} </span>
           <div
             className={`text-white ${

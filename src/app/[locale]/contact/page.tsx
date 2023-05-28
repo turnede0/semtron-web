@@ -8,7 +8,7 @@ export default function ContactPage() {
   const t = useTranslations("ContactPage");
 
   return (
-    <PageLayout title={t("title")}>
+    <PageLayout>
       <Overlay title={t("title")} subtitle={t("subtitle")} />
       <Contact />
     </PageLayout>

@@ -3,26 +3,32 @@ import React from "react";
 import Image from "next/image";
 import aerosim from "@public/image/aerosim.jpg";
 import Body_front from "@public/image/body_front.jpg";
+import { Reveal } from "../common/Reveal";
 
 export default function AboutusEducationOverlay() {
   const t = useTranslations("AboutusPage");
 
   return (
     <div>
-      <div className={`relative lg:flex bg-themedark min-h-screen text-black`}>
-        <div className="relative flex justify-center items-center lg:w-1/2 h-full  bg-themedarkblue  z-0">
-          <div className="block p-6 m-10">
-            <h1 className="mb-2 text-4xl font-bold border-themeyellow border-l-8 pl-3 text-themeyellow leading-tight">
-              {t("educationovelay.title")}
-            </h1>
-            <div className="w-full flex">
-              <p className="lg:w-[70%] text-lg text-white whitespace-pre-line">
-                {t("educationovelay.content")}
-              </p>
+      <div
+        className={`relative grid lg:grid-cols-2 bg-themedark  min-h-screen lg:h-screen text-black`}
+      >
+        <div className="relative flex justify-center items-center  h-full  bg-themedarkblue  z-0">
+          <Reveal>
+            <div className="block p-6 m-10">
+              <h1 className="mb-2 text-4xl font-bold border-themeyellow border-l-8 pl-3 text-themeyellow leading-tight">
+                {t("educationovelay.title")}
+              </h1>
+              <div className="w-full flex">
+                <p className="lg:w-[70%] text-lg text-white whitespace-pre-line">
+                  {t("educationovelay.content")}
+                </p>
+              </div>
             </div>
-          </div>
+          </Reveal>
         </div>
-        <div className=" bg-themeyellow overflow-hidden h-full w-full sm:w-[50%]">
+
+        <div className=" bg-themeyellow overflow-hidden h-full w-full ">
           <Image className="object-cover h-full" src={aerosim} alt=""></Image>
         </div>
       </div>
@@ -44,7 +50,9 @@ export default function AboutusEducationOverlay() {
         <div
           className={`flex-col flex justify-center items-start z-[1] text-themedarkblue`}
         >
-          <div className="text-6xl text-bold my-10">{t("inspire")}</div>
+          <Reveal>
+            <div className="text-6xl text-bold my-10">{t("inspire")}</div>
+          </Reveal>
         </div>
       </section>
     </div>

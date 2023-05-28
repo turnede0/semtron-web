@@ -10,8 +10,6 @@ export const DotButton = (props: { selected: boolean; onClick: () => any }) => (
   />
 );
 
-// bg-transparent relative p-0 w-[30px] h-[30px] mx-2 flex items-center
-
 export const PrevButton = (props: { enabled: boolean; onClick: () => any }) => (
   <button
     className="outline-none cursor-pointer bg-white text-black absolute top-1/2 justify-center items-center p-0 disabled:opacity-30 -left-10"

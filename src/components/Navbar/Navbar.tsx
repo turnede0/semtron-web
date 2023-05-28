@@ -14,7 +14,7 @@ export default function Navbar() {
   const [active, setActive] = useState(false);
   const pathname = usePathname();
 
-  const MenuhandleClick = () => {
+  const handleMenuClick = () => {
     setActive(!active);
   };
 
@@ -31,7 +31,7 @@ export default function Navbar() {
           ${active ? "" : "hidden"}
           absolute min-h-screen w-screen z-40 bg-bkgroundblack bg-opacity-70 lg:hidden
         `}
-        onClick={MenuhandleClick}
+        onClick={handleMenuClick}
       ></div>
       <header className="relative bg-transparent sm:h-20 flex items-center w-full">
         <div className="container px-2 mx-auto flex items-center justify-between z-40 lg:border-b-4 border-white">
@@ -62,7 +62,7 @@ export default function Navbar() {
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"
-                    onClick={MenuhandleClick}
+                    onClick={handleMenuClick}
                   >
                     <path
                       strokeLinecap="round"
@@ -134,7 +134,7 @@ export default function Navbar() {
                 }
                 group fixed lg:hidden flex-col p-5 right-0 top-0  inline-flex items-center justify-center bg-themedarkblue
               `}
-              onClick={MenuhandleClick}
+              onClick={handleMenuClick}
             >
               <span
                 className={`${active ? "bg-black" : "bg-white"} w-6 h-1 mb-1`}

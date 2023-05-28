@@ -18,7 +18,7 @@ export default function Page() {
   return (
     <>
       {item ? (
-        <PageLayout title={t("title")}>
+        <PageLayout>
           <section
             className="relative flex justify-center items-center min-h-screen z-10 max-h-full overflow-hidden -mb-1"
             id="top"

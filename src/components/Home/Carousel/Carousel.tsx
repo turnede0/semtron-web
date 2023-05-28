@@ -7,6 +7,7 @@ import { useTranslations } from "next-intl";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Pagination } from "swiper";
 import CarouselCard from "./CarouselCard";
+import { Reveal } from "@src/components/common/Reveal";
 
 export const Carousel = () => {
   const t = useTranslations("IndexPage");
@@ -49,13 +50,9 @@ export const Carousel = () => {
         >
           {News.map((item, index) => (
             <SwiperSlide className="relative" key={index}>
-              <CarouselCard
-                item={item}
-                // category={item.category}
-                // title={item.title}
-                // content={item.content}
-                // image_src={item.image_src}
-              />
+              <Reveal>
+                <CarouselCard item={item} />
+              </Reveal>
             </SwiperSlide>
           ))}
         </Swiper>

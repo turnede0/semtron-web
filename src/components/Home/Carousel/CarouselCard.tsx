@@ -9,7 +9,7 @@ type PropsType = {
 
 export default function CarouselCard(props: PropsType) {
   return (
-    <Link href={props.item.url}>
+    <Link className="relative w-full" href={props.item.url}>
       {/* <div className="rounded shadow-lg bg-themedarkblue text-white h-[500px] w-[400px]">
         <div className="relative w-full h-1/3 bg-black">
           <Image
@@ -30,7 +30,7 @@ export default function CarouselCard(props: PropsType) {
           </span>
         </div>
       </div> */}
-      <div className="relative grid h-[40rem] w-full max-w-[28rem] flex-col items-end justify-center overflow-hidden rounded-xl bg-white bg-clip-border text-center text-gray-700">
+      <div className="relative grid h-[40rem] w-[80rem] max-w-[28rem] flex-col items-end justify-center overflow-hidden rounded-xl bg-white bg-clip-border text-center text-gray-700 ">
         <Image
           className="object-cover"
           alt="cardImage"

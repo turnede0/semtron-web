@@ -9,7 +9,7 @@ export default function NotFoundPage() {
   const t = useTranslations("NotFoundPage");
 
   return (
-    <PageLayout title={t("title")}>
+    <PageLayout>
       <div>
         <section
           className="relative flex justify-center items-center min-h-screen z-10 max-h-full overflow-hidden -mb-1  "

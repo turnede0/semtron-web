@@ -1,10 +1,9 @@
 import { useTranslations } from "next-intl";
 import React from "react";
-import Image from "next/image";
 import Body_back_human from "@public/image/body_back_human.png";
-import playOne from "@public/image/play_1.jpg";
 import { Anton } from "@next/font/google";
-import Overlay from "../common/Overlay";
+import Overlay from "@src/components/common/Overlay";
+import { Reveal } from "@src/components/common/Reveal";
 
 const anton = Anton({
   subsets: ["latin"],
@@ -52,14 +51,16 @@ export default function TechnologyOverlay() {
         <div
           className={`flex-col flex w-full justify-center items-start m-5 lg:ml-52`}
         >
-          <h6 className={`${anton.className} `}>
-            <div className="my-5 text-3xl">
-              <span className="text-themeyellow ">{t("speaker")} </span>
-            </div>
-            <div className="my-5 text-4xl">
-              <span className="text-themedarkblue">{t("message")} </span>
-            </div>
-          </h6>
+          <Reveal>
+            <h6 className={`${anton.className} `}>
+              <div className="my-5 text-3xl">
+                <span className="text-themeyellow ">{t("speaker")} </span>
+              </div>
+              <div className="my-5 text-4xl">
+                <span className="text-themedarkblue">{t("message")} </span>
+              </div>
+            </h6>
+          </Reveal>
         </div>
       </div>
     </div>
