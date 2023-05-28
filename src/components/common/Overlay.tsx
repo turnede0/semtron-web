@@ -30,7 +30,7 @@ export default function Overlay(props: OverlayType) {
             alt="Logo"
           />
         )}
-        <div className={`w-full lg:ml-52 z-[1]`}>
+        <div className={`w-full lg:ml-52 z-[1]  motion-safe:animate-fadeIn`}>
           <div className="bg-themeyellow p-5 text-2xl text-bold">
             {props.title}
           </div>
