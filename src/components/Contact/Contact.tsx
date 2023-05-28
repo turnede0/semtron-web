@@ -7,7 +7,7 @@ export default function ContactOverlay() {
   return (
     <div>
       <section className="text-themedarkblue body-font relative min-h-screen lg:flex items-center justify-center">
-        <div className="lg:w-1/2 h-[400px] lg:h-screen inset-0 bg-themedarkblue">
+        <div className="lg:w-1/2 h-[400px] lg:min-h-screen inset-0 bg-themedarkblue">
           <iframe
             width="100%"
             height="100%"
@@ -15,7 +15,7 @@ export default function ContactOverlay() {
             src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d59026.36338062759!2d114.1882939!3d22.3857883!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x34040890d45b302d%3A0x8d3863c9a5fbfce4!2sBuilding%2016W!5e0!3m2!1sen!2shk!4v1685087209694!5m2!1sen!2shk"
           ></iframe>
         </div>
-        <div className="relative flex justify-center items-center sm:pt-0 lg:w-1/2 lg:h-screen bg-themeyellow p-5">
+        <div className="relative flex justify-center items-center sm:pt-0 lg:w-1/2 lg:min-h-screen bg-themeyellow p-5">
           <div className="max-w-6xl mx-auto sm:px-6 lg:px-8">
             <div className="overflow-hidden">
               <div className="">
@@ -113,7 +113,7 @@ export default function ContactOverlay() {
                 </div>
 
                 <form
-                  action="https://formsubmit.co/tomlee0211@gmail.com"
+                  action="https://formsubmit.co/ef77929153ae5775c223062db29ced43"
                   method="POST"
                   className="px-6 flex flex-col justify-center"
                 >
@@ -146,6 +146,14 @@ export default function ContactOverlay() {
                       name="tel"
                       id="tel"
                       placeholder={t("contacttel")}
+                      className="w-100 mt-2 py-3 px-3 rounded-lg bg-white  border border-gray-400  text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none"
+                    />
+                  </div>
+                  <div className="flex flex-col mt-2">
+                    <label className="hidden">{t("contacttel")}</label>
+                    <textarea
+                      name="message"
+                      placeholder={t("message")}
                       className="w-100 mt-2 py-3 px-3 rounded-lg bg-white  border border-gray-400  text-gray-800 font-semibold focus:border-indigo-500 focus:outline-none"
                     />
                   </div>

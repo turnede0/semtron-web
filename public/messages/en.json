@@ -112,6 +112,7 @@
     "fullname": "Full Name",
     "contactemail": "Email",
     "contacttel": "Telephone number",
+    "message": "Enter your Message",
     "submit": "Submit"
   },
   "NotFoundPage": {

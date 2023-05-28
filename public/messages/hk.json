@@ -110,8 +110,9 @@
     "email": "info@aerosim.com.hk",
     "phone": "+(852) 5320-2078",
     "fullname": "姓名",
-    "contactemail": "Email",
+    "contactemail": "電郵",
     "contacttel": "電話",
+    "message": "輸入你地訊息",
     "submit": "提交"
   },
   "NotFoundPage": {
