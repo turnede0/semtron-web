@@ -10,7 +10,7 @@ const anton = Anton({
   variable: "--font-anton",
 });
 
-export const Overlay = () => {
+export const HomeOverlay = () => {
   const locale = useLocale();
   const t = useTranslations("IndexPage");
   return (

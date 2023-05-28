@@ -1,21 +1,27 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import * as React from "react";
 import { useTranslations, Link } from "next-intl"; //Link must use next-intl
 import Image from "next/image";
-import Logo from "@public/next.svg";
 import LogoIcon from "@public/simAuto_logo.svg";
 import LocaleSwitcher from "@src/components/LocaleSwitcher";
+import { usePathname } from "next/navigation";
 // import NavigationLink from "../NavigationLink";
 
 export default function Navbar() {
   const t = useTranslations("Navigation");
   const [active, setActive] = useState(false);
+  const pathname = usePathname();
 
   const MenuhandleClick = () => {
     setActive(!active);
   };
+
+  useEffect(() => {
+    setActive(!active);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [pathname]);
 
   return (
     // <div className='sticky top-0 z-40 w-full'>
@@ -52,7 +58,7 @@ export default function Navbar() {
                   </div>
 
                   <svg
-                    className="absolute h-8 w-8 top-0 right-1 hover:bg-gray-100"
+                    className="absolute h-8 w-8 top-0 right-1 hover:bg-gray-400"
                     fill="none"
                     viewBox="0 0 24 24"
                     stroke="currentColor"

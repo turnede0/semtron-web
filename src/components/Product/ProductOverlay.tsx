@@ -3,6 +3,7 @@ import React from "react";
 import Image from "next/image";
 import playOne from "@public/image/play_1.jpg";
 import { Anton } from "@next/font/google";
+import Overlay from "../common/Overlay";
 
 const anton = Anton({
   subsets: ["latin"],
@@ -15,29 +16,7 @@ export default function ProductOverlay() {
 
   return (
     <div>
-      <section
-        className="relative flex justify-center items-center min-h-screen z-10 max-h-full overflow-hidden -mb-1  "
-        id="top"
-        data-section="section1"
-      >
-        <div
-          className="absolute h-full bottom-0 w-full opacity-70 bg-themedarkblue z-0"
-          id="bottom_gradient"
-        ></div>
-        <Image
-          fill
-          className="h-full object-cover z-[-1] "
-          src={playOne}
-          alt="Logo"
-        />
-
-        <div className={`w-full lg:ml-52 z-[1]`}>
-          <div className="bg-themeyellow p-5 text-2xl text-bold ">
-            {t("title")}
-          </div>
-          <div className="text-white lg:text-8xl">{t("carsim")}</div>
-        </div>
-      </section>
+      <Overlay title={t("title")} subtitle={t("subtitle")} image={playOne} />
       <div
         className="relative flex justify-center items-center min-h-screen z-10 max-h-full overflow-hidden -mb-1  "
         id="top"

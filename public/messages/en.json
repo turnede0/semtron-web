@@ -14,7 +14,7 @@
       "technology": "Technology",
       "sustainable": {
         "title": "Sustainable development",
-        "message": "Developing a car simulation using green energy and recycled materials is to create a sustainable future for our planet"
+        "message": "Create a sustainable future for our Earth"
       },
       "awareness": {
         "title": "Raising awareness​",
@@ -71,7 +71,7 @@
   },
   "ProductPage": {
     "title": "Product",
-    "carsim": "Car simulation",
+    "subtitle": "Car simulation",
     "message1": "DRIVING",
     "message2": "UNRIVALLED SIMULATION",
     "message3": "EXPERIENCE",

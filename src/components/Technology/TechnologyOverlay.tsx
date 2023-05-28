@@ -4,6 +4,7 @@ import Image from "next/image";
 import Body_back_human from "@public/image/body_back_human.png";
 import playOne from "@public/image/play_1.jpg";
 import { Anton } from "@next/font/google";
+import Overlay from "../common/Overlay";
 
 const anton = Anton({
   subsets: ["latin"],
@@ -16,7 +17,7 @@ export default function TechnologyOverlay() {
 
   return (
     <div>
-      <section
+      {/* <section
         className="relative flex justify-center items-center min-h-screen z-10 max-h-full overflow-hidden -mb-1  "
         id="top"
         data-section="section1"
@@ -37,7 +38,12 @@ export default function TechnologyOverlay() {
           </div>
           <div className="text-white text-2xl lg:text-8xl">{t("subtitle")}</div>
         </div>
-      </section>
+      </section> */}
+      <Overlay
+        title={t("title")}
+        subtitle={t("subtitle")}
+        image={Body_back_human}
+      />
       <div
         className="relative flex justify-center items-center min-h-screen z-10 max-h-full overflow-hidden -mb-1  "
         id="top"

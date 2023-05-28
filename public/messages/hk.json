@@ -8,25 +8,25 @@
     "explore": "更多",
     "missionoverlay": {
       "simauto": "sim AUto",
-      "vision": "sim AUto 使命與願景",
-      "message": "Our mission and vision for developing a car simulation using green energy and recycled materials is to create a sustainable future for our planet.",
-      "message2": "By using recycled materials in the development of the car simulation, we hope to reduce waste and promote the use of sustainable materials. Our goal is to inspire others to prioritize sustainability in their daily lives and to raise awareness of the importance of reducing our environmental impact. We envision a future where green energy and sustainable materials are the standard in the automotive industry.​",
+      "vision": "使命與願景",
+      "message": "我們的使命和願景就是利用綠色能源開發汽車模擬器,為我們的地球創造一個可持續發展的未來。",
+      "message2": "通過開發環保汽車模擬器，我們希望減少浪費並促進可持續材料的使用。 我們的目標是激勵他人在日常生活中優先考慮可持續性，並提高人們對減少環境影響重要性的認識。 我們設想未來綠色能源和可持續材料成為汽車行業的標準。​",
       "technology": "Technology",
       "sustainable": {
-        "title": "Sustainable development",
-        "message": "Developing a car simulation using green energy and recycled materials is to create a sustainable future for our planet"
+        "title": "可持續發展",
+        "message": "為我們的地球創造可持續發展的未來"
       },
       "awareness": {
-        "title": "Raising awareness​",
-        "message": "Inspire others to prioritize sustainability and to raise awareness of the importance of reducing our environmental impact"
+        "title": "提高環保意識​",
+        "message": "鼓勵優先考慮可持續性並提高人們對減少環境影響重要性的認識"
       },
       "recycling": {
-        "title": "Recycling​",
-        "message": "using recycled materials to reduce waste and promote recycling of  useful material"
+        "title": "廢物利用",
+        "message": "使用回收材料減少浪費並促進有用材料的回收"
       },
       "reducing": {
-        "title": "Reducing pollution​",
-        "message": "Using recycled materials to develop car simulation, we hope to reduce waste and pollution"
+        "title": "減少污染​",
+        "message": "重用回收材料，減少浪費和污染"
       },
       "spotlight": {
         "title": "最新動態"
@@ -35,7 +35,7 @@
     "descriptionoverlay": {
       "title": "工作",
       "subtitle": "我們的服務",
-      "description": "Our approach to developing a car simulation using green energy and recycled materials is to prioritize sustainability and environmental consciousness throughout the entire process. We start by sourcing recycled materials for the construction of the car simulation, ensuring that the materials we use have minimal impact on the environment. We then incorporate green energy sources to reduce our carbon footprint and promote renewable energy. Our team works to optimize the energy efficiency of the car simulation to further minimize its impact on the environment. We aim to demonstrate that sustainable practices can be integrated into everyday technologies such as cars, and that they can be both practical and environmentally responsible."
+      "description": "我們主張利用綠色能源和回收材料去開發汽車模擬，整個過程中優先考慮可持續性和環保意識。 我們首先採購回收材料來構建汽車模擬，確保我們使用的材料對環境的影響最少。 然後，我們採用綠色能源來減少我們的碳足跡並推廣可再生能源。 我們的團隊致力於優化汽車模擬的能源效率，以進一步減少其對環境的影響。 我們的目標是證明可持續實踐可以融入汽車等日常技術，並且它們既實用又對環境負責。"
     },
     "newsletter": {
       "join": "加入我們的通訊",
@@ -71,7 +71,7 @@
   },
   "ProductPage": {
     "title": "產品",
-    "carsim": "汽車模擬器",
+    "subtitle": "汽車模擬器",
     "message1": "駕駛",
     "message2": "身如其境",
     "message3": "體驗",

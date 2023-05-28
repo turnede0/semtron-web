@@ -1,7 +1,7 @@
 import React from "react";
 import { useTranslations } from "next-intl";
 import PageLayout from "@src/components/PageLayout";
-import { Overlay } from "@src/components/Home/Overlay";
+import { HomeOverlay } from "@src/components/Home/HomeOverlay";
 import { MissionOverlay } from "@src/components/Home/MissionOverlay";
 import DescriptionOverlay from "@src/components/Home/DescriptionOverlay";
 import { Carousel } from "@src/components/Home/Carousel/Carousel";
@@ -12,7 +12,7 @@ export default function IndexPage() {
 
   return (
     <PageLayout title={t("title")}>
-      <Overlay />
+      <HomeOverlay />
       <MissionOverlay />
       <DescriptionOverlay />
       <Carousel />
