@@ -1,11 +1,8 @@
-import { useTranslations } from "next-intl";
 import React from "react";
 import Image from "next/image";
 import playOne from "@public/image/body_front.jpg";
 
 export default function ProductReviewOverlay() {
-  const t = useTranslations("ProductPage");
-
   return (
     <div>
       <section
