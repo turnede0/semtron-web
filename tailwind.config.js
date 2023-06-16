@@ -15,6 +15,8 @@ module.exports = {
       },
       fontFamily: {
         wdc: ["var(--font-anton)"],
+        poppins: ["Poppins", "sans-serif"],
+        sans: ["Josefin Sans", "sans-serif"],
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

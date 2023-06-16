@@ -70,21 +70,50 @@
     }
   },
   "ProductPage": {
-    "title": "產品",
-    "subtitle": "汽車模擬器",
-    "message1": "駕駛",
-    "message2": "身如其境",
-    "message3": "體驗",
-    "message4": "極致速度",
-    "descriptionoverlay": {
-      "title": "行車以真",
-      "subtitle": "駕駛以真",
-      "description": "Car Sim 是一款開創性的汽車模擬器。透過結合廢棄汽車的儀表板和遊戲賽車組件（例如腳煞），為使用者帶來沉浸和逼真的駕駛體驗。\n\nCar Sim中的儀表板會連接到PCB控制單元上，並無縫連接到例如Euro Truck和Dirt Rally 2.0 等熱門遊戲。 以此讓使用者在不同模擬場景中訓練他們的駕駛技巧。"
+    "homeoverlay": {
+      "title": "迷你駕駛模擬器裝置"
     },
-    "gameovelay": {
-      "message": "駕駛模擬軟件",
-      "title": "學習駕駛",
-      "description": "遊戲畫面會顯示在屏幕上，但實時的數據回饋例如車速，轉速及油量等等會被顯示在儀表板上。因此，使用者可以不用駕駛汽車，也能獲得真實的駕駛體驗。而且，Car Sim也能根據使用者的需要模擬不同的環境，使Car Sim成為一個絕佳的駕駛訓練工具。\nCar Sim無論對初學者，駕駛學校甚至一般司機也是一個必備的駕駛訓練工具。它逼真的設計，現實汽車部件和汽車模擬器的高度配合使其你在每個駕駛階段都得心應手。"
+    "featureoverlay": {
+      "title": "關於",
+      "subtitle_left": "迷你",
+      "subtitle_right": "系列",
+      "content": "Eco Race-Mini R53 模擬器套裝通過回收擦車的零件，提供真實的 Mini Cooper 駕駛體驗。包括詳細的 Mini R53 內部座艙設置，還有 Logitech 駕駛套件和換擋板，並由研發汽車模擬 PCB 套件支持。適用於 PC 或筆記本電腦。享受有趣且環保的駕駛體驗。",
+      "tags": {
+        "tag1": "速度",
+        "tag2": "真實",
+        "tag3": "舒適"
+      }
+    },
+    "pcboverlay": {
+      "title": "仿真真實駕駛體驗",
+      "content": "通過我們的內部設計 PCB 系統體驗低延遲反應的儀表板反饋。與 Mini R53 說再見，體驗真正即時的聯繫。"
+    },
+    "itemoverlay": {
+      "title": "精心設計，真實駕駛體驗",
+      "content": "PRO Racing Wheel 是一款專為專業的模擬駕駛員開發的高端專利設計。配備 TRUEFORCE 反饋技術和高性能直接驅動，可以提供最純粹、最精確、最專業的比賽連接。這意味著更少的延遲和更高的保真度。駕駛贏得勝利。"
+    },
+    "screenoverlay": {
+      "title": "速度的真實體驗",
+      "content": "PRO Racing Wheel 是一款專為專業的模擬駕駛員開發的高端專利設計。配備 TRUEFORCE 反饋技術和高性能直接驅動，可以提供最純粹、最精確、最專業的比賽連接。這意味著更少的延遲和更高的保真度。駕駛贏得勝利。"
+    },
+    "highlightoverlay": {
+      "items": {
+        "item1": {
+          "title": "智能機器",
+          "content": "設計採用磁性系統和無觸點霍爾效應傳感器，讓駕駛者獲得準確模擬專業賽車的積極機械感。耐用到能承受數百萬次換擋。"
+        },
+        "item2": {
+          "title": "駕駛模擬",
+          "content": "設計採用磁性系統和無觸點霍爾效應傳感器，讓駕駛者獲得準確模擬專業賽車的積極機械感。耐用到能承受數百萬次換擋。"
+        },
+        "item3": {
+          "title": "舒適的駕駛體驗",
+          "content": "設計採用磁性系統和無觸點霍爾效應傳感器，讓駕駛者獲得準確模擬專業賽車的積極機械感。耐用到能承受數百萬次換擋。"
+        }
+      }
+    },
+    "conclusionoverlay": {
+      "title": "升級到未來的層次"
     }
   },
   "AboutusPage": {

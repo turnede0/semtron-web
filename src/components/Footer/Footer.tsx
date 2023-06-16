@@ -9,7 +9,7 @@ const Footer = () => {
   const t = useTranslations("Navigation");
 
   return (
-    <div className="w-full md:h-[500px] lg:grid lg:grid-cols-6 gap-8 text-white bg-themedarkblue">
+    <div className="w-full md:h-[500px] lg:grid lg:grid-cols-6 gap-8 text-white bg-black">
       <div className="pl-5 lg:col-start-1 lg:col-end-4">
         <div className="m-10 " role="company logo badge">
           <Image priority src={LogoIcon} alt="logo" />

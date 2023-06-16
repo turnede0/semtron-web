@@ -1,17 +1,23 @@
 import React from "react";
 import PageLayout from "@src/components/PageLayout";
-import ProductOverlay from "@src/components/Product/ProductOverlay";
-import ProductDescriptionOverlay from "@src/components/Product/ProductDescriptionOverlay";
-import ProductReviewOverlay from "@src/components/Product/ProductReviewOverlay";
-import ProductionGameOverlay from "@src/components/Product/ProductionGameOverlay";
+import ProductHomeOverlay from "@src/components/Product/ProductHomeOverlay";
+import ProductFeatureOverlay from "@src/components/Product/ProductFeatureOverlay";
+import ProductPCBOverlay from "@src/components/Product/ProductPCBOverlay";
+import ProductItemOverlay from "@src/components/Product/ProductItemOverlay";
+import ProductScreenOverlay from "@src/components/Product/ProductScreenOverlay";
+import ProductHighlightOverlay from "@src/components/Product/ProductHighlightOverlay";
+import ProductConclusionOverlay from "@src/components/Product/ProductConclusionOverlay";
 
 export default function ProductPage() {
   return (
     <PageLayout>
-      <ProductOverlay />
-      <ProductReviewOverlay />
-      <ProductDescriptionOverlay />
-      <ProductionGameOverlay />
+      <ProductHomeOverlay />
+      <ProductFeatureOverlay />
+      <ProductPCBOverlay />
+      <ProductItemOverlay />
+      <ProductScreenOverlay />
+      <ProductHighlightOverlay />
+      <ProductConclusionOverlay />
     </PageLayout>
   );
 }

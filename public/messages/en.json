@@ -70,21 +70,50 @@
     }
   },
   "ProductPage": {
-    "title": "Product",
-    "subtitle": "Car simulation",
-    "message1": "DRIVING",
-    "message2": "UNRIVALLED SIMULATION",
-    "message3": "EXPERIENCE",
-    "message4": "TRUE SPEED PLEASURE",
-    "descriptionoverlay": {
-      "title": "Car as Real",
-      "subtitle": "Simulation as Real",
-      "description": "Introducing the Car Simulator (Car Sim), a groundbreaking product that provides an immersive and realistic driving experience. The Car Sim removes the front panel and dashboard from a real car and combines them with game racing components, such as a foot brake, to create an authentic driving experience."
+    "homeoverlay": {
+      "title": "Driving simulator gear MINI EDITION"
     },
-    "gameovelay": {
-      "message": "Driving simulation",
-      "title": "Learn Driving",
-      "description": "The gaming scene is displayed on a screen, while the dashboard provides real-time feedback on key driving statistics such as speed, RPM, and fuel level. This feedback provides a highly realistic experience for learners, allowing them to train their driving skills without the need to operate a real vehicle. Learners can track their progress and make adjustments to their driving technique as needed, making the Car Simulator (Car Sim) an ideal tool for learners of all levels.\nThe Car Sim is an essential tool for driving schools, professional drivers, and anyone looking to improve their driving skills. Its realistic design and advanced integration with car simulation software make it the ultimate driving companion for learners of all levels."
+    "featureoverlay": {
+      "title": "About",
+      "subtitle_left": "MINI",
+      "subtitle_right": "SERIES",
+      "content": "Eco Race-Mini R53 Simulator Set delivers a real Mini cooper driving experience by recycling the component from scrub car. Featuring a detail Mini R53 *inner carge setip*, plus Logitech Driving set and gear-shift paddies, and support by R&D car-sim PCB set.For PC or laptop. Drive for fun and eco-friendly.",
+      "tags": {
+        "tag1": "SPEED",
+        "tag2": "REAL",
+        "tag3": "COMFORTABLE"
+      }
+    },
+    "pcboverlay": {
+      "title": "DRIVE AS REAL",
+      "content": "Experience low-latency response dashboard feedback by our in-house design PCB system. Get the realism and immediate connection with the Mini R53."
+    },
+    "itemoverlay": {
+      "title": "ENGINEERED AS REAL",
+      "content": "PRO Racing wheel is an elite, proprietary design developed with and for pro sim drivers. Engineered with TRUEFORCE feedback technology and high-performance Direct Drive, it delivers the most pure, precise, pro-level connection to the race possible. That means less latency and higher fidelity. Drive to win."
+    },
+    "screenoverlay": {
+      "title": "SPEED AS REAL",
+      "content": "PRO Racing wheel is an elite, proprietary design developed with and for pro sim drivers. Engineered with TRUEFORCE feedback technology and high-performance Direct Drive, it delivers the most pure, precise, pro-level connection to the race possible. That means less latency and higher fidelity. Drive to win."
+    },
+    "highlightoverlay": {
+      "items": {
+        "item1": {
+          "title": "INTELLIGENCE MACHINE",
+          "content": "Designed with a magnetic system with contactless hall-effect sensors-so drivers get a positive, mechanical feel that accurately simulates a professional race car. Durable enough for millions of gear shifts."
+        },
+        "item2": {
+          "title": "DRIVE SIMULATION",
+          "content": "Designed with a magnetic system with contactless hall-effect sensors-so drivers get a positive, mechanical feel that accurately simulates a professional race car. Durable enough for millions of gear shifts."
+        },
+        "item3": {
+          "title": "CONFORTABLE DRIVING EXPERIENCE",
+          "content": "Designed with a magnetic system with contactless hall-effect sensors-so drivers get a positive, mechanical feel that accurately simulates a professional race car. Durable enough for millions of gear shifts."
+        }
+      }
+    },
+    "conclusionoverlay": {
+      "title": "UPGRADE TO FUTURE LEVEL"
     }
   },
   "AboutusPage": {
