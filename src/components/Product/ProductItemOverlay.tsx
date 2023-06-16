@@ -15,7 +15,7 @@ function ImageColumn({ imageSrc }: ImageColumnProps) {
   return (
     <div className="lg:w-1/4 h-full">
       <Image
-        className="object-cover w-full h-full transition ease-in-out delay-200 hover:-translate-y-1 hover:scale-110"
+        className="object-cover w-full h-[101%] transition ease-in-out delay-200 hover:-translate-y-1 hover:scale-110"
         src={imageSrc}
         alt=""
       ></Image>
@@ -29,7 +29,7 @@ export default function ProductItemOverlay() {
   return (
     <div>
       <section
-        className="relative lg:inline-flex min-h-screen overflow-hidden justify-center"
+        className="relative lg:inline-flex min-h-screen max-h-screen overflow-visible justify-center"
         id="top"
         data-section="section1"
       >
