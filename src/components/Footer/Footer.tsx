@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import LogoIcon from "@public/simAuto_logo.svg";
+import LogoIcon from "@public/ecosim_white_logo.png";
 import aerosimlogo from "@public/image/aerosimLogo.png";
 import recyclingfundlogo from "@public/image/recycling-fund_logo.png";
 import { Link, useTranslations } from "next-intl";
@@ -12,7 +12,7 @@ const Footer = () => {
     <div className="w-full md:h-[500px] lg:grid lg:grid-cols-6 gap-8 text-white bg-black">
       <div className="pl-5 lg:col-start-1 lg:col-end-4">
         <div className="m-10 " role="company logo badge">
-          <Image priority src={LogoIcon} alt="logo" />
+          <Image height={100} priority src={LogoIcon} alt="logo" />
         </div>
         <div className="flex mt-10">
           <div className="m-10 " role="company logo badge">

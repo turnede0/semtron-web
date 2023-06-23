@@ -1,40 +1,90 @@
 import * as React from "react";
 import { FunctionComponent } from "react";
 import Image from "next/image";
-import PCB_Side from "@public/image/pcb_side_2.jpg";
+import BodyWheel from "@public/image/home/body_wheel_2.png";
+import Dashboard from "@public/image/home/dashboard.png";
+import Chair from "@public/image/home/chair.png";
+import Pcb from "@public/image/home/pcb_top_3.png";
 import { useTranslations } from "next-intl";
 import { Reveal } from "@src/components/common/Reveal";
+import DesignCar from "@public/image/Design_2.jpg";
 
 interface DescriptionOverlayProps {}
 
 const DescriptionOverlay: FunctionComponent<DescriptionOverlayProps> = () => {
   const t = useTranslations("IndexPage");
   return (
-    <div className={`relative bg-themedarkblue text-black py-20`}>
-      <div className="absolute top-0 right-0 overflow-hidden h-full w-full sm:w-[50%] transition ease-in-out delay-200 hover:-translate-y-1 hover:scale-110 ">
-        <Image
-          className="object-cover scale-150"
-          src={PCB_Side}
-          alt={""}
-        ></Image>
-      </div>
-      <Reveal>
-        <div className="relative lg:w-[70%] h-[80%] flex justify-center items-center bg-themeyellow p-5 z-0 transition ease-in-out delay-200 hover:-translate-y-1 hover:scale-110">
-          <div className="block p-6 m-10">
-            <h1 className="mb-2 text-3xl font-bold  text-white leading-tight">
-              {t("descriptionoverlay.title")}
-            </h1>
-            <h5 className="mb-2 text-3xl bold  leading-tight ">
-              {t("descriptionoverlay.subtitle")}
-            </h5>
-            <div className="w-full flex lg:justify-end my-10">
-              <p className="lg:w-[70%]">
-                {t("descriptionoverlay.description")}
-              </p>
+    <div
+      className={`bg-fixed bg-black bg-cover bg-no-repeat h-screen relative`}
+      style={{
+        backgroundImage: `url(${DesignCar.src})`,
+      }}
+    >
+      <section
+        className="relative flex justify-center items-center min-h-screen z-10 max-h-full overflow-hidden -mb-1  "
+        id="top"
+        data-section="section1"
+      >
+        <div
+          className="absolute h-full bottom-0 w-full opacity-80 bg-white z-0"
+          id="bottom_gradient"
+        ></div>
+        {/* <Image
+          fill
+          className="h-full object-cover z-[-1] "
+          src={minicar}
+          alt="Logo"
+        /> */}
+        <div
+          className={`flex-col flex justify-center items-center z-[1] text-themedarkblue`}
+        >
+          <Reveal>
+            <div>
+              <div className="text-6xl text-bold m-10">
+                {t("descriptionoverlay.title")}
+              </div>
+              <div className="text-dm m-10">
+                {t("descriptionoverlay.subtitle")}
+              </div>
             </div>
-          </div>
+          </Reveal>
+          <Reveal>
+            <div className="grid grid-cols-4 gap-4">
+              <div className="w-[300px] h-[300px] bg-black text-white">
+                <Image
+                  className="object-cover w-full h-full"
+                  src={BodyWheel}
+                  alt="Logo"
+                />
+              </div>
+              <div className="w-[300px] h-[300px] bg-black text-white">
+                {" "}
+                <Image
+                  className="object-cover w-full h-full"
+                  src={Dashboard}
+                  alt="Logo"
+                />
+              </div>
+              <div className="w-[300px] h-[300px] bg-black text-white">
+                {" "}
+                <Image
+                  className="object-cover w-full h-full"
+                  src={Chair}
+                  alt="Logo"
+                />
+              </div>
+              <div className="w-[300px] h-[300px] bg-black text-white">
+                {" "}
+                <Image
+                  className="object-cover w-full h-full"
+                  src={Pcb}
+                  alt="Logo"
+                />
+              </div>
+            </div>
+          </Reveal>
         </div>
-      </Reveal>
+      </section>
     </div>
   );
 };

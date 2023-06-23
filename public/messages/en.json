@@ -1,41 +1,25 @@
 {
   "IndexPage": {
     "title": "next-intl example",
-    "shortdecription": "In-house developed tools",
-    "car": "car",
-    "asreal": "as real",
-    "sim": "sim",
+    "futurerecycling": "The Future car of Recycling",
     "explore": "Explore",
     "missionoverlay": {
-      "simauto": "sim AUto",
-      "vision": "Mission & Vision",
-      "message": "Our mission and vision for developing a car simulation using green energy and recycled materials is to create a sustainable future for our planet.",
-      "message2": "By using recycled materials in the development of the car simulation, we hope to reduce waste and promote the use of sustainable materials. Our goal is to inspire others to prioritize sustainability in their daily lives and to raise awareness of the importance of reducing our environmental impact. We envision a future where green energy and sustainable materials are the standard in the automotive industry.​",
-      "technology": "Technology",
-      "sustainable": {
-        "title": "Sustainable development",
-        "message": "Create a sustainable future for our Earth"
-      },
-      "awareness": {
-        "title": "Raising awareness​",
-        "message": "Inspire others to prioritize sustainability and to raise awareness of the importance of reducing our environmental impact"
-      },
-      "recycling": {
-        "title": "Recycling​",
-        "message": "using recycled materials to reduce waste and promote recycling of  useful material"
-      },
-      "reducing": {
-        "title": "Reducing pollution​",
-        "message": "Using recycled materials to develop car simulation, we hope to reduce waste and pollution"
-      },
+      "slogan": "DRIVE AS REAL SIMULATION",
+      "message": "Experience the thrill of driving a real car anywhere you want with this innovative driving simulator. \n\n Utilizing recycled car parts, this game provides an authentic driving experience that is both fun and eco-friendly.​",
+      "technology": "MORE ON DRIVE AS REAL TECHNOLOGY",
+
       "spotlight": {
         "title": "Spotlight"
       }
     },
     "descriptionoverlay": {
-      "title": "What we do",
-      "subtitle": "Our holistic approach",
-      "description": "Our approach to developing a car simulation using green energy and recycled materials is to prioritize sustainability and environmental consciousness throughout the entire process. We start by sourcing recycled materials for the construction of the car simulation, ensuring that the materials we use have minimal impact on the environment. We then incorporate green energy sources to reduce our carbon footprint and promote renewable energy. Our team works to optimize the energy efficiency of the car simulation to further minimize its impact on the environment. We aim to demonstrate that sustainable practices can be integrated into everyday technologies such as cars, and that they can be both practical and environmentally responsible."
+      "title": "BEYOND THE EDGE",
+      "subtitle": "Founded in 2023, sim auto is the recycling driving simulation company"
+    },
+    "product": {
+      "gear": "DRIVING SIM GEAR",
+      "slogan": "ENGINEERED TO RACE",
+      "learnMore": "Leann More"
     },
     "newsletter": {
       "join": "Join Out newsletter",

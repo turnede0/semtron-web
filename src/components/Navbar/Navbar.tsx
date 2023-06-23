@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import * as React from "react";
 import { useTranslations, Link } from "next-intl"; //Link must use next-intl
 import Image from "next/image";
-import LogoIcon from "@public/simAuto_logo.svg";
+import LogoIcon from "@public/ecosim_white_logo.png";
 import LocaleSwitcher from "@src/components/LocaleSwitcher";
 import { usePathname } from "next/navigation";
 // import NavigationLink from "../NavigationLink";
@@ -35,7 +35,7 @@ export default function Navbar() {
       ></div>
       <header className="relative bg-transparent sm:h-20 flex items-center w-full">
         <div className="container px-2 mx-auto flex items-center justify-between z-40 lg:border-b-4 border-white">
-          <div className="mt-2 w-[500px] md:w-[200px]">
+          <div className="mt-10 w-[300px] md:w-[200px]">
             <Link href="#">
               <Image src={LogoIcon} alt="Logo" />
             </Link>
@@ -45,7 +45,7 @@ export default function Navbar() {
               className={`
                 ${
                   active
-                    ? "fixed top-0 left-0 w-10/12 lg:w-full min-h-screen bg-themedarkblue lg:bg-transparent z-40  lg:relative lg:h-full"
+                    ? "fixed top-0 left-0 w-10/12 lg:w-full min-h-screen bg-black lg:bg-transparent z-40  lg:relative lg:h-full"
                     : "-left-80 "
                 }
                 group text-white uppercase text-lg ease-in-out duration-150 lg:flex lg:items-center
@@ -132,7 +132,7 @@ export default function Navbar() {
                     ? "outline-none ring-2 ring-inset ring-gray-100 bg-white"
                     : ""
                 }
-                group fixed lg:hidden flex-col p-5 right-0 top-0  inline-flex items-center justify-center bg-themedarkblue
+                group fixed lg:hidden flex-col p-5 right-0 top-0  inline-flex items-center justify-center bg-black
               `}
               onClick={handleMenuClick}
             >

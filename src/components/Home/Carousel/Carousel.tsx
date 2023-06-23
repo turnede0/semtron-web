@@ -12,8 +12,8 @@ import { Reveal } from "@src/components/common/Reveal";
 export const Carousel = () => {
   const t = useTranslations("IndexPage");
   return (
-    <div className="bg-white">
-      <div className="py-20 relative">
+    <div className="">
+      <div className="py-20 relative bg-white z-10">
         <h1 className="my-20">
           <span className="text-3xl">
             {t("missionoverlay.spotlight.title")}

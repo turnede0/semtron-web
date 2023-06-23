@@ -5,6 +5,7 @@ import { MissionOverlay } from "@src/components/Home/MissionOverlay";
 import DescriptionOverlay from "@src/components/Home/DescriptionOverlay";
 import { Carousel } from "@src/components/Home/Carousel/Carousel";
 import { NewsletterRegister } from "@src/components/Home/NewsletterRegister";
+import ProductOverlay from "@src/components/Home/ProductOverlay";
 
 export default function IndexPage() {
   return (
@@ -12,6 +13,7 @@ export default function IndexPage() {
       <HomeOverlay />
       <MissionOverlay />
       <DescriptionOverlay />
+      <ProductOverlay />
       <Carousel />
       <NewsletterRegister />
 
