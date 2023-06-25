@@ -3,7 +3,7 @@
 import React from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { Josefin_Sans } from "@next/font/google";
-import HomeOne from "@public/image/R56-on-ride.jpg";
+import HomeOne from "@public/image/home/car_12.jpg";
 
 import { useRef } from "react";
 import { Reveal } from "../common/Reveal";
@@ -44,7 +44,7 @@ export const HomeOverlay = () => {
                   : "text-4xl md:text-6xl lg:text-7xl"
               }`}
             >
-              <h6 className={`${josefin_Sans.className} w-[500px]`}>
+              <h6 className={`${josefin_Sans.className} lg:w-[500px]`}>
                 <span className="text-themeyellow ">
                   {t("futurerecycling")}{" "}
                 </span>

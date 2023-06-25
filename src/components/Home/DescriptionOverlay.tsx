@@ -7,7 +7,7 @@ import Chair from "@public/image/home/chair.png";
 import Pcb from "@public/image/home/pcb_top_3.png";
 import { useTranslations } from "next-intl";
 import { Reveal } from "@src/components/common/Reveal";
-import DesignCar from "@public/image/Design_2.jpg";
+import DesignCar from "@public/image/home/car_22.jpg";
 
 interface DescriptionOverlayProps {}
 
@@ -15,7 +15,7 @@ const DescriptionOverlay: FunctionComponent<DescriptionOverlayProps> = () => {
   const t = useTranslations("IndexPage");
   return (
     <div
-      className={`bg-fixed bg-black bg-cover bg-no-repeat h-screen relative`}
+      className={`bg-fixed bg-black bg-cover bg-no-repeat lg:h-screen relative`}
       style={{
         backgroundImage: `url(${DesignCar.src})`,
       }}
@@ -36,7 +36,7 @@ const DescriptionOverlay: FunctionComponent<DescriptionOverlayProps> = () => {
           alt="Logo"
         /> */}
         <div
-          className={`flex-col flex justify-center items-center z-[1] text-themedarkblue`}
+          className={`flex-col flex justify-center items-center z-[1] my-10 text-themedarkblue`}
         >
           <Reveal>
             <div>
@@ -49,15 +49,15 @@ const DescriptionOverlay: FunctionComponent<DescriptionOverlayProps> = () => {
             </div>
           </Reveal>
           <Reveal>
-            <div className="grid grid-cols-4 gap-4">
-              <div className="w-[300px] h-[300px] bg-black text-white">
+            <div className="grid lg:grid-cols-4 gap-4">
+              <div className="w-[300px] h-[300px] bg-black text-white  transition ease-in-out delay-200 hover:scale-110">
                 <Image
                   className="object-cover w-full h-full"
                   src={BodyWheel}
                   alt="Logo"
                 />
               </div>
-              <div className="w-[300px] h-[300px] bg-black text-white">
+              <div className="w-[300px] h-[300px] bg-black text-white transition ease-in-out delay-200 hover:scale-110">
                 {" "}
                 <Image
                   className="object-cover w-full h-full"
@@ -65,7 +65,7 @@ const DescriptionOverlay: FunctionComponent<DescriptionOverlayProps> = () => {
                   alt="Logo"
                 />
               </div>
-              <div className="w-[300px] h-[300px] bg-black text-white">
+              <div className="w-[300px] h-[300px] bg-black text-white transition ease-in-out delay-200 hover:scale-110">
                 {" "}
                 <Image
                   className="object-cover w-full h-full"
@@ -73,7 +73,7 @@ const DescriptionOverlay: FunctionComponent<DescriptionOverlayProps> = () => {
                   alt="Logo"
                 />
               </div>
-              <div className="w-[300px] h-[300px] bg-black text-white">
+              <div className="w-[300px] h-[300px] bg-black text-white transition ease-in-out delay-200 hover:scale-110">
                 {" "}
                 <Image
                   className="object-cover w-full h-full"

@@ -12,52 +12,48 @@ import { Reveal } from "@src/components/common/Reveal";
 export const Carousel = () => {
   const t = useTranslations("IndexPage");
   return (
-    <div className="">
-      <div className="py-20 relative bg-white z-10">
-        <h1 className="my-20">
-          <span className="text-3xl">
-            {t("missionoverlay.spotlight.title")}
-          </span>
-        </h1>
-        {/* <div className="relative"> */}
-        <Swiper
-          className="relative"
-          slidesPerView={4}
-          spaceBetween={0}
-          breakpoints={{
-            0: {
-              slidesPerView: 1,
-            },
+    <div className="py-20 relative bg-white z-10">
+      <h1 className="my-20">
+        <span className="text-3xl">{t("missionoverlay.spotlight.title")}</span>
+      </h1>
+      {/* <div className="relative"> */}
+      <Swiper
+        className="relative"
+        slidesPerView={2}
+        spaceBetween={0}
+        breakpoints={{
+          0: {
+            slidesPerView: 1,
+          },
 
-            865: {
-              slidesPerView: 1,
-            },
-            1000: {
-              slidesPerView: 2,
-            },
-            1500: {
-              slidesPerView: 3,
-            },
-            1700: {
-              slidesPerView: 4,
-            },
-          }}
-          centeredSlides={true}
-          pagination={{
-            clickable: true,
-          }}
-          modules={[Pagination]}
-        >
-          {News.map((item, index) => (
-            <SwiperSlide className="relative" key={index}>
-              <Reveal>
-                <CarouselCard item={item} />
-              </Reveal>
-            </SwiperSlide>
-          ))}
-        </Swiper>
-        {/* </div> */}
-      </div>
+          865: {
+            slidesPerView: 1,
+          },
+          1000: {
+            slidesPerView: 2,
+          },
+          1500: {
+            slidesPerView: 3,
+          },
+          1700: {
+            slidesPerView: 4,
+          },
+        }}
+        centeredSlides={true}
+        pagination={{
+          clickable: true,
+        }}
+        modules={[Pagination]}
+      >
+        {News.map((item, index) => (
+          <SwiperSlide className="relative" key={index}>
+            <Reveal>
+              <CarouselCard item={item} />
+            </Reveal>
+          </SwiperSlide>
+        ))}
+      </Swiper>
+      {/* </div> */}
     </div>
   );
 };

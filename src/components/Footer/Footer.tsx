@@ -76,7 +76,7 @@ const Footer = () => {
       </div>
 
       <div className=" border-t-2 col-start-1 col-end-7">
-        <h6 className="font-medium text-gray-400 py-5 px-2">sim AUto@2023</h6>
+        <h6 className="font-medium text-gray-400 py-5 px-2">eco sim@2023</h6>
       </div>
     </div>
   );

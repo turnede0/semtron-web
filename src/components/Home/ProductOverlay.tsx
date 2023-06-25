@@ -21,41 +21,47 @@ export default function ProductOverlay() {
 
   return (
     <div>
-      <div className="">
+      <div className="min-h-screen">
         <section
-          className="relative min-h-screen z-10 max-h-full overflow-hidden  "
+          className="relative flex lg:block justify-center items-end z-10 min-h-screen overflow-hidden  "
           id="top"
           data-section="section1"
         >
-          <div className="absolute right-0 w-4/5 h-screen z-[-1]">
-            <Image className="object-cover " src={Body_side_human} alt="Logo" />
+          <div className="absolute right-0 lg:w-4/5 h-screen z-[-1]">
+            <Image
+              className="lg:overflow-cover"
+              src={Body_side_human}
+              alt="Logo"
+            />
           </div>
           <div className="absolute left-0 w-full">
             <div className="relative flex">
-              <div className="w-1/4 h-screen bg-black"></div>
+              <div className="lg:w-1/4 h-screen bg-black"></div>
               <div className="w-[400px] h-screen bg-gradient-to-r from-black to-transparents"></div>
             </div>
           </div>
 
-          <div className={` w-2/5 h-screen motion-safe:animate-fadeIn p-20 `}>
+          <div
+            className={`lg:w-2/5 lg:h-screen motion-safe:animate-fadeIn lg:p-20 `}
+          >
             <div
-              className={`${bruno_Ace.className} text-white w-[300px] text-5xl lg:text-5xl text-bold`}
+              className={`${bruno_Ace.className} text-white w-[400px] text-4xl lg:text-6xl text-bold`}
             >
               {t("product.gear")}
             </div>
             <div
-              className={`text-white text-2xl my-10 w-[300px] ${josefin_Sans.className}`}
+              className={`text-white text-2xl my-10 lg:w-[300px] ${josefin_Sans.className}`}
             >
               {t("product.slogan")}
             </div>
             <Link href="/product">
               <span
-                className={`border-themeyellow border-solid border-8 text-2xl text-bold p-2 text-themeyellow my-10 ${josefin_Sans.className}`}
+                className={`border-themeyellow border-solid border-4 text-xl text-bold p-3 text-themeyellow my-10 transition duration-300 ease-in-out hover:bg-themeyellow hover:text-white ${josefin_Sans.className}`}
               >
                 {t("product.learnMore")}
               </span>
             </Link>
-            <h1 className="w-[100px] h-[15px] font-bold bg-white border-t-2 my-10"></h1>
+            <h1 className="w-[80px] h-[10px] font-bold bg-white border-t-2 my-10"></h1>
           </div>
         </section>
       </div>

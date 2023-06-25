@@ -4,7 +4,7 @@
 import * as React from "react";
 import Image from "next/image";
 import { Link, useTranslations } from "next-intl";
-import DesignCar from "@public/image/Design_2.jpg";
+import DesignCar from "@public/image/home/car_22.jpg";
 import { Reveal } from "@src/components/common/Reveal";
 import { Josefin_Sans, Poppins } from "@next/font/google";
 
@@ -23,7 +23,7 @@ export const MissionOverlay = () => {
   const t = useTranslations("IndexPage");
   return (
     <div
-      className={`bg-fixed bg-black bg-cover bg-no-repeat h-screen`}
+      className={`bg-fixed bg-black bg-cover bg-no-repeat min-h-screen whitespace-pre-line`}
       style={{
         backgroundImage: `url(${DesignCar.src})`,
       }}
@@ -39,19 +39,19 @@ export const MissionOverlay = () => {
         data-section="section1"
       >
         <div
-          className={`flex-col w-full flex justify-center items-start my-10`}
+          className={`flex-col w-full flex justify-center items-start my-20`}
         >
-          <div className="motion-safe:animate-fadeIn">
+          <div className="w-[300px]">
             <span
-              className={`text-themeyellow text-2xl leading-10  lg:text-4xl ${josefin_Sans.className}`}
+              className={`text-themeyellow text-2xl leading-10  lg:text-3xl ${josefin_Sans.className}`}
             >
               {t("missionoverlay.slogan")}
             </span>
           </div>
-          <h1 className="w-[100px] h-[15px] font-bold bg-white border-t-2 my-10"></h1>
+          <h1 className="w-[80px] h-[10px] font-bold bg-white border-t-2 my-10"></h1>
 
           <span
-            className={`${poppins.className} md:w-[400px] text-white text-lg mb-10`}
+            className={`${poppins.className} md:w-[300px] text-white text-md mb-10`}
           >
             <Reveal>
               <>{t("missionoverlay.message")}</>
