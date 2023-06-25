@@ -15,7 +15,7 @@ export default function ProductHighlightOverlay() {
         id="top"
         data-section="section1"
       >
-        <div className="flex justify-around items-start h-full w-full pt-[5%] px-36">
+        <div className="flex flex-col lg:flex-row justify-center items-center h-full w-full pt-[5%] lg:px-36">
           {/*DescriptionCard 1*/}
           <DescriptionCard
             imageSrc={circuit_board}

@@ -3,33 +3,44 @@ import React from "react";
 import Image from "next/image";
 import body_full_nbg from "@public/image/body_full_nbg.png";
 import { Reveal } from "../common/Reveal";
+import { Josefin_Sans } from "@next/font/google";
+
+const josefin_Sans = Josefin_Sans({
+  subsets: ["latin"],
+  weight: "700",
+  variable: "--font-anton",
+});
 
 export default function ProductHomeOverlay() {
   const t = useTranslations("ProductPage.homeoverlay");
 
   return (
-    <div>
-      <section
-        className="relative flex min-h-screen max-h-full overflow-hidden bg-black justify-center items-center"
-        id="top"
-        data-section="section1"
+    <section
+      className="relative min-h-screen min-w-screen overflow-hidden bg-black flex justify-center items-center"
+      id="top"
+      data-section="section1"
+    >
+      {/*Main Text*/}
+      <div
+        className={`absolute left-0 w-96 text-white text-7xl overflow-visible font-bold z-10 `}
       >
-        {/*Main Text*/}
-        <div className="absolute w-96 text-white text-[80px] overflow-visible transform translate-x-[-450px] font-bold z-10">
-          <Reveal>
-            <h1 className="font-sans">{t("title")}</h1>
-          </Reveal>
-        </div>
-        {/*Yellow Circle*/}
-        <div className="h-[850px] w-[850px] rounded-full bg-yellow-500 transform translate-y-[150px] justify-center items-center">
-          {/*Image inside Circle*/}
+        <Reveal>
+          <h1 className={`${josefin_Sans.className}`}>{t("title")}</h1>
+        </Reveal>
+      </div>
+      {/*Yellow Circle*/}
+      {/* <Reveal> */}
+      <div className="absolute top-36 h-[650px] w-[650px] rounded-full bg-yellow-500 flex justify-center items-center">
+        {/*Image inside Circle*/}
+        <div className="">
           <Image
-            className="transform translate-x-[-50px] translate-y-[70px]"
+            className="h-[400px] object-contain"
             src={body_full_nbg}
             alt=""
           ></Image>
         </div>
-      </section>
-    </div>
+      </div>
+      {/* </Reveal> */}
+    </section>
   );
 }

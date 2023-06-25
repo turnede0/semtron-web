@@ -84,15 +84,15 @@
       "items": {
         "item1": {
           "title": "INTELLIGENCE MACHINE",
-          "content": "Designed with a magnetic system with contactless hall-effect sensors-so drivers get a positive, mechanical feel that accurately simulates a professional race car. Durable enough for millions of gear shifts."
+          "content": "The PCB can be designed to integrate with sensors and actuators to provide a realistic driving experience. Proper PCB design and implementation can greatly enhance the functionality and accuracy of a car simulator gear."
         },
         "item2": {
           "title": "DRIVE SIMULATION",
-          "content": "Designed with a magnetic system with contactless hall-effect sensors-so drivers get a positive, mechanical feel that accurately simulates a professional race car. Durable enough for millions of gear shifts."
+          "content": "By incorporating advanced technologies such as motion simulation, force feedback, and high-resolution graphics, the simulator can create a realistic environment that mimics driving on actual roads."
         },
         "item3": {
           "title": "CONFORTABLE DRIVING EXPERIENCE",
-          "content": "Designed with a magnetic system with contactless hall-effect sensors-so drivers get a positive, mechanical feel that accurately simulates a professional race car. Durable enough for millions of gear shifts."
+          "content": "Smooth ride and ergonomic seating, The vehicle's suspension, steering, and braking systems must work together seamlessly to minimize jarring movements and vibrations."
         }
       }
     },
