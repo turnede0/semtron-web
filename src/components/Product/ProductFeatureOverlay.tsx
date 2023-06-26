@@ -10,7 +10,7 @@ interface TagProp {
 
 function Tag({ tag }: TagProp) {
   return (
-    <div className="inline-block rounded-sm bg-gray-800 p-3 w-full transition ease-in-out delay-200 hover:-translate-y-1 hover:scale-110">
+    <div className="inline-block rounded-sm bg-gray-800 p-3 my-3 w-full transition ease-in-out delay-200 hover:-translate-y-1 hover:scale-110">
       <Reveal>
         <div className="text-left text-xl font-extrabold text-zinc-50">
           +{tag}
@@ -46,9 +46,9 @@ export default function ProductFeatureOverlay() {
               alt=""
             />
           </div>
-          <div className="h-full w-[400px] z-10 flex flex-col justify-around items-start overflow-visible py-24 mx-10">
+          <div className="h-full w-[400px] z-10 flex flex-col justify-start items-start overflow-visible py-24 mx-10">
             {/*Sub Title*/}
-            <div className=" pl-3">
+            <div className="">
               <div className="rounded-lg bg-gray-200 p-3 flex transition ease-in-out delay-200 hover:-translate-y-1 hover:scale-110">
                 <Reveal>
                   <h1 className="text-center text-4xl font-extrabold pr-3">
@@ -63,7 +63,7 @@ export default function ProductFeatureOverlay() {
               </div>
             </div>
             {/*Content*/}
-            <div className="pr-10">
+            <div className="pr-10 my-10">
               <Reveal>
                 <p className="text-zinc-50">{t("content")}</p>
               </Reveal>

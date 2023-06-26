@@ -7,8 +7,8 @@ export default function ContactOverlay() {
 
   return (
     <div>
-      <section className="text-themedarkblue body-font relative lg:flex items-center min-h-screen lg:h-screen justify-center grid lg:grid-cols-2">
-        <div className="w-full h-full  inset-0 bg-themedarkblue">
+      <section className="text-themedarkblue body-font relative lg:flex items-center min-h-screen lg:min-h-screen justify-center grid lg:grid-cols-2 bg-black">
+        <div className="w-full h-screen  inset-0 bg-themedarkblue">
           <iframe
             width="100%"
             height="100%"
@@ -20,7 +20,7 @@ export default function ContactOverlay() {
           <div className="max-w-6xl mx-auto sm:px-6 lg:px-8">
             <div className="overflow-hidden">
               <Reveal>
-                <div className="">
+                <div className="my-10">
                   <div className=" mr-2  sm:rounded-lg">
                     <h1 className="text-4xl sm:text-4xl text-themedarkblue font-extrabold tracking-tight">
                       {t("getintouch")}

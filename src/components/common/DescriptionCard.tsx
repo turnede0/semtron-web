@@ -13,8 +13,8 @@ export default function DescriptionCard({
   content,
 }: ItemProps) {
   return (
-    <div className="lg:w-80 justify-around items-center text-zinc-50 p-1 font-poppins transition ease-in-out delay-200 hover:-translate-y-1 hover:scale-110">
-      <div className="w-full h-80 relative overflow-hidden">
+    <div className="lg:w-80 h-[700px] justify-around items-center text-zinc-50 p-1 font-poppins transition ease-in-out delay-200 hover:-translate-y-1 hover:scale-110">
+      <div className="w-full h-[300px] relative overflow-hidden">
         <Image
           className="absolute top-0 left-0 w-full h-full object-cover"
           src={imageSrc}

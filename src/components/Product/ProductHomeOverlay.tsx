@@ -1,7 +1,7 @@
 import { useTranslations } from "next-intl";
 import React from "react";
 import Image from "next/image";
-import body_full_nbg from "@public/image/body_full_nbg.png";
+import body_full_nbg from "@public/image/product/product_1.png";
 import { Reveal } from "../common/Reveal";
 import { Josefin_Sans } from "@next/font/google";
 
@@ -22,15 +22,15 @@ export default function ProductHomeOverlay() {
     >
       {/*Main Text*/}
       <div
-        className={`absolute left-0 w-96 text-white text-7xl overflow-visible font-bold z-10 `}
+        className={`absolute left-0 w-96 text-white text-7xl font-bold z-10`}
       >
         <Reveal>
-          <h1 className={`${josefin_Sans.className}`}>{t("title")}</h1>
+          <h1 className={`${josefin_Sans.className} my-2`}>{t("title")}</h1>
         </Reveal>
       </div>
       {/*Yellow Circle*/}
       {/* <Reveal> */}
-      <div className="absolute top-36 h-[650px] w-[650px] rounded-full bg-yellow-500 flex justify-center items-center">
+      <div className="absolute top-32 h-[650px] w-[650px] rounded-full bg-yellow-500 flex justify-center items-center">
         {/*Image inside Circle*/}
         <div className="">
           <Image

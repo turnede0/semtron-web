@@ -30,7 +30,7 @@ export default function TechnologyDescriptionOverlay() {
                 {t("descriptionoverlay.title")}
               </h1>
               <div className="w-full flex">
-                <p className="lg:w-[95%] text-white whitespace-pre-line">
+                <p className="lg:w-[70%] text-white whitespace-pre-line my-10">
                   {t("descriptionoverlay.description")}
                 </p>
               </div>

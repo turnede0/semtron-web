@@ -1,7 +1,7 @@
 import React from "react";
 import Image from "next/image";
 import { useTranslations } from "next-intl";
-import Body_full from "@public/image/body_full.jpg";
+import Body_full from "@public/image/product/product_2.jpg";
 
 export default function ProductDescriptionOverlay() {
   const t = useTranslations("ProductPage");

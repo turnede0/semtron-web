@@ -11,17 +11,21 @@ export default function Overlay(props: OverlayType) {
   return (
     <div className="">
       <section
-        className="relative flex justify-center items-center min-h-screen z-10 max-h-full overflow-hidden  bg-themedarkblue"
+        className="relative flex justify-center items-center min-h-screen z-10 max-h-full overflow-hidden  bg-black"
         id="top"
         data-section="section1"
       >
         <div
+          className="absolute h-1/3 bottom-0 w-full opacity-100 bg-gradient-to-t from-themedarkblue to-transparent"
+          id="bottom_gradient"
+        ></div>
+        {/* <div
           className={`
           ${props.image ? "opacity-80" : ""}
           absolute h-full bottom-0 w-full bg-themedarkblue z-0
         `}
           id="bottom_gradient"
-        ></div>
+        ></div> */}
         {props.image && (
           <Image
             fill
