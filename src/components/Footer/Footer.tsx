@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import LogoIcon from "@public/ecosim_white_logo.png";
+import LogoIcon from "@public/logo/ecosim_white_logo.png";
 import aerosimlogo from "@public/image/aerosimLogo.png";
 import recyclingfundlogo from "@public/image/recycling-fund_logo.png";
 import { Link, useTranslations } from "next-intl";

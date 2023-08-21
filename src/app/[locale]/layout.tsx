@@ -48,9 +48,9 @@ export default async function LocaleLayout({
         // suppressHydrationWarning={true}
       >
         <NextIntlClientProvider locale={locale} messages={messages}>
-          <Navbar />
+          {/* <Navbar /> */}
           {children}
-          <Footer />
+          {/* <Footer /> */}
         </NextIntlClientProvider>
       </body>
     </html>

@@ -1,5 +1,7 @@
 import { ReactNode } from "react";
 import React from "react";
+import Navbar from "@src/components/Navbar/Navbar";
+import Footer from "@src/components/Footer/Footer";
 
 type Props = {
   children?: ReactNode;
@@ -10,7 +12,9 @@ export default function PageLayout({ children }: Props) {
   return (
     <div className="relative flex grow flex-col bg-slate-850">
       <div className="relative flex grow flex-col">
+        <Navbar />
         <div>{children}</div>
+        <Footer />
       </div>
     </div>
   );
