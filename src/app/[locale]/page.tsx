@@ -5,6 +5,8 @@ import { VideoOverlay } from "@src/components/Info/Video_overlay";
 import { InfoElec } from "@src/components/Info/info_elec";
 import { InfoHealth } from "@src/components/Info/info_health";
 import { Info } from "@src/components/Info/Info";
+import MarqueeSelection from "@src/components/MarqueeSelection";
+
 // import { HomeOverlay } from "@src/components/Home/HomeOverlay";
 // import { MissionOverlay } from "@src/components/Home/MissionOverlay";
 // import DescriptionOverlay from "@src/components/Home/DescriptionOverlay";
@@ -30,7 +32,9 @@ export default function IndexPage() {
           ),
         })}
       </p> */}
+
       <VideoOverlay />
+      <MarqueeSelection />
       <InfoRobot />
       <InfoElec />
       <InfoHealth />

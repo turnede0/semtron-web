@@ -2,33 +2,41 @@
 import * as React from "react";
 // import { useState, useRef } from "react";
 import { useLocale, useTranslations } from "next-intl";
-import ReactPlayer from "react-player";
+import ReactPlayer from "react-player/lazy";
 export const VideoOverlay = () => {
   const t = useTranslations("HomePage");
   const locale = useLocale();
   return (
     <div className="h-screen w-screen">
       <section
-        className="relative z-10 block min-w-full h-full max-h-full overflow-hidden -mb-1  "
+        className="relative z-10 block min-w-full h-full max-h-full overflow-hidden -mb-1"
         id="top"
         data-section="section1"
       >
-        <ReactPlayer
-          className="min-w-full min-h-full max-h-full object-cover"
-          playing
-          loop
-          muted
-          url="https://www.youtube.com/watch?v=7AszYpTnrzc&t=27s"
-        />
+        <div
+          className="absolute h-2/3 top-0 w-full opacity-95 bg-gradient-to-t from-transparent to-black"
+          id="top_gradient"
+        ></div>
+        <div className="min-w-full min-h-full max-h-full object-cover">
+          <ReactPlayer
+            width="100vw"
+            height="100vh"
+            playing
+            loop
+            muted
+            url="https://www.youtube.com/watch?v=7AszYpTnrzc&t=27s"
+          />
+        </div>
+
         {/** black overlay start*/}
         <div className="absolute left-0 top-0 w-full h-full flex justify-between">
           <div className="relative flex w-1/2">
-            <div className="w-3/12 h-screen bg-black"></div>
+            <div className="w-2/12 h-screen bg-black"></div>
             <div className="w-1/12 h-screen bg-gradient-to-r from-black to-transparents"></div>
           </div>
           <div className="relative flex justify-end  w-1/2">
             <div className="w-1/12 h-screen bg-gradient-to-l from-black to-transparents"></div>
-            <div className="w-3/12 h-screen bg-black"></div>
+            <div className="w-2/12 h-screen bg-black"></div>
           </div>
         </div>
         {/** black overlay end */}

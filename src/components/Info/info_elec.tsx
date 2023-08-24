@@ -9,7 +9,7 @@ import { useLocale, useTranslations } from "next-intl";
 export const InfoElec = () => {
   const targetRef = useRef(null);
   const [isVisible, setIsVisible] = useState(false);
-  const callbackFunction = (entries) => {
+  const callbackFunction = (entries: any) => {
     const [entry] = entries; //const entry = entries[0];
     setIsVisible(entry.isIntersecting);
   };
@@ -72,7 +72,7 @@ export const InfoElec = () => {
               <div id="info_header">
                 <div className="mb-2 border-t-4 w-[30px]"></div>
                 <h5 className="text-sm md:text-xl font-black">
-                  Electronic Component
+                  Integrated Circuit Design
                 </h5>
               </div>
               <div className="text-3xl md:text-4xl lg:text-7xl xl:text-6xl  py-12 2xl:py-30">
