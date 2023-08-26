@@ -10,7 +10,7 @@ type Props = {
 
 export default function PageLayout({ children }: Props) {
   return (
-    <div className="relative flex grow flex-col bg-slate-850">
+    <div className="relative flex grow flex-col bg-slate-900">
       <div className="relative flex grow flex-col">
         <Navbar />
         <div>{children}</div>

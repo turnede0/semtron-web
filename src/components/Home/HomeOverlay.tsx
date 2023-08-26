@@ -1,58 +1,33 @@
 /*  ./components/Navbar.jsx     */
 "use client";
-import React from "react";
-import { useLocale, useTranslations } from "next-intl";
-import { Josefin_Sans } from "@next/font/google";
-import HomeOne from "@public/image/home/car_12.jpg";
 
-import { useRef } from "react";
-import { Reveal } from "../common/Reveal";
-
-const josefin_Sans = Josefin_Sans({
-  subsets: ["latin"],
-  weight: "700",
-  variable: "--font-anton",
-});
+import courseMaterial from "@public/image/poster/courseMaterial.png";
+import Image from "next/image";
 
 export const HomeOverlay = () => {
-  const locale = useLocale();
-  const ImageRef = useRef(null);
-
-  const t = useTranslations("IndexPage");
-
   return (
-    <div
-      ref={ImageRef}
-      className={`bg-fixed bg-black bg-cover bg-no-repeat h-screen`}
-      style={{
-        backgroundImage: `url(${HomeOne.src})`,
-      }}
-    >
-      <Reveal>
-        <section
-          className="relative flex justify-center items-center min-h-screen z-10  max-h-full overflow-hidden -mb-1  "
-          id="top"
-          data-section="section1"
-        >
-          <div
-            className={`flex-col w-full flex  items-start motion-safe:animate-fadeIn mx-20`}
-          >
-            <div
-              className={`text-white ${
-                locale == "hk"
-                  ? "text-5xl md:text-7xl lg:text-8xl"
-                  : "text-4xl md:text-6xl lg:text-7xl"
-              }`}
-            >
-              <h6 className={`${josefin_Sans.className} lg:w-[500px]`}>
-                <span className="text-themeyellow ">
-                  {t("futurerecycling")}{" "}
-                </span>
-              </h6>
-            </div>
-          </div>
-        </section>
-      </Reveal>
+    <div className="w-screen h-[95vh] bg-slate-900 flex flex-col items-center justify-center">
+      <div className=" flex flex-row justify-around items-around w-[95%] sm:p-5 sm:mt-10">
+        <div className="flex flex-col justify-center items-center sm:items-start w-[70%] text-center sm:text-left">
+          <span className="text-white sm:text-[70px] text-[40px] font-bold">
+            針對K-12的全方位
+          </span>
+          <span className="text-white sm:text-[70px] text-[40px] font-bold mb-7">
+            芯片工程師培訓方案
+          </span>
+          <span className="text-white sm:text-2xl text-xl mb-7">
+            協助學生成為未來 核心科技的締造者
+          </span>
+          <button className="w-[200px]  bg-green-400 text-4xl font-bold text-white py-3">
+            了解更多
+          </button>
+        </div>
+        <Image
+          className="w-[80%] m-5 hidden sm:block"
+          src={courseMaterial}
+          alt="course material"
+        ></Image>
+      </div>
     </div>
   );
 };

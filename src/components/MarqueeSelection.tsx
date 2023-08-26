@@ -14,9 +14,11 @@ import school_10 from "@public/image/school/school_10.png";
 
 export default function MarqueeSelection() {
   return (
-    <div className="flex flex-col">
-      <span className="mx-auto text-4xl font-bold">Our Client</span>
-      <Marquee className="min-h-[100px] bg-white w-full" pauseOnHover gradient>
+    <div className="flex flex-col bg-slate-800">
+      <span className="mx-auto sm:text-4xl text-3xl font-bold text-white mt-5">
+        我們與多間本地學校合作
+      </span>
+      <Marquee className="min-h-[100px] w-full" autoFill>
         <Image className="m-5" src={school_1} alt="school_1" />
         <Image className="m-5" src={school_2} alt="school_2" />
         <Image className="m-5" src={school_3} alt="school_3" />
@@ -25,7 +27,7 @@ export default function MarqueeSelection() {
         <Image className="m-5" src={school_6} alt="school_6" />
         <Image className="m-5" src={school_7} alt="school_7" />
         <Image className="m-5" src={school_8} alt="school_8" />
-        <Image className="m-5" src={school_9} alt="school_9" />
+        {/*  <Image className="m-5" src={school_9} alt="school_9" /> */}
         <Image className="m-5" src={school_10} alt="school_10" />
       </Marquee>
     </div>
