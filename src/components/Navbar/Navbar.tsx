@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import * as React from "react";
 import { useTranslations, Link } from "next-intl"; //Link must use next-intl
 import Image from "next/image";
-import LogoIcon from "@public/logo/ecosim_white_logo.png";
+import LogoIcon from "@public/image/semtron_text_logo.png";
 import LocaleSwitcher from "@src/components/LocaleSwitcher";
 import { usePathname } from "next/navigation";
 // import NavigationLink from "../NavigationLink";
@@ -35,7 +35,7 @@ export default function Navbar() {
       ></div>
       <header className="relative bg-transparent sm:h-20 flex items-center w-full">
         <div className="container px-2 mx-auto flex items-center justify-between z-40 lg:border-b-4 border-white">
-          <div className="mt-10 w-[300px] md:w-[200px]">
+          <div className=" w-[300px] md:w-[200px]">
             <Link href="#">
               <Image src={LogoIcon} alt="Logo" />
             </Link>
@@ -51,7 +51,7 @@ export default function Navbar() {
                 group text-white uppercase text-lg ease-in-out duration-150 lg:flex lg:items-center
               `}
             >
-              <ul className={`${active ? "" : "hidden lg:contents"}`}>
+              <ul className={`${active ? "" : "hidden lg:contents"} `}>
                 <li className="h-[100px] lg:hidden">
                   <div className="m-6 h-10 w-[200px] sm:h-10 transition">
                     <Image src={LogoIcon} alt="Logo" />
@@ -122,6 +122,7 @@ export default function Navbar() {
                     {t("contact")}
                   </Link>
                 </li>
+
                 <LocaleSwitcher />
               </ul>
             </nav>
