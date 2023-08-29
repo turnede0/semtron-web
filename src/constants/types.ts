@@ -1,5 +1,5 @@
 export type CarouselCardType = {
-  id: string;
+  id?: string;
   url: string;
   image_src: string;
   writer?: string;

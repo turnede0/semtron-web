@@ -1,12 +1,9 @@
 /*  ./components/Navbar.jsx     */
 "use client";
 
-import courseMaterial from "@public/image/poster/courseMaterial.png";
-import Image from "next/image";
-
 export const HomeOverlay = () => {
   return (
-    <div className="w-screen h-[95vh] bg-slate-900 flex flex-col items-center justify-center">
+    <div className="w-screen h-[95vh] bg-slate-900 flex flex-col items-center justify-center z-50">
       <div className=" flex flex-row justify-around items-around w-[95%] sm:p-5 sm:mt-10">
         <div className="flex flex-col justify-center items-center sm:items-start w-[70%] text-center sm:text-left">
           <span className="text-white sm:text-[70px] text-[40px] font-bold">
@@ -22,11 +19,11 @@ export const HomeOverlay = () => {
             了解更多
           </button>
         </div>
-        <Image
+        {/*         <Image
           className="w-[80%] m-5 hidden sm:block"
           src={courseMaterial}
           alt="course material"
-        ></Image>
+        ></Image> */}
       </div>
     </div>
   );

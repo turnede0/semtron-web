@@ -8,7 +8,7 @@ const Footer = () => {
   const t = useTranslations("Navigation");
 
   return (
-    <div className="w-full md:h-[500px] lg:grid lg:grid-cols-6 gap-8 text-white bg-black">
+    <div className="w-full md:h-[500px] lg:grid lg:grid-cols-6 gap-8 text-white bg-black z-10">
       <div className="pl-5 lg:col-start-1 lg:col-end-4 sm:ml-10">
         <div className="mr-10 my-10" role="company logo badge">
           <Image height={100} priority src={LogoIcon} alt="logo" />

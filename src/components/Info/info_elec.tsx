@@ -5,6 +5,7 @@ import * as React from "react";
 import omron_pcb_color from "@public/image/omron_2JCIE.jpg";
 import omron_pcb_whiteline from "@public/image/omron_2JCIE_whiteline.png";
 import { useLocale, useTranslations } from "next-intl";
+import { Reveal } from "../common/Reveal";
 
 export const InfoElec = () => {
   const targetRef = useRef(null);
@@ -50,6 +51,35 @@ export const InfoElec = () => {
           }}
           ref={targetRef}
         >
+          <div className="absolute flex flex-row justify-around items-around w-[80%] sm:p-4 sm:mt-72 z-40">
+            <div className="flex flex-col justify-center items-center sm:items-start w-[70%] text-center sm:text-left">
+              <Reveal>
+                <div className="text-white sm:text-[70px] text-[40px] font-bold">
+                  針對K-12的全方位
+                </div>
+              </Reveal>
+              <Reveal>
+                <span className="text-white sm:text-[70px] text-[40px] font-bold mb-7">
+                  芯片工程師培訓方案
+                </span>
+              </Reveal>
+              <Reveal>
+                <span className="text-white sm:text-2xl text-xl mb-7">
+                  協助學生成為未來 核心科技的締造者
+                </span>
+              </Reveal>
+              <Reveal>
+                <button className="w-[200px]  bg-green-400 text-4xl font-bold text-white py-3">
+                  了解更多
+                </button>
+              </Reveal>
+            </div>
+            {/*         <Image
+          className="w-[80%] m-5 hidden sm:block"
+          src={courseMaterial}
+          alt="course material"
+        ></Image> */}
+          </div>
           <div
             className={`bg-black w-screen h-screen transform duration-2000 z-30 ${
               isVisible ? "bg-opacity-0" : "bg-opacity-95"
