@@ -3,10 +3,8 @@ import { Reveal } from "../common/Reveal";
 import Image from "next/image";
 import fpgaImage from "@public/image/home/fpga.jpg";
 import teachImage from "@public/image/home/teach.webp";
-import { useTranslations } from "next-intl";
 
 export default function StemOverlay() {
-  const t = useTranslations("IndexPage");
   return (
     <div className="h-screen w-screen">
       {" "}

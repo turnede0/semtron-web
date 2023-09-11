@@ -3,12 +3,10 @@
 "use client";
 import * as React from "react";
 import Image from "next/image";
-import { Link, useTranslations } from "next-intl";
 import omron_pcb_whiteline from "@public/image/omron_2JCIE_whiteline.png";
 import verilogImage from "@public/image/home/DFF_verilog.png";
 import pcbImage from "@public/image/home/easyeda-384_PCB3DLib_3D-PCB.png";
 import { Reveal } from "@src/components/common/Reveal";
-import { Josefin_Sans, Poppins } from "@next/font/google";
 
 const Tag = (props: { text: string }) => {
   return (
@@ -29,7 +27,6 @@ const Tag = (props: { text: string }) => {
 };
 
 export const CategoryOverlay = () => {
-  const t = useTranslations("IndexPage");
   return (
     <div
       className="bg-fixed bg-black bg-cover bg-no-repeat w-screen h-screen flex justify-center items-center relative"
