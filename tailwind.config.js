@@ -9,15 +9,16 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        themedarkblue: "#0E1E3E",
-        themeyellow: "#FFC700",
-        polaroid: "#f4f4f4",
-        omronblue: "#1c6ea9",
-        omronbluelight: "#3895eb",
-        headerblack: "#020D26",
-        blacklight: "rgba(0, 0, 0, 0.65)",
-        bkgroundblack: "#606060",
-        videooverlay: "#162239",
+        // themedarkblue: "#0E1E3E",
+        // themeyellow: "#FFC700",
+        // polaroid: "#f4f4f4",
+        // omronblue: "#1c6ea9",
+        // omronbluelight: "#3895eb",
+        // headerblack: "#020D26",
+        // blacklight: "rgba(0, 0, 0, 0.65)",
+        // bkgroundblack: "#606060",
+        // videooverlay: "#162239",
+        themeblue: "#1765F6",
       },
       boxShadow: {
         innerDefault: "inset 0 0 0 0 #166fc0;",

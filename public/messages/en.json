@@ -1,118 +1,8 @@
 {
   "IndexPage": {
     "title": "next-intl example",
-    "futurerecycling": "The Future car of Recycling",
-    "explore": "Explore",
-    "missionoverlay": {
-      "slogan": "DRIVE AS REAL SIMULATION",
-      "message": "Experience the thrill of driving a real car anywhere you want with this innovative driving simulator. \n\n Utilizing recycled car parts, this game provides an authentic driving experience that is both fun and eco-friendly.​",
-      "technology": "MORE ON DRIVE AS REAL TECHNOLOGY",
-
-      "spotlight": {
-        "title": "Spotlight"
-      }
-    },
-    "descriptionoverlay": {
-      "title": "BEYOND THE EDGE",
-      "subtitle": "Founded in 2023, eco sim is the recycling driving simulation company"
-    },
-    "product": {
-      "gear": "DRIVING SIM GEAR",
-      "slogan": "ENGINEERED TO RACE",
-      "learnMore": "Leann More"
-    },
-    "newsletter": {
-      "join": "Join Out newsletter",
-      "message": "Sign up to our newsletter and get our latest news and updates.",
-      "email": "Enter your email",
-      "subscribe": "Subscribe"
-    }
-  },
-  "TechnologyPage": {
-    "title": "Technology",
-    "subtitle": "Sustainable mechanics",
-    "speaker": "NATIONAL GEOGRAPHIC",
-    "message": "\"Similarly, the end of a car’s life doesn’t mark the end of its environmental impact. Plastics, toxic battery acids, and other products may stay in the environment.\"",
-    "pollutionoverlay": {
-      "title": "Production and Destruction",
-      "subtitle": "Environmental impacts of scrap cars",
-      "description": "The normal vehicle life cycle follows a linear process: manufacture, use, and dispose. Once a vehicle has reached the end of its useful life, it is typically scrapped and sent to a landfill, where it takes up valuable space and contributes to environmental pollution. This process results in a significant waste of resources, as many components of the vehicle are still usable or recyclable."
-    },
-    "upcyclingoverlay": {
-      "message1": "Trash to Treasure",
-      "message2": "Upcycle your scrap car",
-      "fundtitle": "Recycling fund",
-      "fundcontent": "The Recycling Fund aims to support the sustainable development of the recycling industry by improving its operational capabilities and efficiency. Its objective is to achieve the waste reduction policy goals outlined in the Hong Kong Blueprint by addressing the bottlenecks and constraints in the industry. Ultimately, the fund seeks to increase the quantity and quality of recyclables recovered from the waste stream and improve the quality of recycled products, thereby reducing the amount of waste sent to landfills.",
-      "title": "How does circular vehicle lifecycle works?",
-      "content": "With the support of Recycling Fund, we,team of aerosim start a new project \"eco sim\". The vehicle life cycle in the eco sim project follows a more circular process: manufacture, use, extract, and reuse. Once a vehicle has reached the end of its useful life, it is dismantled, and the reusable parts are extracted for educational purposes in car simulation. These parts can be used to teach users about driving skills and the inner workings of a vehicle."
-    },
-    "simauto": "Happy Driving with \"eco sim\"",
-    "descriptionoverlay": {
-      "title": "Reverse Engineering",
-      "description": "The project involves creating a car simulator using recycled car parts and reverse engineering the Mini Cooper R56 system. This allows for an authentic driving experience while reducing waste and carbon emissions. \n\nThe system also includes an MQTT control unit, providing internet connectivity for wireless remote control and data logging. This enhances user experience and aligns with ESG (Environmental, Social, and Governance) principles for sustainability and efficiency.",
-      "message": "Her second life, Your second ride."
-    }
-  },
-  "ProductPage": {
-    "homeoverlay": {
-      "title": "Driving simulator gear MINI EDITION"
-    },
-    "featureoverlay": {
-      "title": "About",
-      "subtitle_left": "MINI",
-      "subtitle_right": "SERIES",
-      "content": "Eco Race-Mini R53 Simulator Set delivers a real Mini cooper driving experience by recycling the component from scrub car. Featuring a detail Mini R53 *inner carge setip*, plus Logitech Driving set and gear-shift paddies, and support by R&D car-sim PCB set.For PC or laptop. Drive for fun and eco-friendly.",
-      "tags": {
-        "tag1": "SPEED",
-        "tag2": "REAL",
-        "tag3": "COMFORTABLE"
-      }
-    },
-    "pcboverlay": {
-      "title": "DRIVE AS REAL",
-      "content": "Experience low-latency response dashboard feedback by our in-house design PCB system. Get the realism and immediate connection with the Mini R53."
-    },
-    "itemoverlay": {
-      "title": "ENGINEERED AS REAL",
-      "content": "PRO Racing wheel is an elite, proprietary design developed with and for pro sim drivers. Engineered with TRUEFORCE feedback technology and high-performance Direct Drive, it delivers the most pure, precise, pro-level connection to the race possible. That means less latency and higher fidelity. Drive to win."
-    },
-    "screenoverlay": {
-      "title": "SPEED AS REAL",
-      "content": "PRO Racing wheel is an elite, proprietary design developed with and for pro sim drivers. Engineered with TRUEFORCE feedback technology and high-performance Direct Drive, it delivers the most pure, precise, pro-level connection to the race possible. That means less latency and higher fidelity. Drive to win."
-    },
-    "highlightoverlay": {
-      "items": {
-        "item1": {
-          "title": "INTELLIGENCE MACHINE",
-          "content": "The PCB can be designed to integrate with sensors and actuators to provide a realistic driving experience. Proper PCB design and implementation can greatly enhance the functionality and accuracy of a car simulator gear."
-        },
-        "item2": {
-          "title": "DRIVE SIMULATION",
-          "content": "By incorporating advanced technologies such as motion simulation, force feedback, and high-resolution graphics, the simulator can create a realistic environment that mimics driving on actual roads."
-        },
-        "item3": {
-          "title": "CONFORTABLE DRIVING EXPERIENCE",
-          "content": "Smooth ride and ergonomic seating, The vehicle's suspension, steering, and braking systems must work together seamlessly to minimize jarring movements and vibrations."
-        }
-      }
-    },
-    "conclusionoverlay": {
-      "title": "UPGRADE TO FUTURE LEVEL"
-    }
-  },
-  "AboutusPage": {
-    "title": "About Us",
-    "subtitle": "End-to-End Aviation Training & Education Tech Solutions",
-    "description": "Aerosim is an Aviation Technology and Solutions company that uses synthetic aviation technology to provide services in the education and aviation sectors. In the education sector, we offers flight simulation devices and training aids at an accessible price for schools, along with certified curriculum and training courses.",
-    "educationovelay": {
-      "title": "We education aivation talents",
-      "content": "In the aviation sector, we provides courses and training using their flight simulation devices and self-developed curriculum for young aviation enthusiasts. Additionally, Aerosim offers consultancy and commercial operation license application services for unmanned aircraft systems (UAS) operations, as well as UAS safety training for schools. After only one year of product launch, Aerosim has been serve around 10% of the school population."
-    },
-    "inspire": "Inspire talents to be talented"
-  },
-  "NewsPage": {
-    "title": "News & Insight",
-    "subtitle": "Explore our story"
+    "message": "Do you want to be next",
+    "engineer": "chip engineer"
   },
   "ContactPage": {
     "title": "Contact aerosim",
@@ -133,7 +23,7 @@
     "description": "404. The requested URL was not found on this server"
   },
   "LocaleLayout": {
-    "title": "eco sim - car simulation"
+    "title": "Semtron - hardware training talent"
   },
   "LocaleSwitcher": {
     "label": "Change language",

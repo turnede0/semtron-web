@@ -1,24 +1,16 @@
 import React from "react";
 import PageLayout from "@src/components/PageLayout";
-import { InfoRobot } from "@src/components/Info/info_robot";
-import { VideoOverlay } from "@src/components/Info/Video_overlay";
-import { InfoElec } from "@src/components/Info/info_elec";
-import { InfoHealth } from "@src/components/Info/info_health";
-import { Info } from "@src/components/Info/Info";
 import MarqueeSelection from "@src/components/MarqueeSelection";
-
-// import { HomeOverlay } from "@src/components/Home/HomeOverlay";
-// import { MissionOverlay } from "@src/components/Home/MissionOverlay";
-// import DescriptionOverlay from "@src/components/Home/DescriptionOverlay";
-// import { Carousel } from "@src/components/Home/Carousel/Carousel";
-// import { NewsletterRegister } from "@src/components/Home/NewsletterRegister";
-// import ProductOverlay from "@src/components/Home/ProductOverlay";
+import { HomeOverlay } from "@src/components/Home/HomeOverlay";
+import { CategoryOverlay } from "@src/components/Home/CategoryOverlay";
+import PartnerOverlay from "@src/components/Home/PartnerOverlay";
+import StemOverlay from "@src/components/Home/StemOverlay";
 
 export default function IndexPage() {
   return (
     <PageLayout>
       {/* <HomeOverlay />
-      <MissionOverlay />
+      <CategoryOverlay />
       <DescriptionOverlay />
       <ProductOverlay />
       <Carousel />
@@ -33,12 +25,24 @@ export default function IndexPage() {
         })}
       </p> */}
 
-      <VideoOverlay />
+      {/* <VideoOverlay />
       <MarqueeSelection />
       <InfoRobot />
-      <InfoElec />
+   
       <InfoHealth />
-      <Info />
+      <Info /> */}
+      <div className="relative overflow-hidden">
+        <div
+          className="absolute h-1/3 w-full opacity-20 bg-gradient-to-t from-transparent to-black pointer-events-none"
+          id="top_gradient"
+        ></div>
+        <HomeOverlay />
+        <CategoryOverlay />
+        <PartnerOverlay />
+        <MarqueeSelection />
+        <StemOverlay />
+      </div>
+      {/* <InfoElec /> */}
     </PageLayout>
   );
 }
