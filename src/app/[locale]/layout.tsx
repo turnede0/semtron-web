@@ -4,8 +4,6 @@ import clsx from "clsx";
 import { notFound } from "next/navigation";
 import { createTranslator, NextIntlClientProvider } from "next-intl";
 import { ReactNode } from "react";
-import Navbar from "@src/components/Navbar/Navbar";
-import Footer from "@src/components/Footer/Footer";
 
 const poppins = Poppins({
   subsets: ["latin"],

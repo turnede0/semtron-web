@@ -1,6 +1,6 @@
 import React from "react";
 import PageLayout from "@src/components/PageLayout";
-import MarqueeSelection from "@src/components/MarqueeSelection";
+import MarqueeSelection from "@src/components/Home/MarqueeSelection";
 import { HomeOverlay } from "@src/components/Home/HomeOverlay";
 import { CategoryOverlay } from "@src/components/Home/CategoryOverlay";
 import PartnerOverlay from "@src/components/Home/PartnerOverlay";

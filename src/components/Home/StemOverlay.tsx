@@ -27,10 +27,14 @@ export default function StemOverlay() {
           <div className="grid grid-cols-2">
             <Image src={teachImage} alt="teach" />
             <div className="flex flex-col m-auto">
-              <span>All-in-one STEAM Curriculum Package</span>
-              <span className="">Reinventing STEAM Education</span>
-              <div className="flex flex-col">
-                <span className="text-themeblue">
+              <span className="font-bold ">
+                All-in-one STEAM Curriculum Package
+              </span>
+              <span className="font-bold text-4xl my-5">
+                Reinventing STEAM Education
+              </span>
+              <div className="flex flex-col my-1">
+                <span className="text-themeblue text-xl">
                   Online｜STEAM E-Learning Platform
                 </span>
                 <span>
@@ -38,6 +42,27 @@ export default function StemOverlay() {
                   science to life!
                 </span>
               </div>
+              <div className="flex flex-col my-1">
+                <span className="text-themeblue text-xl">
+                  Online｜STEAM E-Learning Platform
+                </span>
+                <span>
+                  1,000+ original interactive videos and games that brings
+                  science to life!
+                </span>
+              </div>
+              <div className="flex flex-col my-1">
+                <span className="text-themeblue text-xl">
+                  Online｜STEAM E-Learning Platform
+                </span>
+                <span>
+                  1,000+ original interactive videos and games that brings
+                  science to life!
+                </span>
+              </div>
+              <button className="border-themeblue bg-white rounded-2xl ring-4 text-themeblue w-fit p-2 mx-auto my-4">
+                Learn More
+              </button>
             </div>
           </div>
         </Reveal>
