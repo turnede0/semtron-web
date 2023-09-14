@@ -2,17 +2,10 @@
 "use client";
 import React, { useEffect, useMemo, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
-import { Josefin_Sans } from "@next/font/google";
 import HomeOne from "@public/image/omron_2JCIE.jpg";
 
 import { useRef } from "react";
 import { Reveal } from "../common/Reveal";
-
-const josefin_Sans = Josefin_Sans({
-  subsets: ["latin"],
-  weight: "700",
-  variable: "--font-anton",
-});
 
 export const HomeOverlay = () => {
   const locale = useLocale();

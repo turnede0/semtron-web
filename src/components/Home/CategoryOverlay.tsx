@@ -3,10 +3,8 @@
 "use client";
 import * as React from "react";
 import Image from "next/image";
-import omron_pcb_whiteline from "@public/image/omron_2JCIE_whiteline.png";
 import verilogImage from "@public/image/home/DFF_verilog.png";
 import pcbImage from "@public/image/home/easyeda-384_PCB3DLib_3D-PCB.png";
-import { Reveal } from "@src/components/common/Reveal";
 
 const Tag = (props: { text: string }) => {
   return (

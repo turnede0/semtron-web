@@ -9,13 +9,13 @@ export default function ExploreOverlay() {
         <div className="m-auto text-lg w-[400px]">
           <div>Student Voices</div>
           <div className="text-themeblue text-4xl">
-            Learn from real students' experiences
+            Learn from real students experiences
           </div>
           <div className="flex flex-row">
             <div>
-              <div>Education in Students' Words</div>
+              <div>Education in Students Words</div>
               <div>
-                Read students' takes on their education journeys, health, and
+                Read students takes on their education journeys, health, and
                 more.
               </div>
             </div>
