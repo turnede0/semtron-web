@@ -31,7 +31,7 @@ export const CategoryOverlay = () => {
     <div
       className="bg-fixed bg-black bg-cover bg-no-repeat w-screen h-screen flex justify-center items-center relative"
       style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.6)),url(${omron_pcb_whiteline.src})`,
+        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)),url(${omron_pcb_whiteline.src})`,
       }}
     >
       <div
@@ -55,13 +55,13 @@ export const CategoryOverlay = () => {
 
             <div className="text-white flex flex-col h-full w-1/2 justify-center">
               <span className="text-4xl mx-auto font-bold">FPGA</span>
-              <Reveal>
-                <span className="w-[500px] my-5 mx-auto">
-                  We specialize in helping clients connect with their audiences
-                  through STEM events. Enrich your customer journey and build a
-                  strong parent/child community.
-                </span>
-              </Reveal>
+              {/* <Reveal> */}
+              <span className="w-[300px] my-5 mx-auto">
+                We specialize in helping clients connect with their audiences
+                through STEM events. Enrich your customer journey and build a
+                strong parent/child community.
+              </span>
+              {/* </Reveal> */}
               <button className="bg-themeblue w-fit mx-auto p-3 rounded-3xl">
                 Learn more
               </button>
@@ -70,13 +70,13 @@ export const CategoryOverlay = () => {
           <div className="flex items-center  h-[250px] my-6">
             <div className="text-white flex flex-col h-full w-1/2 justify-center">
               <span className="text-4xl mx-auto font-bold">PCB</span>
-              <Reveal>
-                <span className="w-[500px] my-5 mx-auto">
-                  We specialize in helping clients connect with their audiences
-                  through STEM events. Enrich your customer journey and build a
-                  strong parent/child community.
-                </span>
-              </Reveal>
+              {/* <Reveal> */}
+              <span className="w-[300px] my-5 mx-auto">
+                We specialize in helping clients connect with their audiences
+                through STEM events. Enrich your customer journey and build a
+                strong parent/child community.
+              </span>
+              {/* </Reveal> */}
               <button className="bg-themeblue w-fit mx-auto p-3 rounded-3xl">
                 Learn more
               </button>
