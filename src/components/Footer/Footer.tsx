@@ -1,6 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import LogoIcon from "@public/image/semtron_text_logo.png";
+import LogoIcon from "@public/image/logo/semtron-logo-white.png";
 import { Link, useTranslations } from "next-intl";
 import { SocialIcon } from "react-social-icons";
 
@@ -31,33 +31,33 @@ const Footer = () => {
       </div>
       <div className="row-span-2 lg:col-end-6 lg:col-span-2 md:flex md:justify-between mt-16">
         <div className="p-5">
-          <h6 className="font-medium font-bold">
+          <h6 className="font-bold">
             <Link href="/technology">{t("technology.title")}</Link>
           </h6>
         </div>
         <div className="p-5">
-          <h6 className="font-medium font-bold">
+          <h6 className="font-bold">
             <Link href="/product">{t("product")}</Link>
           </h6>
         </div>
         <div className="p-5">
-          <h6 className="font-medium font-bold">
+          <h6 className="font-bold">
             <Link href="/news">{t("news.title")}</Link>
           </h6>
         </div>
         <div className="px-5 lg:px-1 py-5 w-auto">
-          <h6 className="font-medium font-bold">
+          <h6 className="font-bold">
             <Link href="/contact">{t("aboutus")}</Link>
           </h6>
         </div>
         <div className="px-5 lg:px-1 py-5">
-          <h6 className="font-medium font-bold">
+          <h6 className="font-bold">
             <Link href="/contact">{t("contact")}</Link>
           </h6>
         </div>
       </div>
       <div className=" border-t-2 col-start-1 col-end-7">
-        <h6 className="font-medium text-gray-400 py-5 px-2">eco sim@2023</h6>
+        <h6 className="text-gray-400 py-5 px-2">semtron@2023</h6>
       </div>
     </div>
   );

@@ -28,12 +28,7 @@ const Tag = (props: { text: string }) => {
 
 export const CategoryOverlay = () => {
   return (
-    <div
-      className="bg-fixed bg-black bg-cover bg-no-repeat w-screen h-screen flex justify-center items-center relative"
-      style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)),url(${omron_pcb_whiteline.src})`,
-      }}
-    >
+    <div className="bg-fixed bg-black bg-cover bg-no-repeat w-screen h-screen flex justify-center items-center relative">
       <div
         className="absolute h-1/5 bottom-0 w-full opacity-95 bg-gradient-to-t from-black to-transparent pointer-events-none z-10"
         id="bottom_gradient"

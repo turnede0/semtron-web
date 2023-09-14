@@ -1,8 +1,20 @@
 {
   "IndexPage": {
-    "title": "next-intl example",
-    "message": "Do you want to be next",
-    "engineer": "chip engineer"
+    "message": "Unlock your potential",
+    "engineer": "Chip Engineer",
+    "message2": "Your source for best colleges and what's next in your education and career.",
+    "explore": "Explore",
+    "partner": {
+      "title": "Accredited By"
+    },
+    "client": {
+      "title": "Our Client"
+    },
+    "intro": {
+      "title": "About",
+      "subtitle": "Supporting You With What Matters Most",
+      "description": "Taking the next step in your education or career is courageous.Whether you're searching for the right school, looking to save on tuition, or wanting to advance your career, we've got the resources to help you feel confident about your next move."
+    }
   },
   "ContactPage": {
     "title": "Contact aerosim",

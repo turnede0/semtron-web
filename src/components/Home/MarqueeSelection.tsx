@@ -11,12 +11,15 @@ import school_7 from "@public/image/school/school_7.png";
 import school_8 from "@public/image/school/school_8.png";
 import school_9 from "@public/image/school/school_9.png";
 import school_10 from "@public/image/school/school_10.png";
+import { useTranslations } from "next-intl";
 
 export default function MarqueeSelection() {
+  const t = useTranslations("IndexPage");
+
   return (
-    <div className="flex flex-col">
-      <span className="mx-auto text-4xl font-bold">Our Client</span>
-      <Marquee className="min-h-[100px] bg-white w-full" pauseOnHover gradient>
+    <div className="flex flex-col py-6 bg-themegray">
+      <span className="mx-auto text-4xl font-bold">{t("client.title")}</span>
+      <Marquee className="min-h-[100px]  w-full" pauseOnHover gradient>
         <Image className="m-5" src={school_1} alt="school_1" />
         <Image className="m-5" src={school_2} alt="school_2" />
         <Image className="m-5" src={school_3} alt="school_3" />

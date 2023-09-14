@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import * as React from "react";
 import { useTranslations, Link } from "next-intl"; //Link must use next-intl
 import Image from "next/image";
-import LogoIcon from "@public/image/semtron_text_logo.png";
+import LogoIcon from "@public/image/logo/semtron-logo-white.png";
 import LocaleSwitcher from "@src/components/LocaleSwitcher";
 import { usePathname } from "next/navigation";
 // import NavigationLink from "../NavigationLink";

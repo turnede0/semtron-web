@@ -19,6 +19,7 @@ module.exports = {
         // bkgroundblack: "#606060",
         // videooverlay: "#162239",
         themeblue: "#1765F6",
+        themegray: "#F5F6F8",
       },
       boxShadow: {
         innerDefault: "inset 0 0 0 0 #166fc0;",
