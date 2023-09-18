@@ -28,7 +28,7 @@ const Tag = (props: { text: string }) => {
 export const CategoryOverlay = () => {
   const t = useTranslations("IndexPage");
   return (
-    <div className="bg-fixed bg-black bg-cover bg-no-repeat w-screen h-screen flex justify-center items-center relative">
+    <div className="bg-fixed bg-black bg-cover bg-no-repeat w-screen h-[120vh] flex justify-center items-center relative">
       <div
         className="absolute h-1/5 bottom-0 w-full opacity-95 bg-gradient-to-t from-black to-transparent pointer-events-none z-10"
         id="bottom_gradient"

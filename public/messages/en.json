@@ -5,7 +5,7 @@
     "message2": "Your source for best colleges and what's next in your education and career.",
     "explore": "Explore",
     "partner": {
-      "title": "Accredited By",
+      "title": "Trusted by the best in the business",
       "message": "We are the only HK-based STEAM programme aligned with international curricula"
     },
     "client": {
@@ -14,7 +14,7 @@
     "intro": {
       "title": "About",
       "subtitle": "Supporting You With What Matters Most",
-      "description": "Taking the next step in your education or career is courageous.Whether you're searching for the right school, looking to save on tuition, or wanting to advance your career, we've got the resources to help you feel confident about your next move."
+      "description": "Semtron offers personalized STEAM course content, delivering top-notch and all-encompassing instruction that fosters students' creativity and technological aptitude. From designing teaching materials to providing expert instructors, competition guidance, hardware procurement, and post-sales support, Semtron takes care of every aspect to assist customers in delivering the finest teaching content to their students."
     },
     "category": {
       "chipcontrol": "Chip Control",
@@ -26,6 +26,11 @@
       "pcb": "PCB",
       "content2": "Printed Circuit Board, a flat board made of non-conductive material with conductive pathways etched or printed on it, used to connect and support electronic components in various devices and systems.",
       "learn": "Learn More"
+    },
+    "connect": {
+      "title": "Explore with us",
+      "message": "Learn from our experience",
+      "message2": "We tailor the course to meet your specific requirements."
     }
   },
   "ContactPage": {

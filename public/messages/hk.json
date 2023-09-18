@@ -26,6 +26,11 @@
       "pcb": "PCB",
       "content2": "印刷電路板是一種由非導電材料製成的平板，其上蝕刻或印刷有導電路徑，用於連接和支撐各種設備和系統中的電子元件。",
       "learn": "了解更多"
+    },
+    "connect": {
+      "title": "與我們一起探索",
+      "message": "聯絡我們了解更多",
+      "message2": "為你度打造最適合教案"
     }
   },
   "ContactPage": {
@@ -47,7 +52,7 @@
     "description": "404 這則訊息代表 Google Chrome 無法找到及載入您嘗試造訪的網頁。"
   },
   "LocaleLayout": {
-    "title": "semtron - 硬件工程師培訓專家"
+    "title": "Semtron - 硬件工程師培訓專家"
   },
   "LocaleSwitcher": {
     "label": "轉換語言",
