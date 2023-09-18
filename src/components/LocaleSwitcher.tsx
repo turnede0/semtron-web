@@ -17,20 +17,20 @@ export default function LocaleSwitcher() {
   }
 
   return (
-    <label className=" relative text-gray-400">
+    <label className=" relative text-white">
       <p className="sr-only">{t("label")}</p>
       <select
-        className="inline-flex appearance-none bg-transparent py-3 pl-2 pr-6"
+        className="inline-flex appearance-none bg-transparent py-3 pl-2 pr-6 "
         defaultValue={locale}
         onChange={onSelectChange}
       >
         {["en", "hk"].map((cur) => (
-          <option key={cur} value={cur}>
+          <option key={cur} value={cur} className="text-black">
             {t("locale", { locale: cur })}
           </option>
         ))}
       </select>
-      <span className="pointer-events-none absolute top-[8px] right-2">⌄</span>
+      <span className="pointer-events-none absolute top-[8px] right-2"></span>
     </label>
   );
 }

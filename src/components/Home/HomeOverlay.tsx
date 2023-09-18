@@ -5,7 +5,7 @@ import { useLocale, useTranslations } from "next-intl";
 import HomeOne from "@public/image/omron_2JCIE.jpg";
 
 import { useRef } from "react";
-import { Reveal } from "../common/Reveal";
+import { Reveal } from "@src/components/common/Reveal";
 
 export const HomeOverlay = () => {
   const locale = useLocale();
@@ -74,7 +74,7 @@ export const HomeOverlay = () => {
 
             <span className="text-lg text-white my-4">{t("message2")}</span>
 
-            <button className="bg-themeblue   p-4 h-fit w-fit my-4 text-white hover:bg-white hover:text-themeblue ">
+            <button className="bg-themeblue   p-4 h-fit w-fit my-4 text-white hover:bg-white hover:text-themeblue transform duration-200">
               {t("explore")}
             </button>
           </div>

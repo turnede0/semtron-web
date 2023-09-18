@@ -1,5 +1,5 @@
 import React from "react";
-import { Reveal } from "../common/Reveal";
+import { Reveal } from "@src/components/common/Reveal";
 import Image from "next/image";
 import fpgaImage from "@public/image/home/fpga.jpg";
 import teachImage from "@public/image/home/teach.webp";

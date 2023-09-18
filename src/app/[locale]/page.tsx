@@ -42,8 +42,8 @@ export default function IndexPage() {
         <IntroVideoOverlay />
         <CategoryOverlay />
         <PartnerOverlay />
-        <StemOverlay />
         <MarqueeSelection />
+        <StemOverlay />
         <ExploreOverlay />
       </div>
     </PageLayout>

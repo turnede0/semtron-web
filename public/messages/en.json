@@ -5,7 +5,8 @@
     "message2": "Your source for best colleges and what's next in your education and career.",
     "explore": "Explore",
     "partner": {
-      "title": "Accredited By"
+      "title": "Accredited By",
+      "message": "We are the only HK-based STEAM programme aligned with international curricula"
     },
     "client": {
       "title": "Our Client"
@@ -14,6 +15,17 @@
       "title": "About",
       "subtitle": "Supporting You With What Matters Most",
       "description": "Taking the next step in your education or career is courageous.Whether you're searching for the right school, looking to save on tuition, or wanting to advance your career, we've got the resources to help you feel confident about your next move."
+    },
+    "category": {
+      "chipcontrol": "Chip Control",
+      "hardwareacceleration": "Hardware Acceleration",
+      "electronicengineering": "Electronic Engineering",
+      "productdesign": "Product Design",
+      "fpga": "FPGA",
+      "content1": "Reconfigurable integrated circuit with logic blocks and interconnects, programmable after manufacturing, offering flexibility, high performance, and customization for various applications.",
+      "pcb": "PCB",
+      "content2": "Printed Circuit Board, a flat board made of non-conductive material with conductive pathways etched or printed on it, used to connect and support electronic components in various devices and systems.",
+      "learn": "Learn More"
     }
   },
   "ContactPage": {

@@ -5,6 +5,7 @@ import * as React from "react";
 import Image from "next/image";
 import verilogImage from "@public/image/home/DFF_verilog.png";
 import pcbImage from "@public/image/home/easyeda-384_PCB3DLib_3D-PCB.png";
+import { useTranslations } from "next-intl";
 
 const Tag = (props: { text: string }) => {
   return (
@@ -25,6 +26,7 @@ const Tag = (props: { text: string }) => {
 };
 
 export const CategoryOverlay = () => {
+  const t = useTranslations("IndexPage");
   return (
     <div className="bg-fixed bg-black bg-cover bg-no-repeat w-screen h-screen flex justify-center items-center relative">
       <div
@@ -33,10 +35,10 @@ export const CategoryOverlay = () => {
       ></div>
       <div className="w-full z-20">
         <div className="grid grid-cols-4 gap-4 w-full text-white mt-10">
-          <Tag text={"Chip control"} />
-          <Tag text={"Hardware Acceleration"} />
-          <Tag text={"Electronic Engineering"} />
-          <Tag text={"Product Design"} />
+          <Tag text={t("category.chipcontrol")} />
+          <Tag text={t("category.hardwareacceleration")} />
+          <Tag text={t("category.electronicengineering")} />
+          <Tag text={t("category.productdesign")} />
         </div>
         <div className="flex flex-col">
           <div className="flex items-center  h-[250px] my-6">
@@ -47,16 +49,16 @@ export const CategoryOverlay = () => {
             />
 
             <div className="text-white flex flex-col h-full w-1/2 justify-center">
-              <span className="text-4xl mx-auto font-bold">FPGA</span>
+              <span className="text-4xl mx-auto font-bold">
+                {t("category.fpga")}
+              </span>
               {/* <Reveal> */}
               <span className="w-[300px] my-5 mx-auto">
-                We specialize in helping clients connect with their audiences
-                through STEM events. Enrich your customer journey and build a
-                strong parent/child community.
+                {t("category.content1")}
               </span>
               {/* </Reveal> */}
-              <button className="bg-themeblue w-fit mx-auto p-3 rounded-3xl">
-                Learn more
+              <button className="bg-themeblue w-fit mx-auto p-3 rounded-3xl hover:bg-white hover:text-themeblue transform duration-200">
+                {t("category.learn")}
               </button>
             </div>
           </div>
@@ -65,13 +67,11 @@ export const CategoryOverlay = () => {
               <span className="text-4xl mx-auto font-bold">PCB</span>
               {/* <Reveal> */}
               <span className="w-[300px] my-5 mx-auto">
-                We specialize in helping clients connect with their audiences
-                through STEM events. Enrich your customer journey and build a
-                strong parent/child community.
+                {t("category.content2")}
               </span>
               {/* </Reveal> */}
-              <button className="bg-themeblue w-fit mx-auto p-3 rounded-3xl">
-                Learn more
+              <button className="bg-themeblue w-fit mx-auto p-3 rounded-3xl hover:bg-white hover:text-themeblue transform duration-200">
+                {t("category.learn")}
               </button>
             </div>
 
