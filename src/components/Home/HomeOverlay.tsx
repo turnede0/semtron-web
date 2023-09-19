@@ -56,7 +56,7 @@ export const HomeOverlay = () => {
           data-section="section1"
         >
           <div
-            className={`flex-col w-full flex  items-start motion-safe:animate-fadeIn mx-20`}
+            className={`flex-col w-full flex  items-start motion-safe:animate-fadeIn my-60 mx-40`}
           >
             <div
               className={`flex flex-col items-start text-white my-4 ${
