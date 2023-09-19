@@ -11,15 +11,16 @@ export default function DescriptionOverlay() {
   const t = useTranslations("IndexPage");
   return (
     <div
-      className="bg-fixed bg-black bg-cover bg-no-repeat w-screen h-screen "
+      className="bg-fixed bg-black bg-cover bg-no-repeat w-screen h-screen relative"
       style={{
-        backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)),url(${omron_pcb_whiteline.src})`,
+        // backgroundImage: `linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.9)),url(${omron_pcb_whiteline.src})`,
+        backgroundImage: `url(${omron_pcb_whiteline.src})`,
       }}
     >
-      {/* <div
-        className="absolute h-1/5 bottom-0 w-full opacity-95 bg-gradient-to-t from-black to-transparent pointer-events-none z-10"
+      <div
+        className="absolute h-full bottom-0 w-full opacity-95 bg-gradient-to-t from-black to-transparent pointer-events-none"
         id="bottom_gradient"
-      ></div> */}
+      ></div>
 
       <div className="grid grid-cols-2 h-full">
         <Reveal>
