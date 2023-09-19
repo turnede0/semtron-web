@@ -26,7 +26,7 @@ export default function DescriptionOverlay() {
         <Reveal>
           <div className="relative  flex justify-center items-center bg-themeblue p-5 z-0 transition ease-in-out delay-200 hover:-translate-y-1 hover:scale-110">
             <div className="block p-10 m-10">
-              <h1 className="mb-2 text-8xl font-bold  text-themeyellow leading-tight">
+              <h1 className="mb-2 text-7xl font-bold  text-themeyellow leading-tight">
                 {t("intro.title")}
               </h1>
               <h5 className="mb-2 text-3xl bold  text-white leading-tight my-5">

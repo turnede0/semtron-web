@@ -26,7 +26,7 @@ export default function NotFoundPage() {
             <div className="bg-themeyellow p-5 text-2xl text-bold">
               {t("title")}
             </div>
-            <div className="text-white text-8xl">{t("description")}</div>
+            <div className="text-white text-7xl">{t("description")}</div>
           </div>
         </section>
       </div>

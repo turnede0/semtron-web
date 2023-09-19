@@ -38,7 +38,7 @@ export default function Overlay(props: OverlayType) {
           <div className="bg-themeyellow p-5 text-2xl text-bold">
             {props.title}
           </div>
-          <div className="text-white text-2xl lg:text-8xl">
+          <div className="text-white text-2xl lg:text-7xl">
             {props.subtitle}
           </div>
         </div>
