@@ -33,7 +33,7 @@ export default function Navbar() {
         `}
         onClick={handleMenuClick}
       ></div>
-      <header className="relative bg-white sm:h-16 flex items-center w-full">
+      <header className=" bg-white sm:h-16 flex items-center w-full fixed">
         <div className="container px-2 mx-auto flex items-center justify-between z-40">
           <div className=" w-[300px] md:w-[150px]">
             <Link href="#">
@@ -46,12 +46,12 @@ export default function Navbar() {
                 ${
                   active
                     ? "fixed top-0 left-0 w-10/12 lg:w-full min-h-screen bg-black lg:bg-transparent z-40  lg:relative lg:h-full"
-                    : "-left-80 "
+                    : "-left-80 hidden"
                 }
-                group text-black uppercase text-lg ease-in-out duration-150 lg:flex lg:items-center
+                group text-white lg:text-black  uppercase text-lg ease-in-out duration-150 lg:flex lg:items-center 
               `}
             >
-              <ul className={`${active ? "" : "hidden lg:contents"} font-bold`}>
+              <ul className={` lg:contents font-bold`}>
                 <li className="h-[100px] lg:hidden">
                   <div className="m-6 h-10 w-[200px] sm:h-10 transition">
                     <Image src={LogoIcon} alt="Logo" />
@@ -122,8 +122,9 @@ export default function Navbar() {
                     {t("contact")}
                   </Link>
                 </li>
-
-                <LocaleSwitcher />
+                <li className=" bg-black h-full">
+                  <LocaleSwitcher />
+                </li>
               </ul>
             </nav>
             <button

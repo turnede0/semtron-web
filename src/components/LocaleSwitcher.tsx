@@ -17,10 +17,10 @@ export default function LocaleSwitcher() {
   }
 
   return (
-    <label className=" relative text-black">
+    <label className=" relative text-white">
       <p className="sr-only">{t("label")}</p>
       <select
-        className="inline-flex appearance-none bg-transparent py-3 pl-2 pr-6 "
+        className="inline-flex  bg-transparent py-3 pl-2 pr-6 "
         defaultValue={locale}
         onChange={onSelectChange}
       >
