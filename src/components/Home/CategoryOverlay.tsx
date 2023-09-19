@@ -20,7 +20,7 @@ const Tag = (props: { text: string }) => {
           className="w-[10px] h-[30px] skew-x-[-25deg] bg-themeblue mx-1"
         ></div>
       </div>
-      <div className="mx-2 text-lg font-bold">{props.text}</div>
+      <div className="mx-2 text-2xl font-bold">{props.text}</div>
     </div>
   );
 };
@@ -28,27 +28,23 @@ const Tag = (props: { text: string }) => {
 export const CategoryOverlay = () => {
   const t = useTranslations("IndexPage");
   return (
-    <div className="bg-fixed bg-black bg-cover bg-no-repeat w-screen h-[120vh] flex justify-center items-center relative">
-      <div
-        className="absolute h-1/5 bottom-0 w-full opacity-95 bg-gradient-to-t from-black to-transparent pointer-events-none z-10"
-        id="bottom_gradient"
-      ></div>
+    <div className="bg-fixed bg-black bg-cover bg-no-repeat w-screen h-fit  relative">
+      <div className="grid grid-cols-4 gap-4 w-full   bg-white h-[150px] border-b-[30px] border-themeblue">
+        <Tag text={t("category.chipcontrol")} />
+        <Tag text={t("category.hardwareacceleration")} />
+        <Tag text={t("category.electronicengineering")} />
+        <Tag text={t("category.productdesign")} />
+      </div>
       <div className="w-full z-20">
-        <div className="grid grid-cols-4 gap-4 w-full text-white mt-10">
-          <Tag text={t("category.chipcontrol")} />
-          <Tag text={t("category.hardwareacceleration")} />
-          <Tag text={t("category.electronicengineering")} />
-          <Tag text={t("category.productdesign")} />
-        </div>
         <div className="flex flex-col">
-          <div className="flex items-center  h-[250px] my-6">
+          <div className="flex items-center  h-[400px]">
             <Image
-              className="[clip-path:polygon(0%_0%,100%_0%,80%_100%,0%_100%)] h-full w-1/2 object-cover"
+              className="[clip-path:polygon(0%_0%,100%_0%,80%_100%,0%_100%)] h-full w-2/3 object-cover"
               src={verilogImage}
               alt="verilog"
             />
 
-            <div className="text-white flex flex-col h-full w-1/2 justify-center">
+            <div className="text-white flex flex-col h-full w-1/3 justify-center">
               <span className="text-4xl mx-auto font-bold">
                 {t("category.fpga")}
               </span>
@@ -62,8 +58,8 @@ export const CategoryOverlay = () => {
               </button>
             </div>
           </div>
-          <div className="flex items-center  h-[250px] my-6">
-            <div className="text-white flex flex-col h-full w-1/2 justify-center">
+          <div className="flex items-center  h-[400px] ">
+            <div className="text-white flex flex-col h-full w-1/3 justify-center">
               <span className="text-4xl mx-auto font-bold">PCB</span>
               {/* <Reveal> */}
               <span className="w-[300px] my-5 mx-auto">
@@ -76,7 +72,7 @@ export const CategoryOverlay = () => {
             </div>
 
             <Image
-              className="[clip-path:polygon(20%_0%,100%_0%,100%_100%,0%_100%)] h-full w-1/2 object-cover"
+              className="[clip-path:polygon(20%_0%,100%_0%,100%_100%,0%_100%)] h-full w-2/3 object-cover"
               src={pcbImage}
               alt="verilog"
             />

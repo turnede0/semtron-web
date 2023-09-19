@@ -4,7 +4,7 @@ import { useEffect, useState } from "react";
 import * as React from "react";
 import { useTranslations, Link } from "next-intl"; //Link must use next-intl
 import Image from "next/image";
-import LogoIcon from "@public/image/logo/semtron-logo-white.png";
+import LogoIcon from "@public/image/logo/semtron-logo-themeblue.png";
 import LocaleSwitcher from "@src/components/LocaleSwitcher";
 import { usePathname } from "next/navigation";
 // import NavigationLink from "../NavigationLink";
@@ -33,9 +33,9 @@ export default function Navbar() {
         `}
         onClick={handleMenuClick}
       ></div>
-      <header className="relative bg-transparent sm:h-20 flex items-center w-full">
-        <div className="container px-2 mx-auto flex items-center justify-between z-40 lg:border-b-4 border-white">
-          <div className=" w-[300px] md:w-[200px]">
+      <header className="relative bg-white sm:h-16 flex items-center w-full">
+        <div className="container px-2 mx-auto flex items-center justify-between z-40">
+          <div className=" w-[300px] md:w-[150px]">
             <Link href="#">
               <Image src={LogoIcon} alt="Logo" />
             </Link>
@@ -48,10 +48,10 @@ export default function Navbar() {
                     ? "fixed top-0 left-0 w-10/12 lg:w-full min-h-screen bg-black lg:bg-transparent z-40  lg:relative lg:h-full"
                     : "-left-80 "
                 }
-                group text-white uppercase text-lg ease-in-out duration-150 lg:flex lg:items-center
+                group text-black uppercase text-lg ease-in-out duration-150 lg:flex lg:items-center
               `}
             >
-              <ul className={`${active ? "" : "hidden lg:contents"} `}>
+              <ul className={`${active ? "" : "hidden lg:contents"} font-bold`}>
                 <li className="h-[100px] lg:hidden">
                   <div className="m-6 h-10 w-[200px] sm:h-10 transition">
                     <Image src={LogoIcon} alt="Logo" />
@@ -73,10 +73,10 @@ export default function Navbar() {
                   </svg>
                 </li>
 
-                <li className="lg:float-left">
+                <li className="lg:float-left ">
                   <Link
                     href="/"
-                    className="py-2 px-6 flex text-base font-medium border-b-4 border-transparent transition-all duration-100 ease-in-out transform hover:-translate-y-1  hover:text-bkgrounddarkblue lg:hover:border-bkgrounddarkblue"
+                    className="py-2 px-6 flex text-sm  border-b-4 border-transparent transition-all  ease-in-out transform duration-300 font-bold hover:text-themeblue   hover:text-bkgrounddarkblue lg:hover:border-bkgrounddarkblue"
                   >
                     {t("home")}
                   </Link>
@@ -85,7 +85,7 @@ export default function Navbar() {
                 <li className="lg:float-left">
                   <Link
                     href="/technology"
-                    className="py-2 px-6 flex text-base font-medium border-b-4 border-transparent transition duration-100 ease-in-out transform hover:-translate-y-1 hover:text-bkgrounddarkblue lg:hover:border-bkgrounddarkblue"
+                    className="py-2 px-6 flex text-sm  border-b-4 border-transparent transition  ease-in-out transform duration-300 font-bold hover:text-themeblue hover:text-bkgrounddarkblue lg:hover:border-bkgrounddarkblue"
                   >
                     {t("technology.title")}
                   </Link>
@@ -93,7 +93,7 @@ export default function Navbar() {
                 <li className="lg:float-left">
                   <Link
                     href="/product"
-                    className="py-2 px-6 flex text-base font-medium border-b-4 border-transparent transition duration-100 ease-in-out transform hover:-translate-y-1 hover:text-bkgrounddarkblue lg:hover:border-bkgrounddarkblue"
+                    className="py-2 px-6 flex text-sm  border-b-4 border-transparent transition  ease-in-out transform duration-300 font-bold hover:text-themeblue hover:text-bkgrounddarkblue lg:hover:border-bkgrounddarkblue"
                   >
                     {t("product")}
                   </Link>
@@ -101,7 +101,7 @@ export default function Navbar() {
                 <li className="lg:float-left">
                   <Link
                     href="/news"
-                    className="py-2 px-6 flex text-base font-medium  border-b-4 border-transparent transition duration-100 ease-in-out transform hover:-translate-y-1 hover:text-bkgrounddarkblue lg:hover:border-bkgrounddarkblue"
+                    className="py-2 px-6 flex text-sm   border-b-4 border-transparent transition  ease-in-out transform duration-300 font-bold hover:text-themeblue hover:text-bkgrounddarkblue lg:hover:border-bkgrounddarkblue"
                   >
                     {t("news.title")}
                   </Link>
@@ -109,7 +109,7 @@ export default function Navbar() {
                 <li className="lg:float-left">
                   <Link
                     href="/aboutus"
-                    className="py-2 px-6 flex text-base font-medium  border-b-4 border-transparent transition duration-100 ease-in-out transform hover:-translate-y-1 hover:text-bkgrounddarkblue lg:hover:border-bkgrounddarkblue"
+                    className="py-2 px-6 flex text-sm   border-b-4 border-transparent transition  ease-in-out transform duration-300 font-bold hover:text-themeblue hover:text-bkgrounddarkblue lg:hover:border-bkgrounddarkblue"
                   >
                     {t("aboutus")}
                   </Link>
@@ -117,7 +117,7 @@ export default function Navbar() {
                 <li className="lg:float-left">
                   <Link
                     href="/contact"
-                    className="py-2 px-6 flex text-base font-medium  border-b-4 border-transparent transition duration-100 ease-in-out transform hover:-translate-y-1 hover:text-bkgrounddarkblue lg:hover:border-bkgrounddarkblue"
+                    className="py-2 px-6 flex text-sm   border-b-4 border-transparent transition  ease-in-out transform duration-300 font-bold hover:text-themeblue hover:text-bkgrounddarkblue lg:hover:border-bkgrounddarkblue"
                   >
                     {t("contact")}
                   </Link>

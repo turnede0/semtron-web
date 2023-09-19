@@ -56,7 +56,7 @@ export const HomeOverlay = () => {
           data-section="section1"
         >
           <div
-            className={`flex-col w-full flex  items-start motion-safe:animate-fadeIn my-60 mx-40`}
+            className={`flex-col w-full flex  items-start motion-safe:animate-fadeIn  my-52 mx-40`}
           >
             <div
               className={`flex flex-col items-start text-white my-4 ${
@@ -74,7 +74,7 @@ export const HomeOverlay = () => {
 
             <span className="text-lg text-white my-4">{t("message2")}</span>
 
-            <button className="bg-themeblue   p-4 h-fit w-fit my-4 text-white hover:bg-white hover:text-themeblue transform duration-200">
+            <button className="bg-themeblue rounded-md w-fit   p-4 h-fit  my-4 text-white hover:bg-white hover:text-themeblue transform duration-200">
               {t("explore")}
             </button>
           </div>
