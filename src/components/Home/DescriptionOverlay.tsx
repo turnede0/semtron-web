@@ -7,7 +7,7 @@ import Image from "next/image";
 import stemImage from "@public/image/photo/stem-workshop.png";
 // import ReactPlayer from "react-player";
 
-export default function IntroVideoOverlay() {
+export default function DescriptionOverlay() {
   const t = useTranslations("IndexPage");
   return (
     <div

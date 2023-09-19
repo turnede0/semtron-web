@@ -5,7 +5,7 @@ import { HomeOverlay } from "@src/components/Home/HomeOverlay";
 import { CategoryOverlay } from "@src/components/Home/CategoryOverlay";
 import PartnerOverlay from "@src/components/Home/PartnerOverlay";
 import StemOverlay from "@src/components/Home/StemOverlay";
-import IntroVideoOverlay from "@src/components/Home/IntroVideoOverlay";
+import DescriptionOverlay from "@src/components/Home/DescriptionOverlay";
 import ExploreOverlay from "@src/components/Home/ExploreOverlay";
 
 export default function IndexPage() {
@@ -39,7 +39,7 @@ export default function IndexPage() {
           id="top_gradient"
         ></div>
         <HomeOverlay />
-        <IntroVideoOverlay />
+        <DescriptionOverlay />
         <CategoryOverlay />
         <PartnerOverlay />
         <MarqueeSelection />
