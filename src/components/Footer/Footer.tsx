@@ -67,7 +67,7 @@ const Footer = () => {
             <div className="md:w-1/4 md:px-4 mt-12 lg:mt-10">
               <div className="lg:w-0 lg:flex-1">
                 <Link href="/">
-                  <div className="mb-2 h-8 w-[150px] md:w-[200px]">
+                  <div className=" my-12 h-8 w-[150px] md:w-[200px]">
                     <Image priority src={LogoIcon} alt="logo" />
                   </div>
                 </Link>

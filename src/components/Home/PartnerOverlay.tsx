@@ -20,14 +20,10 @@ export default function PartnerOverlay() {
         <span className="mx-auto text-4xl font-bold">{t("partner.title")}</span>
         <span className="mx-auto text-lg my-6">{t("partner.message")}</span>
         <div className="mx-auto grid grid-cols-4 h-fit items-center m-4 gap-10 w-2/3">
-          <Image
-            src={EasyedaImage}
-            className="max-h-[30px] object-contain aspect-[3/2] mix-blend-color-burn m-auto bg-transparent"
-            alt="easyeda"
-          />
+          <Image src={EasyedaImage} className="" alt="easyeda" />
           <Image
             src={ChinaMobileImage}
-            className="max-h-[50px] object-contain aspect-[3/2] mix-blend-color-burn m-auto bg-transparent"
+            className="max-h-[50px] object-contain aspect-[3/2] mix-blend-color-burn m-auto "
             alt="chinaMobile"
           />
           {/* <Image
@@ -47,17 +43,17 @@ export default function PartnerOverlay() {
           /> */}
           <Image
             src={EmsdImage}
-            className="max-h-[50px] object-contain aspect-[3/2] mix-blend-color-burn m-auto bg-transparent"
+            className="max-h-[50px] object-contain aspect-[3/2] mix-blend-color-burn m-auto "
             alt="emsd"
           />
           <Image
             src={PearsonImage}
-            className="max-h-[50px] object-contain aspect-[3/2] mix-blend-color-burn m-auto bg-transparent"
+            className="max-h-[50px] object-contain aspect-[3/2] mix-blend-color-burn m-auto "
             alt="pearson"
           />
           <Image
             src={OmronImage}
-            className="max-h-[25px] object-contain aspect-[3/2] mix-blend-color-burn m-auto bg-transparent"
+            className="max-h-[25px] object-contain aspect-[3/2] mix-blend-color-burn m-auto"
             alt="omron"
           />
         </div>
