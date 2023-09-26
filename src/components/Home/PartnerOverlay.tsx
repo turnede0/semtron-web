@@ -21,11 +21,7 @@ export default function PartnerOverlay() {
         <span className="mx-auto text-lg my-6">{t("partner.message")}</span>
         <div className="mx-auto grid grid-cols-4 h-fit items-center m-4 gap-10 w-2/3">
           <Image src={EasyedaImage} className="" alt="easyeda" />
-          <Image
-            src={ChinaMobileImage}
-            className="max-h-[50px] object-contain aspect-[3/2] mix-blend-color-burn m-auto "
-            alt="chinaMobile"
-          />
+          <Image src={ChinaMobileImage} className="" alt="chinaMobile" />
           {/* <Image
             src={OceanparkImage}
             className="max-h-[50px] object-contain aspect-[3/2] mix-blend-color-burn m-auto"
@@ -43,17 +39,17 @@ export default function PartnerOverlay() {
           /> */}
           <Image
             src={EmsdImage}
-            className="max-h-[50px] object-contain aspect-[3/2] mix-blend-color-burn m-auto "
+            className="max-h-[50px] object-contain  m-auto "
             alt="emsd"
           />
           <Image
             src={PearsonImage}
-            className="max-h-[50px] object-contain aspect-[3/2] mix-blend-color-burn m-auto "
+            className="max-h-[50px] object-contain  m-auto "
             alt="pearson"
           />
           <Image
             src={OmronImage}
-            className="max-h-[25px] object-contain aspect-[3/2] mix-blend-color-burn m-auto"
+            className="max-h-[25px] object-contain  m-auto"
             alt="omron"
           />
         </div>
