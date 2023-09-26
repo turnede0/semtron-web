@@ -22,12 +22,12 @@ export default function PartnerOverlay() {
         <div className="mx-auto grid grid-cols-4 h-fit items-center m-4 gap-10 w-2/3">
           <Image
             src={EasyedaImage}
-            className="max-h-[30px] object-contain aspect-[3/2] mix-blend-color-burn m-auto"
+            className="max-h-[30px] object-contain aspect-[3/2] mix-blend-color-burn m-auto bg-transparent"
             alt="easyeda"
           />
           <Image
             src={ChinaMobileImage}
-            className="max-h-[50px] object-contain aspect-[3/2] mix-blend-color-burn m-auto"
+            className="max-h-[50px] object-contain aspect-[3/2] mix-blend-color-burn m-auto bg-transparent"
             alt="chinaMobile"
           />
           {/* <Image
@@ -47,17 +47,17 @@ export default function PartnerOverlay() {
           /> */}
           <Image
             src={EmsdImage}
-            className="max-h-[50px] object-contain aspect-[3/2] mix-blend-color-burn m-auto"
+            className="max-h-[50px] object-contain aspect-[3/2] mix-blend-color-burn m-auto bg-transparent"
             alt="emsd"
           />
           <Image
             src={PearsonImage}
-            className="max-h-[50px] object-contain aspect-[3/2] mix-blend-color-burn m-auto"
+            className="max-h-[50px] object-contain aspect-[3/2] mix-blend-color-burn m-auto bg-transparent"
             alt="pearson"
           />
           <Image
             src={OmronImage}
-            className="max-h-[25px] object-contain aspect-[3/2] mix-blend-color-burn m-auto"
+            className="max-h-[25px] object-contain aspect-[3/2] mix-blend-color-burn m-auto bg-transparent"
             alt="omron"
           />
         </div>

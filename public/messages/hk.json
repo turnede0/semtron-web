@@ -59,14 +59,13 @@
     "locale": "{locale, select, hk {繁體中文} en {English} other {未知}}"
   },
   "Navigation": {
+    "corprorate": "公司資訊",
     "home": "首頁",
-    "technology": {
-      "title": "技術",
-      "ai": "AI",
-      "electronicComponent": "電子",
-      "mechanics": "機械"
+    "course": {
+      "title": "課程",
+      "pcb": "PCB",
+      "fpga": "FPGA"
     },
-    "product": "產品",
     "news": { "title": "最新動態", "blog": "部落格", "story": "故事" },
     "aboutus": "關於",
     "contact": "聯絡"

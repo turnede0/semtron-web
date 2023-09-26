@@ -59,14 +59,13 @@
     "locale": "{locale, select, hk {繁體中文} en {English} other {Unknown}}"
   },
   "Navigation": {
+    "corprorate": "Corprorate",
     "home": "Home",
-    "technology": {
-      "title": "Technology",
-      "ai": "AI",
-      "electronicComponent": "Electronic Component",
-      "mechanics": "Mechanics"
+    "course": {
+      "title": "Course",
+      "pcb": "PCB",
+      "fpga": "FPGA"
     },
-    "product": "Product",
     "news": { "title": "News & Insight", "blog": "Blog", "story": "Story" },
     "aboutus": "About Us",
     "contact": "Contact"

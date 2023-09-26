@@ -48,7 +48,7 @@ export default function Navbar() {
                     ? "fixed top-0 left-0 w-10/12 lg:w-full min-h-screen bg-black lg:bg-transparent z-40  lg:relative lg:h-full"
                     : "-left-80 hidden"
                 }
-                group text-white lg:text-black  uppercase text-lg ease-in-out duration-150 lg:flex lg:items-center 
+                group/navbar text-white lg:text-black  uppercase text-lg ease-in-out duration-150 lg:flex lg:items-center 
               `}
             >
               <ul className={` lg:contents font-bold`}>
@@ -82,21 +82,33 @@ export default function Navbar() {
                   </Link>
                 </li>
 
-                <li className="lg:float-left">
+                <li className="lg:float-left group/course relative">
                   <Link
-                    href="/technology"
+                    href="/course"
                     className="py-2 px-6 flex text-sm  border-b-4 border-transparent transition  ease-in-out transform duration-300 font-bold hover:text-themeblue hover:text-bkgrounddarkblue lg:hover:border-bkgrounddarkblue"
                   >
-                    {t("technology.title")}
+                    {t("course.title")}
                   </Link>
-                </li>
-                <li className="lg:float-left">
-                  <Link
-                    href="/product"
-                    className="py-2 px-6 flex text-sm  border-b-4 border-transparent transition  ease-in-out transform duration-300 font-bold hover:text-themeblue hover:text-bkgrounddarkblue lg:hover:border-bkgrounddarkblue"
-                  >
-                    {t("product")}
-                  </Link>
+                  <div>
+                    <ul className="hidden group-hover/course:block absolute bg-white text-black   py-4 px-2">
+                      <li className="hover:text-themeblue">
+                        <Link
+                          href="course/pcb"
+                          className="py-2 px-6 flex text-sm  border-b-4 border-transparent transition  ease-in-out transform duration-300 font-bold hover:text-themeblue hover:text-bkgrounddarkblue lg:hover:border-bkgrounddarkblue"
+                        >
+                          PCB
+                        </Link>
+                      </li>
+                      <li className="hover:text-themeblue">
+                        <Link
+                          href="course/fpga"
+                          className="py-2 px-6 flex text-sm  border-b-4 border-transparent transition  ease-in-out transform duration-300 font-bold hover:text-themeblue hover:text-bkgrounddarkblue lg:hover:border-bkgrounddarkblue"
+                        >
+                          FPGA
+                        </Link>
+                      </li>
+                    </ul>
+                  </div>
                 </li>
                 <li className="lg:float-left">
                   <Link
@@ -134,7 +146,7 @@ export default function Navbar() {
                     ? "outline-none ring-2 ring-inset ring-gray-100 bg-white"
                     : ""
                 }
-                group fixed lg:hidden flex-col p-5 right-0 top-0  inline-flex items-center justify-center bg-black
+                group/button fixed lg:hidden flex-col p-5 right-0 top-0  inline-flex items-center justify-center bg-black
               `}
               onClick={handleMenuClick}
             >
