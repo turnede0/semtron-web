@@ -20,7 +20,7 @@ export default function ContactPage() {
             alt="coverimage"
           />
           <div
-            className="absolute h-[50vh] w-screen bg-overlay opacity-70"
+            className="absolute h-[50vh] w-screen bg-themedarkblue opacity-70"
             id="overlay"
           />
 

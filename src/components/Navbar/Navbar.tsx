@@ -7,6 +7,7 @@ import Image from "next/image";
 import LogoIcon from "@public/image/logo/semtron-logo-themeblue.png";
 import LocaleSwitcher from "@src/components/LocaleSwitcher";
 import { usePathname } from "next/navigation";
+import { AiOutlineWhatsApp } from "react-icons/ai";
 // import NavigationLink from "../NavigationLink";
 
 export default function Navbar() {
@@ -134,8 +135,16 @@ export default function Navbar() {
                     {t("contact")}
                   </Link>
                 </li>
-                <li className=" bg-black h-full">
+              </ul>
+              <ul className="border-l-2 border-black  w-5 lg:contents">
+                <li className="flex items-center gap-3.5 text-sm font-medium duration-300 ease-in-out lg:text-base">
                   <LocaleSwitcher />
+                </li>
+                <li className="h-full mx-4 text-white ">
+                  <button className="flex flex-row items-center justify-between bg-themeblue rounded-lg  p-3  w-[150px] text-sm">
+                    <span>Let&apos;s Talk</span>
+                    <AiOutlineWhatsApp size={22} />
+                  </button>
                 </li>
               </ul>
             </nav>

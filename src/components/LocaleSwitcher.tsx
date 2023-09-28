@@ -17,7 +17,7 @@ export default function LocaleSwitcher() {
   }
 
   return (
-    <label className=" relative text-white">
+    <label className="bg-black relative text-white">
       <p className="sr-only">{t("label")}</p>
       <select
         className="inline-flex  bg-transparent py-3 pl-2 pr-6 "
