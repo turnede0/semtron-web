@@ -6,6 +6,9 @@ import PcbDescription from "@src/components/Pcb/PcbDescription";
 import PcbProcedure from "@src/components/Pcb/PcbProcedure";
 import PcbLabDescription from "@src/components/Pcb/PcbLabDescription";
 import PcbLabDevice from "@src/components/Pcb/PcbLabDevice";
+import PcbEducationDescription from "@src/components/Pcb/PcbEducationDescription";
+import PcbEducationVideo from "@src/components/Pcb/PcbEducationVideo";
+import PcbCourses from "@src/components/Pcb/PcbCourses";
 
 export default function PcbPage() {
   return (
@@ -20,6 +23,9 @@ export default function PcbPage() {
       <PcbProcedure />
       <PcbLabDescription />
       <PcbLabDevice />
+      <PcbEducationDescription />
+      <PcbEducationVideo />
+      <PcbCourses />
     </PageLayout>
   );
 }

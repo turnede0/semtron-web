@@ -52,6 +52,31 @@ export default function PcbLabDevice() {
         onSwiper={(swiper) => console.log(swiper)}
       >
         <SwiperSlide>
+          <SlidCard
+            imgSrc={SolderingPhoto}
+            title={"Soldering Iron"}
+            content={""}
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <SlidCard
+            imgSrc={OscillscopePhoto}
+            title={"Oscillscope"}
+            content={""}
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <SlidCard
+            imgSrc={MultimeterPhoto}
+            title={"Multimeter"}
+            content={""}
+          />
+        </SwiperSlide>
+        <SwiperSlide>
+          <SlidCard imgSrc={HeatPhoto} title={"Heat plate"} content={""} />
+        </SwiperSlide>
+
+        <SwiperSlide>
           <SlidCard imgSrc={WindPhoto} title={"hot airgun"} content={""} />
         </SwiperSlide>
         <SwiperSlide>
@@ -69,31 +94,7 @@ export default function PcbLabDevice() {
             content={""}
           />
         </SwiperSlide>
-        <SwiperSlide>
-          <SlidCard
-            imgSrc={OscillscopePhoto}
-            title={"Oscillscope"}
-            content={""}
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <SlidCard imgSrc={HeatPhoto} title={"Heat plate"} content={""} />
-        </SwiperSlide>
 
-        <SwiperSlide>
-          <SlidCard
-            imgSrc={MultimeterPhoto}
-            title={"Multimeter"}
-            content={""}
-          />
-        </SwiperSlide>
-        <SwiperSlide>
-          <SlidCard
-            imgSrc={SolderingPhoto}
-            title={"Soldering Iron"}
-            content={""}
-          />
-        </SwiperSlide>
         <SwiperSlide>
           <SlidCard imgSrc={PcPhoto} title={"Computer"} content={""} />
         </SwiperSlide>
