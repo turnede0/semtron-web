@@ -30,6 +30,9 @@ export default function AboutusPage() {
             ABOUT US
           </div>
         </div>
+        <div className="h-screen w-screen">
+          <div></div>
+        </div>
       </div>
     </PageLayout>
   );
