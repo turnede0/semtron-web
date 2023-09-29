@@ -21,6 +21,7 @@ module.exports = {
         themeblue: "#1765F6",
         themegray: "#F5F6F8",
         themedarkblue: "#141A22",
+        themegreen: "#3CEDB7",
       },
       boxShadow: {
         innerDefault: "inset 0 0 0 0 #166fc0;",
