@@ -53,12 +53,12 @@ const Footer = () => {
                     >
                       {t("course.pcb")}
                     </Link>
-                    <Link
+                    {/* <Link
                       href="/course/fpga"
                       className="text-gray-400 py-1 block hover:underline"
                     >
                       {t("course.fpga")}
-                    </Link>
+                    </Link> */}
                   </div>
                 </div>
               </div>

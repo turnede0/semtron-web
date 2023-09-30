@@ -1,5 +1,5 @@
 import React from "react";
-import CrossSvg from "@public/icon/yellow_cross.svg";
+import CrossSvg from "@public/icon/blue_cross.svg";
 import SolderingPhoto from "@public/image/course/pcb/soldering.jpg";
 import Image from "next/image";
 import { Bebas_Neue } from "@next/font/google";

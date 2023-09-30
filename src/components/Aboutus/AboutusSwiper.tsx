@@ -13,7 +13,7 @@ const bebas_Neue = Bebas_Neue({
 
 function SlidCard(props: { title: string; content: string }) {
   return (
-    <div className="w-[400px] h-[200px] bg-white shadow-2xl shadow-themegreen text-black my-6 flex pt-11 px-5">
+    <div className="w-[400px] h-[200px] bg-white shadow-md shadow-themeblue text-black my-6 flex pt-11 px-5">
       <div className="w-full">
         <div className={`${bebas_Neue.className} text-2xl`}>{props.title}</div>
         <div className="w-full text-4xl text-center">{props.content}</div>

@@ -59,7 +59,7 @@ export default function PcbCourses() {
       <div className="h-5/6 bg-black flex flex-row">
         <div className="w-1/4">
           <div
-            className={`bg-red-600  text-center text-white text-2xl p-2 ${bebas_Neue.className}`}
+            className={`bg-themeblue  text-center text-white text-2xl p-2 ${bebas_Neue.className}`}
           >
             PCB fundemental
           </div>
@@ -73,7 +73,7 @@ export default function PcbCourses() {
         </div>
         <div className="w-1/4">
           <div
-            className={`bg-amber-400  text-center text-white text-2xl p-2 ${bebas_Neue.className}`}
+            className={`bg-black  text-center text-white text-2xl p-2 ${bebas_Neue.className}`}
           >
             Weather station
           </div>
@@ -87,7 +87,7 @@ export default function PcbCourses() {
         </div>
         <div className="w-1/4">
           <div
-            className={`bg-green-500  text-center text-white text-2xl p-2 ${bebas_Neue.className}`}
+            className={`bg-themeblue  text-center text-white text-2xl p-2 ${bebas_Neue.className}`}
           >
             GPS sensor module
           </div>
@@ -101,7 +101,7 @@ export default function PcbCourses() {
         </div>
         <div className="w-1/4">
           <div
-            className={`bg-purple-500  text-center text-white text-2xl p-2 ${bebas_Neue.className}`}
+            className={`bg-black  text-center text-white text-2xl p-2 ${bebas_Neue.className}`}
           >
             AI voice recognition car
           </div>

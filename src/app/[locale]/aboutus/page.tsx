@@ -5,7 +5,7 @@ import stemImage from "@public/image/photo/crew.webp";
 import { Montserrat } from "@next/font/google";
 import { Bebas_Neue } from "@next/font/google";
 import AboutusSwiper from "@src/components/Aboutus/AboutusSwiper";
-import AboutusSlogan from "@src/components/Aboutus/AboutusSlogan";
+// import AboutusSlogan from "@src/components/Aboutus/AboutusSlogan";
 import ExploreOverlay from "@src/components/Home/ExploreOverlay";
 // import AboutUsTimeline from "@src/components/Aboutus/AboutUsTimeline";
 
@@ -47,7 +47,7 @@ export default function AboutusPage() {
         </div>
         <div className="h-screen w-screen relative flex items-center  justify-center  p-44">
           <div className="w-full h-full absolute z-0">
-            <div className=" bg-themegreen w-1/2 h-full absolute top-0 right-0"></div>
+            <div className=" bg-themeblue w-1/2 h-full absolute top-0 right-0"></div>
             <div className=" bg-black w-[100px] h-[300px] absolute bottom-0 left-0"></div>
           </div>
           <div className="grid grid-cols-10">
@@ -75,7 +75,7 @@ export default function AboutusPage() {
           </div>
         </div>
         <AboutusSwiper />
-        <AboutusSlogan />
+        {/* <AboutusSlogan /> */}
         {/* <AboutUsTimeline /> */}
         <ExploreOverlay />
       </div>

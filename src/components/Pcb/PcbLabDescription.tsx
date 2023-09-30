@@ -2,7 +2,7 @@ import React from "react";
 import HeaderPhoto from "@public/image/course/pcb/pcb-bg-3.jpeg";
 
 import Image from "next/image";
-import SquareSvg from "@public/icon/green_square.svg";
+import SquareSvg from "@public/icon/blue_square.svg";
 import PcblabImage from "@public/image/course/pcb/pcb-lab-3.webp";
 import CrossSvg from "@public/icon/purple_cross.svg";
 import { Bebas_Neue } from "@next/font/google";

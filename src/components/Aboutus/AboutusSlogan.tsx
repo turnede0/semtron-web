@@ -12,7 +12,9 @@ const bebas_Neue = Bebas_Neue({
 
 export default function AboutusSlogan() {
   return (
-    <div className={`${bebas_Neue.className} text-9xl flex justify-center`}>
+    <div
+      className={`${bebas_Neue.className}   text-[12rem] flex justify-center`}
+    >
       <div>
         <div className="flex flex-row items-center">
           <Image src={CrossSvg} width={200} alt="cross" className=" mx-10" />

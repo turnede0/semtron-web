@@ -5,8 +5,8 @@ import { FaFacebookSquare, FaInstagram, FaLinkedin } from "react-icons/fa";
 import { Bebas_Neue } from "@next/font/google";
 import { Reveal } from "@src/components/common/Reveal";
 import Image from "next/image";
-import CrossSvg from "@public/icon/yellow_cross.svg";
-import SquareSvg from "@public/icon/green_square.svg";
+import CrossSvg from "@public/icon/blue_cross.svg";
+import SquareSvg from "@public/icon/blue_square.svg";
 import { Link, useTranslations } from "next-intl";
 const bebas_Neue = Bebas_Neue({
   subsets: ["latin"],
@@ -141,7 +141,7 @@ export default function ContactPage() {
             title="map"
             src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2572.5063810629513!2d114.18846150042278!3d22.316204376259492!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x340400d86c155555%3A0xb2c39f9d8057f494!2sGee%20Chang%20Industrial%20Building!5e0!3m2!1sen!2sca!4v1695943339359!5m2!1sen!2sca"
           ></iframe>
-          <div className="absolute left-0 bottom-0 w-[200px] h-[200px] bg-themegreen p-6 flex items-center">
+          <div className="absolute left-0 bottom-0 w-[200px] h-[200px] bg-themeblue text-white p-6 flex items-center">
             <div className="flex flex-col">
               <div
                 className={`${bebas_Neue.className} text-lg flex flex-row items-center`}
@@ -181,9 +181,9 @@ export default function ContactPage() {
           className="w-screen h-screen relative flex items-center  justify-center"
         >
           <div className="absolute w-full h-full">
-            <div className=" bg-red-600 w-[300px] h-[300px] absolute top-0 right-0"></div>
-            <div className=" bg-yellow-400 w-[100px] h-[600px] absolute top-0 left-0"></div>
-            <div className=" bg-violet-400 w-[300px] h-[300px] absolute bottom-0   left-48"></div>
+            <div className=" bg-black w-[300px] h-[300px] absolute top-0 right-0"></div>
+            <div className=" bg-themeblue w-[100px] h-[600px] absolute top-0 left-0"></div>
+            <div className=" bg-black w-[300px] h-[300px] absolute bottom-0   left-48"></div>
             <Image
               src={SquareSvg}
               width={200}

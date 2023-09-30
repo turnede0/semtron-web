@@ -85,7 +85,7 @@ export default function Navbar() {
 
                 <li className="lg:float-left group/course relative">
                   <Link
-                    href="/course"
+                    href=""
                     className="py-2 px-6 flex text-sm  border-b-4 border-transparent transition  ease-in-out transform duration-300 font-bold hover:text-themeblue hover:text-bkgrounddarkblue lg:hover:border-bkgrounddarkblue"
                   >
                     {t("course.title")}
@@ -100,14 +100,14 @@ export default function Navbar() {
                           PCB
                         </Link>
                       </li>
-                      <li className="hover:text-themeblue">
+                      {/* <li className="hover:text-themeblue">
                         <Link
                           href="course/fpga"
                           className="py-2 px-6 flex text-sm  border-b-4 border-transparent transition  ease-in-out transform duration-300 font-bold hover:text-themeblue hover:text-bkgrounddarkblue lg:hover:border-bkgrounddarkblue"
                         >
                           FPGA
                         </Link>
-                      </li>
+                      </li> */}
                     </ul>
                   </div>
                 </li>
